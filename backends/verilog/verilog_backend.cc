@@ -1629,6 +1629,36 @@ void dump_process(std::ostream &f, std::string indent, RTLIL::Process *proc, boo
 	}
 }
 
+void dump_parameters(std::ostream &f, std::string indent, RTLIL::Module *module)
+{
+	for (auto& param : module->avail_parameters) {
+		std::string paramName;
+
+		RTLIL::ParameterInfo& info = module->parameter_information.at(param);
+
+		if (module->parameter_attributes.count(param)) {
+			dump_attributes(f, indent, module->parameter_attributes.at(param), '\n');
+		}
+
+		// Prefix the parameter name if needed
+		if (param.str().find("$") == 0) {
+			paramName = std::string("\\") + std::string(param.c_str());
+		}
+		else {
+			paramName = std::string(param.c_str());
+		}
+
+		f << stringf("%s" "parameter %s = ", indent.c_str(), paramName.c_str());
+		if (info.isReal) {
+			f << stringf("%f", info.defaultValueReal);
+		}
+		else {
+			dump_const(f, info.defaultValue);
+		}
+		f << stringf(";\n");
+	}
+}
+
 void dump_module(std::ostream &f, std::string indent, RTLIL::Module *module)
 {
 	reg_wires.clear();
@@ -1703,6 +1733,8 @@ void dump_module(std::ostream &f, std::string indent, RTLIL::Module *module)
 		}
 	}
 	f << stringf(");\n");
+
+	dump_parameters(f, indent + "  ", module);
 
 	for (auto it = module->wires_.begin(); it != module->wires_.end(); ++it)
 		dump_wire(f, indent + "  ", it->second);

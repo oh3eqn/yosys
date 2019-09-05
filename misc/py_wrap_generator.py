@@ -947,7 +947,8 @@ sources = [
 		WClass("Wire", link_types.global_list, Attribute(WType("unsigned int"), "hashidx_"), "name.c_str()", "hash()"),
 		WClass("Memory", link_types.global_list, Attribute(WType("unsigned int"), "hashidx_"), "name.c_str()", "hash()"),
 		WClass("Module", link_types.global_list, Attribute(WType("unsigned int"), "hashidx_"), "name.c_str()", "hash()"),
-		WClass("Design", link_types.global_list, Attribute(WType("unsigned int"), "hashidx_"), "hashidx_", "hash()")
+		WClass("Design", link_types.global_list, Attribute(WType("unsigned int"), "hashidx_"), "hashidx_", "hash()"),
+		WClass("ParameterInfo", link_types.global_list, Attribute(WType("unsigned int"), "hashidx_"), "name.c_str()", "hash()"),
 		]
 		),
 	#Source("kernel/satgen",[

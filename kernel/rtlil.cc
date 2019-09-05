@@ -1446,6 +1446,17 @@ void RTLIL::Module::cloneInto(RTLIL::Module *new_mod) const
 
 	new_mod->avail_parameters = avail_parameters;
 
+	for (auto &info : parameter_information)
+		new_mod->parameter_information.insert(info);
+
+	for (auto &attrs : parameter_attributes)
+	{
+		dict<RTLIL::IdString,RTLIL::Const> attrs_copy;
+		for (auto &attr : attrs.second)
+			attrs_copy[attr.first] = attr.second;
+		new_mod->parameter_attributes[attrs.first] = attrs_copy;
+	}
+
 	for (auto &conn : connections_)
 		new_mod->connect(conn);
 
@@ -2351,6 +2362,32 @@ RTLIL::SigSpec RTLIL::Module::Initstate(RTLIL::IdString name, const std::string 
 	cell->set_src_attribute(src);
 	return sig;
 }
+
+RTLIL::ParameterInfo::ParameterInfo()
+{
+	static unsigned int hashidx_count = 123456789;
+	hashidx_count = mkhash_xorshift(hashidx_count);
+	hashidx_ = hashidx_count;
+
+#ifdef WITH_PYTHON
+	RTLIL::ParameterInfo::get_all_parameterinfos()->insert(std::pair<unsigned int, RTLIL::ParameterInfo*>(hashidx_, this));
+#endif
+}
+
+RTLIL::ParameterInfo::~ParameterInfo()
+{
+#ifdef WITH_PYTHON
+	RTLIL::ParameterInfo::get_all_parameterinfos()->erase(hashidx_);
+#endif
+}
+
+#ifdef WITH_PYTHON
+static std::map<unsigned int, RTLIL::ParameterInfo*> all_parameter_infos;
+std::map<unsigned int, RTLIL::ParameterInfo*> *RTLIL::ParameterInfo::get_all_parameterinfos(void)
+{
+	return &all_parameter_infos;
+}
+#endif
 
 RTLIL::Wire::Wire()
 {

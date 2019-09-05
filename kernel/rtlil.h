@@ -59,6 +59,7 @@ namespace RTLIL
 	struct Monitor;
 	struct Design;
 	struct Module;
+	struct ParameterInfo;
 	struct Wire;
 	struct Memory;
 	struct Cell;
@@ -1048,6 +1049,7 @@ public:
 	RTLIL::Design *design;
 	pool<RTLIL::Monitor*> monitors;
 
+	int refcount_parameters_;
 	int refcount_wires_;
 	int refcount_cells_;
 
@@ -1057,6 +1059,8 @@ public:
 
 	RTLIL::IdString name;
 	pool<RTLIL::IdString> avail_parameters;
+	dict<RTLIL::IdString, RTLIL::ParameterInfo> parameter_information;
+	dict<RTLIL::IdString, dict<RTLIL::IdString,RTLIL::Const>> parameter_attributes;
 	dict<RTLIL::IdString, RTLIL::Memory*> memories;
 	dict<RTLIL::IdString, RTLIL::Process*> processes;
 
@@ -1295,6 +1299,27 @@ public:
 
 #ifdef WITH_PYTHON
 	static std::map<unsigned int, RTLIL::Module*> *get_all_modules(void);
+#endif
+};
+
+struct RTLIL::ParameterInfo
+{
+	unsigned int hashidx_;
+	unsigned int hash() const { return hashidx_; }
+
+	ParameterInfo ();
+	~ParameterInfo ();
+
+#ifdef WITH_PYTHON
+	RTLIL::IdString name;
+#endif
+	RTLIL::Const	defaultValue = 0;
+
+	double			defaultValueReal = 0.0;
+	bool			isReal = false;
+
+#ifdef WITH_PYTHON
+	static std::map<unsigned int, RTLIL::ParameterInfo*> *get_all_parameterinfos(void);
 #endif
 };
 

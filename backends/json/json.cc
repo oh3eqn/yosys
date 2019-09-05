@@ -116,7 +116,7 @@ struct JsonWriter
 	void write_parameters(const dict<IdString, Const> &parameters, bool for_module=false)
 	{
 		bool first = true;
-		for (auto &param : parameters) {
+		for (auto &attr : attributes) {
 			f << stringf("%s\n", first ? "" : ",");
 			f << stringf("        %s%s: ", for_module ? "" : "    ", get_name(param.first).c_str());
 			write_parameter_value(param.second);
@@ -137,7 +137,11 @@ struct JsonWriter
 		f << stringf("    %s: {\n", get_name(module->name).c_str());
 
 		f << stringf("      \"attributes\": {");
-		write_parameters(module->attributes, /*for_module=*/true);
+		write_attributes(module->attributes, /*for_module=*/true);
+		f << stringf("\n      },\n");
+
+		f << stringf("      \"parameters\": {");
+		write_module_parameters(module);
 		f << stringf("\n      },\n");
 
 		f << stringf("      \"ports\": {");
@@ -176,10 +180,10 @@ struct JsonWriter
 				}
 			}
 			f << stringf("          \"parameters\": {");
-			write_parameters(c->parameters);
+			write_attributes(c->parameters);
 			f << stringf("\n          },\n");
 			f << stringf("          \"attributes\": {");
-			write_parameters(c->attributes);
+			write_attributes(c->attributes);
 			f << stringf("\n          },\n");
 			if (c->known()) {
 				f << stringf("          \"port_directions\": {");
@@ -221,7 +225,7 @@ struct JsonWriter
 			if (w->upto)
 				f << stringf("          \"upto\": 1,\n");
 			f << stringf("          \"attributes\": {");
-			write_parameters(w->attributes);
+			write_attributes(w->attributes);
 			f << stringf("\n          }\n");
 			f << stringf("        }");
 			first = false;

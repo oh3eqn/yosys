@@ -2409,7 +2409,7 @@ skip_dynamic_range_lvalue_expansion:;
 					wire->is_input = false;
 					wire->is_output = false;
 					wire->is_reg = true;
-					wire->attributes["\\nosync"] = AstNode::mkconst_int(1, false);
+						wire->attributes["\\nosync"] = AstNode::mkconst_int(1, false);
 					wire_cache[child->str] = wire;
 
 					current_ast_mod->children.push_back(wire);
@@ -2457,9 +2457,9 @@ skip_dynamic_range_lvalue_expansion:;
 			log_assert(it != current_block->children.end());
 			if (*it == current_block_child) {
 				current_block->children.insert(it, new_stmts.begin(), new_stmts.end());
-				break;
+					break;
+				}
 			}
-		}
 
 	replace_fcall_with_id:
 		if (type == AST_FCALL) {
