@@ -854,6 +854,7 @@ RTLIL::SigSpec AstNode::genRTLIL(int width_hint, bool sign_hint)
 	case AST_FUNCTION:
 	case AST_DPI_FUNCTION:
 	case AST_AUTOWIRE:
+	case AST_LOCALPARAM:
 	case AST_DEFPARAM:
 	case AST_GENVAR:
 	case AST_GENFOR:

@@ -113,16 +113,59 @@ struct JsonWriter
 		}
 	}
 
-	void write_parameters(const dict<IdString, Const> &parameters, bool for_module=false)
-	{
-		bool first = true;
-		for (auto &attr : attributes) {
-			f << stringf("%s\n", first ? "" : ",");
-			f << stringf("        %s%s: ", for_module ? "" : "    ", get_name(param.first).c_str());
-			write_parameter_value(param.second);
-			first = false;
-		}
-	}
+void write_attributes(const dict<IdString, Const> &attributes, bool for_module=false)
+    {
+        bool first = true;
+        for (auto &attr : attributes) {
+            f << stringf("%s\n", first ? "" : ",");
+            f << stringf("        %s%s: ", for_module ? "" : "    ", get_name(attr.first).c_str());
+            if ((attr.second.flags & RTLIL::ConstFlags::CONST_FLAG_STRING) != 0)
+                f << get_string(attr.second.decode_string());
+            else if (GetSize(attr.second.bits) > 32)
+                f << get_string(attr.second.as_string());
+            else if ((attr.second.flags & RTLIL::ConstFlags::CONST_FLAG_SIGNED) != 0)
+                f << stringf("%d", attr.second.as_int());
+            else
+                f << stringf("%u", attr.second.as_int());
+            first = false;
+        }
+    }
+
+    void write_module_parameters(const Module* module)
+    {
+        bool first = true;
+        for (auto &param : module->avail_parameters) {
+            f << stringf("%s\n", first ? "" : ",");
+            f << stringf("        %s: {\n", get_name(param).c_str());
+
+            f << stringf("          \"attributes\": {");
+            if (module->parameter_attributes.count(param))
+                write_attributes(module->parameter_attributes.at(param));
+            f << stringf("\n          },\n");
+
+            const RTLIL::ParameterInfo& info = module->parameter_information.at(param);
+
+            f << stringf("          \"default\": ");
+
+            if (info.isReal) {
+                f << stringf("%f", info.defaultValueReal);
+            }
+            else {
+                if ((info.defaultValue.flags & RTLIL::ConstFlags::CONST_FLAG_STRING) != 0)
+                    f << get_string(info.defaultValue.decode_string());
+                else if (GetSize(info.defaultValue.bits) > 32)
+                    f << get_string(info.defaultValue.as_string());
+                else if ((info.defaultValue.flags & RTLIL::ConstFlags::CONST_FLAG_SIGNED) != 0)
+                    f << stringf("%d", info.defaultValue.as_int());
+                else
+                    f << stringf("%u", info.defaultValue.as_int());
+            }
+            f << stringf("\n");
+
+            f << stringf("        }");
+            first = false;
+        }
+    }
 
 	void write_module(Module *module_)
 	{
