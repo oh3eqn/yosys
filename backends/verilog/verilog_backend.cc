@@ -206,10 +206,6 @@ bool is_reg_wire(RTLIL::SigSpec sig, std::string &reg_name)
 
 void dump_const(std::ostream &f, const RTLIL::Const &data, int width = -1, int offset = 0, bool no_decimal = false, bool escape_comment = false)
 {
-	if (data.flags & RTLIL::CONST_FLAG_STRING) {
-		f << "<STR> ";
-	}
-	
 	bool set_signed = (data.flags & RTLIL::CONST_FLAG_SIGNED) != 0;
 	if (width < 0)
 		width = data.bits.size() - offset;
@@ -1664,6 +1660,8 @@ void dump_pwire_as_parameter(std::ostream &f, std::string indent, RTLIL::Wire* p
 {
 	dump_attributes(f, indent, pwire->attributes, '\n', false, false, true);
 
+    std::string keyword = (pwire->attributes.count("\\parameter")) ? "parameter" : "localparam";       
+
 	std::string range = "";
 	if (pwire->width != 1) {
 		if (pwire->upto)
@@ -1672,10 +1670,8 @@ void dump_pwire_as_parameter(std::ostream &f, std::string indent, RTLIL::Wire* p
 			range = stringf(" [%d:%d]", pwire->width - 1 + pwire->start_offset, pwire->start_offset);
 	}
 
-    std::string keyword = (pwire->attributes.count("\\parameter")) ? "parameter" : "localparam";       
-	f << stringf("%s" "%s%s %s = ", indent.c_str(), keyword.c_str(), range.c_str(), id(pwire->name).c_str());
-
-	bool got_defval = false;
+    std::stringbuf defval;
+    defval.str("0");
 	for (auto conn : pwire->module->connections()) {
 		auto left = conn.first;
 		auto right = conn.second;
@@ -1690,19 +1686,21 @@ void dump_pwire_as_parameter(std::ostream &f, std::string indent, RTLIL::Wire* p
 		if (chunk.wire != pwire)
 			continue;
 
-		dump_sigspec(f, right);
-		f << ";";
+        RTLIL::Const val = right.as_const();
 
-        if (right.as_const().flags & RTLIL::CONST_FLAG_STRING)
-            f << " // String";
+        std::ostream os(&defval);
+		dump_const(os, val);
 
-		got_defval = true;
+        if ((val.flags & RTLIL::CONST_FLAG_STRING) ||
+            (val.flags & RTLIL::CONST_FLAG_REAL))
+        {
+            range = "";
+        }
+
 		break;
 	}
 
-	if (!got_defval)
-		f << "0;";
-
+	f << stringf("%s%s%s %s = %s", indent.c_str(), keyword.c_str(), range.c_str(), id(pwire->name).c_str(), defval.str().c_str());
     f << "\n";
 }
 

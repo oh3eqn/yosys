@@ -902,7 +902,7 @@ RTLIL::SigSpec AstNode::genRTLIL(int width_hint, bool sign_hint)
 			if (GetSize(children) < 1 || children[0]->type != AST_CONSTANT)
 				log_file_error(filename, linenum, "Parameter `%s' with non-constant value!\n", str.c_str());
 
-			RTLIL::Const val = children[0]->bitsAsConst();
+			RTLIL::Const val = children[0]->asAttrConst();
 			RTLIL::Wire *wire = current_module->addWire(str, GetSize(val));
 			current_module->connect(wire, val);
 

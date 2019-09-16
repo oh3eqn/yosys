@@ -2627,6 +2627,7 @@ RTLIL::SigChunk::SigChunk()
 	wire = NULL;
 	width = 0;
 	offset = 0;
+	const_flags = 0;
 }
 
 RTLIL::SigChunk::SigChunk(const RTLIL::Const &value)
@@ -2635,6 +2636,7 @@ RTLIL::SigChunk::SigChunk(const RTLIL::Const &value)
 	data = value.bits;
 	width = GetSize(data);
 	offset = 0;
+	const_flags = value.flags;
 }
 
 RTLIL::SigChunk::SigChunk(RTLIL::Wire *wire)
@@ -2643,6 +2645,7 @@ RTLIL::SigChunk::SigChunk(RTLIL::Wire *wire)
 	this->wire = wire;
 	this->width = wire->width;
 	this->offset = 0;
+	this->const_flags = 0;
 }
 
 RTLIL::SigChunk::SigChunk(RTLIL::Wire *wire, int offset, int width)
@@ -2651,6 +2654,7 @@ RTLIL::SigChunk::SigChunk(RTLIL::Wire *wire, int offset, int width)
 	this->wire = wire;
 	this->width = width;
 	this->offset = offset;
+	this->const_flags = 0;
 }
 
 RTLIL::SigChunk::SigChunk(const std::string &str)
@@ -2659,6 +2663,7 @@ RTLIL::SigChunk::SigChunk(const std::string &str)
 	data = RTLIL::Const(str).bits;
 	width = GetSize(data);
 	offset = 0;
+	const_flags = 0;
 }
 
 RTLIL::SigChunk::SigChunk(int val, int width)
@@ -2667,6 +2672,7 @@ RTLIL::SigChunk::SigChunk(int val, int width)
 	data = RTLIL::Const(val, width).bits;
 	this->width = GetSize(data);
 	offset = 0;
+	const_flags = 0;
 }
 
 RTLIL::SigChunk::SigChunk(RTLIL::State bit, int width)
@@ -2675,6 +2681,7 @@ RTLIL::SigChunk::SigChunk(RTLIL::State bit, int width)
 	data = RTLIL::Const(bit, width).bits;
 	this->width = GetSize(data);
 	offset = 0;
+	const_flags = 0;
 }
 
 RTLIL::SigChunk::SigChunk(RTLIL::SigBit bit)
@@ -2686,6 +2693,7 @@ RTLIL::SigChunk::SigChunk(RTLIL::SigBit bit)
 	else
 		offset = bit.offset;
 	width = 1;
+	const_flags = 0;
 }
 
 RTLIL::SigChunk::SigChunk(const RTLIL::SigChunk &sigchunk) : data(sigchunk.data)
@@ -2694,6 +2702,7 @@ RTLIL::SigChunk::SigChunk(const RTLIL::SigChunk &sigchunk) : data(sigchunk.data)
 	data = sigchunk.data;
 	width = sigchunk.width;
 	offset = sigchunk.offset;
+	const_flags = sigchunk.const_flags;
 }
 
 RTLIL::SigChunk RTLIL::SigChunk::extract(int offset, int length) const
@@ -2731,7 +2740,7 @@ bool RTLIL::SigChunk::operator <(const RTLIL::SigChunk &other) const
 
 bool RTLIL::SigChunk::operator ==(const RTLIL::SigChunk &other) const
 {
-	return wire == other.wire && width == other.width && offset == other.offset && data == other.data;
+	return wire == other.wire && width == other.width && offset == other.offset && data == other.data && const_flags == other.const_flags;
 }
 
 bool RTLIL::SigChunk::operator !=(const RTLIL::SigChunk &other) const
@@ -3731,8 +3740,11 @@ RTLIL::Const RTLIL::SigSpec::as_const() const
 
 	pack();
 	log_assert(is_fully_const() && GetSize(chunks_) <= 1);
-	if (width_)
-		return chunks_[0].data;
+	if (width_) {
+        auto value = RTLIL::Const(chunks_[0].data);
+        value.flags = chunks_[0].const_flags;
+		return value;
+    }
 	return RTLIL::Const();
 }
 
