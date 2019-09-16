@@ -691,6 +691,7 @@ ABCOPT=""
 endif
 
 test: $(TARGETS) $(EXTRA_TARGETS)
+	+cd tests/round-trip && bash run-test.sh
 	+cd tests/simple && bash run-test.sh $(SEEDOPT)
 	+cd tests/simple_abc9 && bash run-test.sh $(SEEDOPT)
 	+cd tests/hana && bash run-test.sh $(SEEDOPT)
