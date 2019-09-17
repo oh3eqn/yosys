@@ -47,11 +47,11 @@ SigMap active_sigmap;
 bool is_pwire(const RTLIL::Wire* wire)
 {
 	if (wire->attributes.count("\\parameter"))
-    	return wire->attributes.at("\\parameter").as_int() != 0;
+		return wire->attributes.at("\\parameter").as_int() != 0;
 	if (wire->attributes.count("\\localparam"))
-    	return wire->attributes.at("\\localparam").as_int() != 0;
+		return wire->attributes.at("\\localparam").as_int() != 0;
 
-    return false;
+	return false;
 }
 
 bool is_pwire(const RTLIL::SigSpec* sigspec)
@@ -216,7 +216,17 @@ void dump_const(std::ostream &f, const RTLIL::Const &data, int width = -1, int o
 	}
 	if (nostr)
 		goto dump_hex;
-	if ((data.flags & RTLIL::CONST_FLAG_STRING) == 0 || width != (int)data.bits.size()) {
+	if ((data.flags & RTLIL::CONST_FLAG_REAL) && ((int)data.bits.size() == 64)) {
+		unsigned long long ival = 0;
+		for (int i=0; i<64; ++i) {
+			ival >>= 1;
+			if (data.bits[i] == State::S1)
+				ival |= (1UL << 63);
+		}
+		double rval = *((double*)&ival);
+		f << stringf("%f", ival, rval);
+	}
+	else if ((data.flags & RTLIL::CONST_FLAG_STRING) == 0 || width != (int)data.bits.size()) {
 		if (width == 32 && !no_decimal && !nodec) {
 			int32_t val = 0;
 			for (int i = offset+width-1; i >= offset; i--) {
@@ -651,11 +661,11 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 			f << stringf("%s" "  if (%s", indent.c_str(), cell->type[7] == 'P' ? "" : "!");
 			dump_sigspec(f, cell->getPort("\\R"));
 			f << stringf(")\n");
-			f << stringf("%s" "	%s <= %c;\n", indent.c_str(), reg_name.c_str(), cell->type[8]);
+			f << stringf("%s" "    %s <= %c;\n", indent.c_str(), reg_name.c_str(), cell->type[8]);
 			f << stringf("%s" "  else\n", indent.c_str());
 		}
 
-		f << stringf("%s" "	%s <= ", indent.c_str(), reg_name.c_str());
+		f << stringf("%s" "    %s <= ", indent.c_str(), reg_name.c_str());
 		dump_cell_expr_port(f, cell, "D", false);
 		f << stringf(";\n");
 
@@ -693,15 +703,15 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 		f << stringf("%s" "  if (%s", indent.c_str(), pol_r == 'P' ? "" : "!");
 		dump_sigspec(f, cell->getPort("\\R"));
 		f << stringf(")\n");
-		f << stringf("%s" "	%s <= 0;\n", indent.c_str(), reg_name.c_str());
+		f << stringf("%s" "    %s <= 0;\n", indent.c_str(), reg_name.c_str());
 
 		f << stringf("%s" "  else if (%s", indent.c_str(), pol_s == 'P' ? "" : "!");
 		dump_sigspec(f, cell->getPort("\\S"));
 		f << stringf(")\n");
-		f << stringf("%s" "	%s <= 1;\n", indent.c_str(), reg_name.c_str());
+		f << stringf("%s" "    %s <= 1;\n", indent.c_str(), reg_name.c_str());
 
 		f << stringf("%s" "  else\n", indent.c_str());
-		f << stringf("%s" "	%s <= ", indent.c_str(), reg_name.c_str());
+		f << stringf("%s" "    %s <= ", indent.c_str(), reg_name.c_str());
 		dump_cell_expr_port(f, cell, "D", false);
 		f << stringf(";\n");
 
@@ -845,17 +855,17 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 
 		for (int i = 0; i < s_width; i++)
 		{
-			f << stringf("%s" "	%d'b", indent.c_str(), s_width);
+			f << stringf("%s" "    %d'b", indent.c_str(), s_width);
 
 			for (int j = s_width-1; j >= 0; j--)
 				f << stringf("%c", j == i ? '1' : '?');
 
 			f << stringf(":\n");
-			f << stringf("%s" "	  %s = b[%d:%d];\n", indent.c_str(), func_name.c_str(), (i+1)*width-1, i*width);
+			f << stringf("%s" "      %s = b[%d:%d];\n", indent.c_str(), func_name.c_str(), (i+1)*width-1, i*width);
 		}
 
-		f << stringf("%s" "	default:\n", indent.c_str());
-		f << stringf("%s" "	  %s = a;\n", indent.c_str(), func_name.c_str());
+		f << stringf("%s" "    default:\n", indent.c_str());
+		f << stringf("%s" "      %s = a;\n", indent.c_str(), func_name.c_str());
 
 		f << stringf("%s" "  endcase\n", indent.c_str());
 		f << stringf("%s" "endfunction\n", indent.c_str());
@@ -1012,7 +1022,7 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 			f << stringf("%s" "  if (%s", indent.c_str(), pol_arst ? "" : "!");
 			dump_sigspec(f, sig_arst);
 			f << stringf(")\n");
-			f << stringf("%s" "	%s <= ", indent.c_str(), reg_name.c_str());
+			f << stringf("%s" "    %s <= ", indent.c_str(), reg_name.c_str());
 			dump_sigspec(f, val_arst);
 			f << stringf(";\n");
 			f << stringf("%s" "  else\n", indent.c_str());
@@ -1024,7 +1034,7 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 			f << stringf(")\n");
 		}
 
-		f << stringf("%s" "	%s <= ", indent.c_str(), reg_name.c_str());
+		f << stringf("%s" "    %s <= ", indent.c_str(), reg_name.c_str());
 		dump_cell_expr_port(f, cell, "D", false);
 		f << stringf(";\n");
 
@@ -1060,7 +1070,7 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 		dump_sigspec(f, sig_en);
 		f << stringf(")\n");
 
-		f << stringf("%s" "	%s = ", indent.c_str(), reg_name.c_str());
+		f << stringf("%s" "    %s = ", indent.c_str(), reg_name.c_str());
 		dump_cell_expr_port(f, cell, "D", false);
 		f << stringf(";\n");
 
@@ -1086,7 +1096,7 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 		// for memory block make something like:
 		//  reg [7:0] memid [3:0];
 		//  initial begin
-		//	memid[0] = ...
+		//    memid[0] = ...
 		//  end
 		f << stringf("%s" "reg [%d:%d] %s [%d:%d];\n", indent.c_str(), width-1, 0, mem_id.c_str(), size+offset-1, offset);
 		if (use_init)
@@ -1135,7 +1145,7 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 					// for clocked read ports make something like:
 					//   reg [..] temp_id;
 					//   always @(posedge clk)
-					//	  if (rd_en) temp_id <= array_reg[r_addr];
+					//      if (rd_en) temp_id <= array_reg[r_addr];
 					//   assign r_data = temp_id;
 					std::string temp_id = next_auto_id();
 					lof_reg_declarations.push_back( stringf("reg [%d:0] %s;\n", sig_rd_data.size() - 1, temp_id.c_str()) );
@@ -1164,7 +1174,7 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 					// for rd-transparent read-ports make something like:
 					//   reg [..] temp_id;
 					//   always @(posedge clk)
-					//	 temp_id <= r_addr;
+					//     temp_id <= r_addr;
 					//   assign r_data = array_reg[temp_id];
 					std::string temp_id = next_auto_id();
 					lof_reg_declarations.push_back( stringf("reg [%d:0] %s;\n", sig_rd_addr.size() - 1, temp_id.c_str()) );
@@ -1213,7 +1223,7 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 			}
 			//   make something like:
 			//   always @(posedge clk)
-			//	  if (wr_en_bit) memid[w_addr][??] <= w_data[??];
+			//      if (wr_en_bit) memid[w_addr][??] <= w_data[??];
 			//   ...
 			for (int i = 0; i < GetSize(sig_wr_en); i++)
 			{
@@ -1249,14 +1259,14 @@ bool dump_cell_expr(std::ostream &f, std::string indent, RTLIL::Cell *cell)
 		// always @(posedge CLK2) begin
 		//   _3_ <= memory[D1ADDR];
 		//   if (A1EN)
-		//	 memory[A1ADDR] <= A1DATA;
+		//     memory[A1ADDR] <= A1DATA;
 		//   if (A2EN)
-		//	 memory[A2ADDR] <= A2DATA;
+		//     memory[A2ADDR] <= A2DATA;
 		//   ...
 		// end
 		// always @(negedge CLK1) begin
 		//   if (C1EN)
-		//	 memory[C1ADDR] <= C1DATA;
+		//     memory[C1ADDR] <= C1DATA;
 		// end
 		// ...
 		// assign D1DATA = _3_;
@@ -1563,7 +1573,7 @@ void dump_proc_switch(std::ostream &f, std::string indent, RTLIL::SwitchRule *sw
 			}
 		}
 		f << stringf(":\n");
-		dump_case_body(f, indent + "	", *it);
+		dump_case_body(f, indent + "    ", *it);
 	}
 
 	f << stringf("%s" "endcase\n", indent.c_str());
@@ -1660,7 +1670,7 @@ void dump_pwire_as_parameter(std::ostream &f, std::string indent, RTLIL::Wire* p
 {
 	dump_attributes(f, indent, pwire->attributes, '\n', false, false, true);
 
-    std::string keyword = (pwire->attributes.count("\\parameter")) ? "parameter" : "localparam";       
+	std::string keyword = (pwire->attributes.count("\\parameter")) ? "parameter" : "localparam";	   
 
 	std::string range = "";
 	if (pwire->width != 1) {
@@ -1670,8 +1680,8 @@ void dump_pwire_as_parameter(std::ostream &f, std::string indent, RTLIL::Wire* p
 			range = stringf(" [%d:%d]", pwire->width - 1 + pwire->start_offset, pwire->start_offset);
 	}
 
-    std::stringbuf defval;
-    defval.str("0");
+	std::stringbuf defval;
+	defval.str("0");
 	for (auto conn : pwire->module->connections()) {
 		auto left = conn.first;
 		auto right = conn.second;
@@ -1686,22 +1696,22 @@ void dump_pwire_as_parameter(std::ostream &f, std::string indent, RTLIL::Wire* p
 		if (chunk.wire != pwire)
 			continue;
 
-        RTLIL::Const val = right.as_const();
+		RTLIL::Const val = right.as_const();
 
-        std::ostream os(&defval);
+		std::ostream os(&defval);
 		dump_const(os, val);
 
-        if ((val.flags & RTLIL::CONST_FLAG_STRING) ||
-            (val.flags & RTLIL::CONST_FLAG_REAL))
-        {
-            range = "";
-        }
+		if ((val.flags & RTLIL::CONST_FLAG_STRING) ||
+			(val.flags & RTLIL::CONST_FLAG_REAL))
+		{
+			range = "";
+		}
 
 		break;
 	}
 
 	f << stringf("%s%s%s %s = %s;", indent.c_str(), keyword.c_str(), range.c_str(), id(pwire->name).c_str(), defval.str().c_str());
-    f << "\n";
+	f << "\n";
 }
 
 void dump_module(std::ostream &f, std::string indent, RTLIL::Module *module)
@@ -1813,70 +1823,70 @@ struct VerilogBackend : public Backend {
 	{
 		//   |---v---|---v---|---v---|---v---|---v---|---v---|---v---|---v---|---v---|---v---|
 		log("\n");
-		log("	write_verilog [options] [filename]\n");
+		log("    write_verilog [options] [filename]\n");
 		log("\n");
 		log("Write the current design to a Verilog file.\n");
 		log("\n");
-		log("	-norename\n");
-		log("		without this option all internal object names (the ones with a dollar\n");
-		log("		instead of a backslash prefix) are changed to short names in the\n");
-		log("		format '_<number>_'.\n");
+		log("    -norename\n");
+		log("        without this option all internal object names (the ones with a dollar\n");
+		log("        instead of a backslash prefix) are changed to short names in the\n");
+		log("        format '_<number>_'.\n");
 		log("\n");
-		log("	-renameprefix <prefix>\n");
-		log("		insert this prefix in front of auto-generated instance names\n");
+		log("    -renameprefix <prefix>\n");
+		log("        insert this prefix in front of auto-generated instance names\n");
 		log("\n");
-		log("	-noattr\n");
-		log("		with this option no attributes are included in the output\n");
+		log("    -noattr\n");
+		log("        with this option no attributes are included in the output\n");
 		log("\n");
-		log("	-attr2comment\n");
-		log("		with this option attributes are included as comments in the output\n");
+		log("    -attr2comment\n");
+		log("        with this option attributes are included as comments in the output\n");
 		log("\n");
-		log("	-noexpr\n");
-		log("		without this option all internal cells are converted to Verilog\n");
-		log("		expressions.\n");
+		log("    -noexpr\n");
+		log("        without this option all internal cells are converted to Verilog\n");
+		log("        expressions.\n");
 		log("\n");
-		log("	-siminit\n");
-		log("		add initial statements with hierarchical refs to initialize FFs when\n");
-		log("		in -noexpr mode.\n");
+		log("    -siminit\n");
+		log("        add initial statements with hierarchical refs to initialize FFs when\n");
+		log("        in -noexpr mode.\n");
 		log("\n");
-		log("	-nodec\n");
-		log("		32-bit constant values are by default dumped as decimal numbers,\n");
-		log("		not bit pattern. This option deactivates this feature and instead\n");
-		log("		will write out all constants in binary.\n");
+		log("    -nodec\n");
+		log("        32-bit constant values are by default dumped as decimal numbers,\n");
+		log("        not bit pattern. This option deactivates this feature and instead\n");
+		log("        will write out all constants in binary.\n");
 		log("\n");
-		log("	-decimal\n");
-		log("		dump 32-bit constants in decimal and without size and radix\n");
+		log("    -decimal\n");
+		log("        dump 32-bit constants in decimal and without size and radix\n");
 		log("\n");
-		log("	-nohex\n");
-		log("		constant values that are compatible with hex output are usually\n");
-		log("		dumped as hex values. This option deactivates this feature and\n");
-		log("		instead will write out all constants in binary.\n");
+		log("    -nohex\n");
+		log("        constant values that are compatible with hex output are usually\n");
+		log("        dumped as hex values. This option deactivates this feature and\n");
+		log("        instead will write out all constants in binary.\n");
 		log("\n");
-		log("	-nostr\n");
-		log("		Parameters and attributes that are specified as strings in the\n");
-		log("		original input will be output as strings by this back-end. This\n");
-		log("		deactivates this feature and instead will write string constants\n");
-		log("		as binary numbers.\n");
+		log("    -nostr\n");
+		log("        Parameters and attributes that are specified as strings in the\n");
+		log("        original input will be output as strings by this back-end. This\n");
+		log("        deactivates this feature and instead will write string constants\n");
+		log("        as binary numbers.\n");
 		log("\n");
-		log("	-defparam\n");
-		log("		Use 'defparam' statements instead of the Verilog-2001 syntax for\n");
-		log("		cell parameters.\n");
+		log("    -defparam\n");
+		log("        Use 'defparam' statements instead of the Verilog-2001 syntax for\n");
+		log("        cell parameters.\n");
 		log("\n");
-		log("	-blackboxes\n");
-		log("		usually modules with the 'blackbox' attribute are ignored. with\n");
-		log("		this option set only the modules with the 'blackbox' attribute\n");
-		log("		are written to the output file.\n");
+		log("    -blackboxes\n");
+		log("        usually modules with the 'blackbox' attribute are ignored. with\n");
+		log("        this option set only the modules with the 'blackbox' attribute\n");
+		log("        are written to the output file.\n");
 		log("\n");
-		log("	-pwires2params\n");
-		log("		convert wires which define module parameters into actual module\n");
-		log("		parameters.\n");
+		log("    -pwires2params\n");
+		log("        convert wires which define module parameters into actual module\n");
+		log("        parameters.\n");
 		log("\n");
-		log("	-selected\n");
-		log("		only write selected modules. modules must be selected entirely or\n");
-		log("		not at all.\n");
+		log("    -selected\n");
+		log("        only write selected modules. modules must be selected entirely or\n");
+		log("        not at all.\n");
 		log("\n");
-		log("	-v\n");
-		log("		verbose output (print new names of all renamed wires and cells)\n");
+		log("    -v\n");
+		log("        verbose output (print new names of all renamed wires and cells)\n");
 		log("\n");
 		log("Note that RTLIL processes can't always be mapped directly to Verilog\n");
 		log("always blocks. This frontend should only be used to export an RTLIL\n");

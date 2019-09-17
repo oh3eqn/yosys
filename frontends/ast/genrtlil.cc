@@ -899,7 +899,7 @@ RTLIL::SigSpec AstNode::genRTLIL(int width_hint, bool sign_hint)
 	case AST_LOCALPARAM:
 		if (flag_pwires)
 		{
-			if (GetSize(children) < 1 || children[0]->type != AST_CONSTANT)
+			if (GetSize(children) < 1 || (children[0]->type != AST_CONSTANT && children[0]->type != AST_REALVALUE))
 				log_file_error(filename, linenum, "Parameter `%s' with non-constant value!\n", str.c_str());
 
 			RTLIL::Const val = children[0]->asAttrConst();

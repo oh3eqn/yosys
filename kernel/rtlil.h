@@ -597,6 +597,8 @@ struct RTLIL::Const
 	Const(const RTLIL::Const &c);
 	RTLIL::Const &operator =(const RTLIL::Const &other) = default;
 
+	static RTLIL::Const from_real (double rval);
+
 	bool operator <(const RTLIL::Const &other) const;
 	bool operator ==(const RTLIL::Const &other) const;
 	bool operator !=(const RTLIL::Const &other) const;
@@ -665,7 +667,7 @@ struct RTLIL::SigChunk
 	RTLIL::Wire *wire;
 	std::vector<RTLIL::State> data; // only used if wire == NULL, LSB at index 0
 	int width, offset;
-    int const_flags;
+	int const_flags;
 
 	SigChunk();
 	SigChunk(const RTLIL::Const &value);

@@ -73,6 +73,20 @@ RTLIL::Const::Const(int val, int width)
 	}
 }
 
+RTLIL::Const RTLIL::Const::from_real (double rval)
+{
+	RTLIL::Const const_val;
+	const_val.flags = RTLIL::CONST_FLAG_REAL;
+
+	unsigned long long val = *((unsigned long long*)&rval);
+	for (int i = 0; i < 64; i++) {
+		const_val.bits.push_back((val & 1) != 0 ? State::S1 : State::S0);
+		val = val >> 1;
+	}
+
+	return const_val;
+}
+
 RTLIL::Const::Const(RTLIL::State bit, int width)
 {
 	flags = RTLIL::CONST_FLAG_NONE;
