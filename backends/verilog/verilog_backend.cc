@@ -1700,7 +1700,7 @@ void dump_pwire_as_parameter(std::ostream &f, std::string indent, RTLIL::Wire* p
 		break;
 	}
 
-	f << stringf("%s%s%s %s = %s", indent.c_str(), keyword.c_str(), range.c_str(), id(pwire->name).c_str(), defval.str().c_str());
+	f << stringf("%s%s%s %s = %s;", indent.c_str(), keyword.c_str(), range.c_str(), id(pwire->name).c_str(), defval.str().c_str());
     f << "\n";
 }
 
