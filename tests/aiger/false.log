@@ -1,0 +1,620 @@
++ body
++ cd false.out
+++ basename false.aig
++ fn=false.aig
+++ basename false
++ bn=false
++ rm -f false_ref.fir
++ [[ aig == \v ]]
++ /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../yosys -f 'aiger ' -b verilog -o false_ref.v ../false.aig
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2018  Clifford Wolf <clifford@clifford.at>           |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.8+498 (git sha1 296ecde6, gcc 7.4.0-1ubuntu1~18.04 -fPIC -Os)
+
+
+-- Parsing `../false.aig' using frontend `aiger ' --
+
+1. Executing AIGER frontend.
+<suppressed ~3 debug messages>
+
+-- Writing to `false_ref.v' using backend `verilog' --
+
+2. Executing Verilog backend.
+Dumping module `\../false.aig'.
+
+End of script. Logfile hash: fd0ffc28fd
+CPU: user 0.00s system 0.00s, MEM: 36.93 MB total, 8.83 MB resident
+Yosys 0.8+498 (git sha1 296ecde6, gcc 7.4.0-1ubuntu1~18.04 -fPIC -Os)
+Time spent: 74% 1x write_verilog (0 sec), 25% 1x read_aiger (0 sec)
++ frontend='verilog -noblackbox'
++ '[' '!' -f ../false_tb.v ']'
++ /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../yosys -f 'verilog -noblackbox ' -b 'test_autotb ' -o false_tb.v false_ref.v
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2018  Clifford Wolf <clifford@clifford.at>           |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.8+498 (git sha1 296ecde6, gcc 7.4.0-1ubuntu1~18.04 -fPIC -Os)
+
+
+-- Parsing `false_ref.v' using frontend `verilog -noblackbox ' --
+
+1. Executing Verilog-2005 frontend: false_ref.v
+Parsing Verilog input from `false_ref.v' to AST representation.
+Generating RTLIL representation for module `\../false.aig'.
+Successfully finished Verilog frontend.
+
+-- Writing to `false_tb.v' using backend `test_autotb ' --
+
+2. Executing TEST_AUTOTB backend (auto-generate pseudo-random test benches).
+Generating test bench for module `\../false.aig'.
+
+End of script. Logfile hash: 2a09c2432b
+CPU: user 0.00s system 0.00s, MEM: 36.93 MB total, 8.80 MB resident
+Yosys 0.8+498 (git sha1 296ecde6, gcc 7.4.0-1ubuntu1~18.04 -fPIC -Os)
+Time spent: 67% 1x read_verilog (0 sec), 32% 1x test_autotb (0 sec)
++ false
++ compile_and_run false_tb_ref false_out_ref false_tb.v false_ref.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simlib.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simcells.v
++ exe=false_tb_ref
++ output=false_out_ref
++ shift 2
++ false
++ false
++ iverilog '-Doutfile="false_out_ref"' -s testbench -o false_tb_ref false_tb.v false_ref.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simlib.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simcells.v
++ vvp -n false_tb_ref
++ false
++ test_count=0
++ '[' 'verilog -noblackbox' = verific -o 'verilog -noblackbox' = verific_gates ']'
++ '[' -n '' ']'
++ '[' -n '' ']'
++ '[' 'verilog -noblackbox' = verific ']'
++ '[' 'verilog -noblackbox' = verific_gates ']'
++ test_passes -f 'verilog -noblackbox ' -p 'hierarchy; proc; opt; memory; opt; fsm; opt -full -fine' false_ref.v
++ /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../yosys -b 'verilog -noattr -noexpr -siminit' -o false_syn0.v -f 'verilog -noblackbox ' -p 'hierarchy; proc; opt; memory; opt; fsm; opt -full -fine' false_ref.v
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2018  Clifford Wolf <clifford@clifford.at>           |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.8+498 (git sha1 296ecde6, gcc 7.4.0-1ubuntu1~18.04 -fPIC -Os)
+
+
+-- Parsing `false_ref.v' using frontend `verilog -noblackbox ' --
+
+1. Executing Verilog-2005 frontend: false_ref.v
+Parsing Verilog input from `false_ref.v' to AST representation.
+Generating RTLIL representation for module `\../false.aig'.
+Successfully finished Verilog frontend.
+
+-- Running command `hierarchy; proc; opt; memory; opt; fsm; opt -full -fine' --
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+3. Executing PROC pass (convert processes to netlists).
+
+3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+3.3. Executing PROC_INIT pass (extract init attributes).
+
+3.4. Executing PROC_ARST pass (detect async resets in processes).
+
+3.5. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+3.6. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+3.7. Executing PROC_DFF pass (convert process syncs to FFs).
+
+3.8. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+4. Executing OPT pass (performing simple optimizations).
+
+4.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+4.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+4.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \../false.aig..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+4.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \../false.aig.
+Performed a total of 0 changes.
+
+4.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+4.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+4.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+4.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+4.9. Finished OPT passes. (There is nothing left to do.)
+
+5. Executing MEMORY pass.
+
+5.1. Executing MEMORY_DFF pass (merging $dff cells to $memrd and $memwr).
+
+5.2. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+5.3. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+5.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+5.5. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+5.6. Executing MEMORY_MAP pass (converting $mem cells to logic and flip-flops).
+
+6. Executing OPT pass (performing simple optimizations).
+
+6.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+6.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \../false.aig..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \../false.aig.
+Performed a total of 0 changes.
+
+6.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+6.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+6.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+6.9. Finished OPT passes. (There is nothing left to do.)
+
+7. Executing FSM pass (extract and optimize FSM).
+
+7.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+8. Executing OPT pass (performing simple optimizations).
+
+8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+<suppressed ~1 debug messages>
+
+8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \../false.aig..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \../false.aig.
+Performed a total of 0 changes.
+
+8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+8.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+8.9. Finished OPT passes. (There is nothing left to do.)
+
+-- Writing to `false_syn0.v' using backend `verilog -noattr -noexpr -siminit' --
+
+9. Executing Verilog backend.
+Dumping module `\../false.aig'.
+
+End of script. Logfile hash: 2882c0a649
+CPU: user 0.01s system 0.00s, MEM: 37.05 MB total, 8.73 MB resident
+Yosys 0.8+498 (git sha1 296ecde6, gcc 7.4.0-1ubuntu1~18.04 -fPIC -Os)
+Time spent: 30% 6x opt_expr (0 sec), 24% 6x opt_clean (0 sec), ...
++ compile_and_run false_tb_syn0 false_out_syn0 false_tb.v false_syn0.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simlib.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simcells.v
++ exe=false_tb_syn0
++ output=false_out_syn0
++ shift 2
++ false
++ false
++ iverilog '-Doutfile="false_out_syn0"' -s testbench -o false_tb_syn0 false_tb.v false_syn0.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simlib.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simcells.v
++ vvp -n false_tb_syn0
++ false
++ /home/mkurc/Repos/google-prjxray-yosys/tests/tools/cmp_tbdata false_out_ref false_out_syn0
++ test_count=1
++ test_passes -f 'verilog -noblackbox ' -p 'hierarchy; synth -run coarse; techmap; opt; abc -dff' false_ref.v
++ /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../yosys -b 'verilog -noattr -noexpr -siminit' -o false_syn1.v -f 'verilog -noblackbox ' -p 'hierarchy; synth -run coarse; techmap; opt; abc -dff' false_ref.v
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2018  Clifford Wolf <clifford@clifford.at>           |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.8+498 (git sha1 296ecde6, gcc 7.4.0-1ubuntu1~18.04 -fPIC -Os)
+
+
+-- Parsing `false_ref.v' using frontend `verilog -noblackbox ' --
+
+1. Executing Verilog-2005 frontend: false_ref.v
+Parsing Verilog input from `false_ref.v' to AST representation.
+Generating RTLIL representation for module `\../false.aig'.
+Successfully finished Verilog frontend.
+
+-- Running command `hierarchy; synth -run coarse; techmap; opt; abc -dff' --
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+3. Executing SYNTH pass.
+
+3.1. Executing PROC pass (convert processes to netlists).
+
+3.1.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.1.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+3.1.3. Executing PROC_INIT pass (extract init attributes).
+
+3.1.4. Executing PROC_ARST pass (detect async resets in processes).
+
+3.1.5. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+3.1.6. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+3.1.7. Executing PROC_DFF pass (convert process syncs to FFs).
+
+3.1.8. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.2. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+3.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+3.4. Executing CHECK pass (checking for obvious problems).
+checking module ../false.aig..
+Warning: Wire ../false.aig.\n0 is used but has no driver.
+found and reported 1 problems.
+
+3.5. Executing OPT pass (performing simple optimizations).
+
+3.5.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+3.5.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+3.5.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \../false.aig..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+3.5.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \../false.aig.
+Performed a total of 0 changes.
+
+3.5.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+3.5.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+3.5.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+3.5.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+3.5.9. Finished OPT passes. (There is nothing left to do.)
+
+3.6. Executing WREDUCE pass (reducing word size of cells).
+
+3.7. Executing PEEPOPT pass (run peephole optimizers).
+
+3.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+3.9. Executing TECHMAP pass (map to technology primitives).
+
+3.9.1. Executing Verilog-2005 frontend: /home/mkurc/Repos/google-prjxray-yosys/share/cmp2lut.v
+Parsing Verilog input from `/home/mkurc/Repos/google-prjxray-yosys/share/cmp2lut.v' to AST representation.
+Generating RTLIL representation for module `\_90_lut_cmp_'.
+Successfully finished Verilog frontend.
+
+3.9.2. Continuing TECHMAP pass.
+No more expansions possible.
+
+3.10. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module ../false.aig:
+  created 0 $alu and 0 $macc cells.
+
+3.11. Executing SHARE pass (SAT-based resource sharing).
+
+3.12. Executing OPT pass (performing simple optimizations).
+
+3.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+3.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+3.12.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \../false.aig..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+3.12.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \../false.aig.
+Performed a total of 0 changes.
+
+3.12.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+3.12.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+3.12.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+3.12.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+3.12.9. Finished OPT passes. (There is nothing left to do.)
+
+3.13. Executing FSM pass (extract and optimize FSM).
+
+3.13.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+3.13.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+3.13.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+3.13.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+3.13.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+3.13.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+3.13.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+3.13.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+3.14. Executing OPT pass (performing simple optimizations).
+
+3.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+3.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+3.14.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+3.14.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+3.14.5. Finished fast OPT passes.
+
+3.15. Executing MEMORY pass.
+
+3.15.1. Executing MEMORY_DFF pass (merging $dff cells to $memrd and $memwr).
+
+3.15.2. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+3.15.3. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+3.15.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+3.15.5. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+3.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+4. Executing TECHMAP pass (map to technology primitives).
+
+4.1. Executing Verilog-2005 frontend: <techmap.v>
+Parsing Verilog input from `<techmap.v>' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+4.2. Continuing TECHMAP pass.
+No more expansions possible.
+
+5. Executing OPT pass (performing simple optimizations).
+
+5.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+5.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+5.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \../false.aig..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+5.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \../false.aig.
+Performed a total of 0 changes.
+
+5.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\../false.aig'.
+Removed a total of 0 cells.
+
+5.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+5.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \../false.aig..
+
+5.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ../false.aig.
+
+5.9. Finished OPT passes. (There is nothing left to do.)
+
+6. Executing ABC pass (technology mapping using ABC).
+
+6.1. Summary of detected clock domains:
+
+-- Writing to `false_syn1.v' using backend `verilog -noattr -noexpr -siminit' --
+
+7. Executing Verilog backend.
+Dumping module `\../false.aig'.
+
+Warnings: 1 unique messages, 1 total
+End of script. Logfile hash: f132ed3c72
+CPU: user 0.01s system 0.00s, MEM: 37.96 MB total, 10.16 MB resident
+Yosys 0.8+498 (git sha1 296ecde6, gcc 7.4.0-1ubuntu1~18.04 -fPIC -Os)
+Time spent: 44% 3x read_verilog (0 sec), 16% 10x opt_clean (0 sec), ...
++ compile_and_run false_tb_syn1 false_out_syn1 false_tb.v false_syn1.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simlib.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simcells.v
++ exe=false_tb_syn1
++ output=false_out_syn1
++ shift 2
++ false
++ false
++ iverilog '-Doutfile="false_out_syn1"' -s testbench -o false_tb_syn1 false_tb.v false_syn1.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simlib.v /home/mkurc/Repos/google-prjxray-yosys/tests/tools/../../techlibs/common/simcells.v
++ vvp -n false_tb_syn1
++ false
++ /home/mkurc/Repos/google-prjxray-yosys/tests/tools/cmp_tbdata false_out_ref false_out_syn1
++ test_count=2
++ '[' -n '' ']'
++ touch ../false.log

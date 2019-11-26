@@ -1,0 +1,1202 @@
+#OUT#
+#OUT# ==== ../cnt1.aig  ====
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x                  800           0
+#OUT# x 1 x                 1100           1
+#OUT# x 0 x                 1400           2
+#OUT# x 1 x                 1700           3
+#OUT# x 0 x                 2000           4
+#OUT# x 0 x                 2300           5
+#OUT# x 0 x                 2600           6
+#OUT# x 1 x                 2900           7
+#OUT# x 1 x                 3200           8
+#OUT# x 0 x                 3500           9
+#OUT# x 1 x                 3800          10
+#OUT# x 1 x                 4100          11
+#OUT# x 0 x                 4400          12
+#OUT# x 0 x                 4700          13
+#OUT# x 1 x                 5000          14
+#OUT# x 0 x                 5300          15
+#OUT# x 0 x                 5600          16
+#OUT# x 0 x                 5900          17
+#OUT# x 1 x                 6200          18
+#OUT# x 0 x                 6500          19
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                 6800          20
+#OUT# x 0 x                 7100          21
+#OUT# x 1 x                 7400          22
+#OUT# x 1 x                 7700          23
+#OUT# x 1 x                 8000          24
+#OUT# x 0 x                 8300          25
+#OUT# x 1 x                 8600          26
+#OUT# x 1 x                 8900          27
+#OUT# x 0 x                 9200          28
+#OUT# x 1 x                 9500          29
+#OUT# x 1 x                 9800          30
+#OUT# x 1 x                10100          31
+#OUT# x 1 x                10400          32
+#OUT# x 0 x                10700          33
+#OUT# x 0 x                11000          34
+#OUT# x 0 x                11300          35
+#OUT# x 1 x                11600          36
+#OUT# x 0 x                11900          37
+#OUT# x 0 x                12200          38
+#OUT# x 1 x                12500          39
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x                12800          40
+#OUT# x 0 x                13100          41
+#OUT# x 1 x                13400          42
+#OUT# x 1 x                13700          43
+#OUT# x 1 x                14000          44
+#OUT# x 1 x                14300          45
+#OUT# x 1 x                14600          46
+#OUT# x 0 x                14900          47
+#OUT# x 1 x                15200          48
+#OUT# x 0 x                15500          49
+#OUT# x 1 x                15800          50
+#OUT# x 1 x                16100          51
+#OUT# x 1 x                16400          52
+#OUT# x 1 x                16700          53
+#OUT# x 1 x                17000          54
+#OUT# x 0 x                17300          55
+#OUT# x 1 x                17600          56
+#OUT# x 0 x                17900          57
+#OUT# x 1 x                18200          58
+#OUT# x 1 x                18500          59
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                18800          60
+#OUT# x 1 x                19100          61
+#OUT# x 1 x                19400          62
+#OUT# x 1 x                19700          63
+#OUT# x 0 x                20000          64
+#OUT# x 0 x                20300          65
+#OUT# x 0 x                20600          66
+#OUT# x 1 x                20900          67
+#OUT# x 1 x                21200          68
+#OUT# x 1 x                21500          69
+#OUT# x 0 x                21800          70
+#OUT# x 0 x                22100          71
+#OUT# x 0 x                22400          72
+#OUT# x 0 x                22700          73
+#OUT# x 1 x                23000          74
+#OUT# x 0 x                23300          75
+#OUT# x 1 x                23600          76
+#OUT# x 1 x                23900          77
+#OUT# x 1 x                24200          78
+#OUT# x 1 x                24500          79
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x                24800          80
+#OUT# x 1 x                25100          81
+#OUT# x 0 x                25400          82
+#OUT# x 1 x                25700          83
+#OUT# x 1 x                26000          84
+#OUT# x 1 x                26300          85
+#OUT# x 0 x                26600          86
+#OUT# x 0 x                26900          87
+#OUT# x 0 x                27200          88
+#OUT# x 0 x                27500          89
+#OUT# x 0 x                27800          90
+#OUT# x 0 x                28100          91
+#OUT# x 0 x                28400          92
+#OUT# x 0 x                28700          93
+#OUT# x 1 x                29000          94
+#OUT# x 0 x                29300          95
+#OUT# x 1 x                29600          96
+#OUT# x 1 x                29900          97
+#OUT# x 0 x                30200          98
+#OUT# x 1 x                30500          99
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                30800         100
+#OUT# x 0 x                31100         101
+#OUT# x 0 x                31400         102
+#OUT# x 0 x                31700         103
+#OUT# x 1 x                32000         104
+#OUT# x 1 x                32300         105
+#OUT# x 0 x                32600         106
+#OUT# x 1 x                32900         107
+#OUT# x 0 x                33200         108
+#OUT# x 1 x                33500         109
+#OUT# x 0 x                33800         110
+#OUT# x 1 x                34100         111
+#OUT# x 1 x                34400         112
+#OUT# x 1 x                34700         113
+#OUT# x 0 x                35000         114
+#OUT# x 1 x                35300         115
+#OUT# x 1 x                35600         116
+#OUT# x 0 x                35900         117
+#OUT# x 1 x                36200         118
+#OUT# x 0 x                36500         119
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                36800         120
+#OUT# x 1 x                37100         121
+#OUT# x 0 x                37400         122
+#OUT# x 1 x                37700         123
+#OUT# x 0 x                38000         124
+#OUT# x 0 x                38300         125
+#OUT# x 1 x                38600         126
+#OUT# x 1 x                38900         127
+#OUT# x 0 x                39200         128
+#OUT# x 1 x                39500         129
+#OUT# x 1 x                39800         130
+#OUT# x 0 x                40100         131
+#OUT# x 1 x                40400         132
+#OUT# x 0 x                40700         133
+#OUT# x 1 x                41000         134
+#OUT# x 0 x                41300         135
+#OUT# x 0 x                41600         136
+#OUT# x 1 x                41900         137
+#OUT# x 0 x                42200         138
+#OUT# x 1 x                42500         139
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                42800         140
+#OUT# x 0 x                43100         141
+#OUT# x 0 x                43400         142
+#OUT# x 1 x                43700         143
+#OUT# x 0 x                44000         144
+#OUT# x 0 x                44300         145
+#OUT# x 0 x                44600         146
+#OUT# x 0 x                44900         147
+#OUT# x 1 x                45200         148
+#OUT# x 1 x                45500         149
+#OUT# x 0 x                45800         150
+#OUT# x 1 x                46100         151
+#OUT# x 0 x                46400         152
+#OUT# x 0 x                46700         153
+#OUT# x 0 x                47000         154
+#OUT# x 0 x                47300         155
+#OUT# x 0 x                47600         156
+#OUT# x 0 x                47900         157
+#OUT# x 0 x                48200         158
+#OUT# x 0 x                48500         159
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                48800         160
+#OUT# x 1 x                49100         161
+#OUT# x 1 x                49400         162
+#OUT# x 0 x                49700         163
+#OUT# x 1 x                50000         164
+#OUT# x 0 x                50300         165
+#OUT# x 1 x                50600         166
+#OUT# x 1 x                50900         167
+#OUT# x 0 x                51200         168
+#OUT# x 1 x                51500         169
+#OUT# x 1 x                51800         170
+#OUT# x 1 x                52100         171
+#OUT# x 1 x                52400         172
+#OUT# x 1 x                52700         173
+#OUT# x 0 x                53000         174
+#OUT# x 1 x                53300         175
+#OUT# x 0 x                53600         176
+#OUT# x 0 x                53900         177
+#OUT# x 0 x                54200         178
+#OUT# x 0 x                54500         179
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                54800         180
+#OUT# x 1 x                55100         181
+#OUT# x 1 x                55400         182
+#OUT# x 1 x                55700         183
+#OUT# x 0 x                56000         184
+#OUT# x 0 x                56300         185
+#OUT# x 1 x                56600         186
+#OUT# x 1 x                56900         187
+#OUT# x 0 x                57200         188
+#OUT# x 0 x                57500         189
+#OUT# x 1 x                57800         190
+#OUT# x 1 x                58100         191
+#OUT# x 1 x                58400         192
+#OUT# x 1 x                58700         193
+#OUT# x 0 x                59000         194
+#OUT# x 0 x                59300         195
+#OUT# x 1 x                59600         196
+#OUT# x 1 x                59900         197
+#OUT# x 0 x                60200         198
+#OUT# x 1 x                60500         199
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                60800         200
+#OUT# x 1 x                61100         201
+#OUT# x 0 x                61400         202
+#OUT# x 0 x                61700         203
+#OUT# x 0 x                62000         204
+#OUT# x 0 x                62300         205
+#OUT# x 0 x                62600         206
+#OUT# x 0 x                62900         207
+#OUT# x 0 x                63200         208
+#OUT# x 1 x                63500         209
+#OUT# x 1 x                63800         210
+#OUT# x 0 x                64100         211
+#OUT# x 0 x                64400         212
+#OUT# x 0 x                64700         213
+#OUT# x 1 x                65000         214
+#OUT# x 1 x                65300         215
+#OUT# x 1 x                65600         216
+#OUT# x 1 x                65900         217
+#OUT# x 0 x                66200         218
+#OUT# x 0 x                66500         219
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x                66800         220
+#OUT# x 1 x                67100         221
+#OUT# x 0 x                67400         222
+#OUT# x 0 x                67700         223
+#OUT# x 1 x                68000         224
+#OUT# x 0 x                68300         225
+#OUT# x 0 x                68600         226
+#OUT# x 1 x                68900         227
+#OUT# x 1 x                69200         228
+#OUT# x 0 x                69500         229
+#OUT# x 0 x                69800         230
+#OUT# x 1 x                70100         231
+#OUT# x 1 x                70400         232
+#OUT# x 0 x                70700         233
+#OUT# x 0 x                71000         234
+#OUT# x 0 x                71300         235
+#OUT# x 0 x                71600         236
+#OUT# x 1 x                71900         237
+#OUT# x 1 x                72200         238
+#OUT# x 0 x                72500         239
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                72800         240
+#OUT# x 0 x                73100         241
+#OUT# x 1 x                73400         242
+#OUT# x 1 x                73700         243
+#OUT# x 1 x                74000         244
+#OUT# x 0 x                74300         245
+#OUT# x 1 x                74600         246
+#OUT# x 0 x                74900         247
+#OUT# x 0 x                75200         248
+#OUT# x 1 x                75500         249
+#OUT# x 1 x                75800         250
+#OUT# x 0 x                76100         251
+#OUT# x 0 x                76400         252
+#OUT# x 1 x                76700         253
+#OUT# x 1 x                77000         254
+#OUT# x 0 x                77300         255
+#OUT# x 1 x                77600         256
+#OUT# x 0 x                77900         257
+#OUT# x 0 x                78200         258
+#OUT# x 0 x                78500         259
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x                78800         260
+#OUT# x 0 x                79100         261
+#OUT# x 0 x                79400         262
+#OUT# x 1 x                79700         263
+#OUT# x 1 x                80000         264
+#OUT# x 0 x                80300         265
+#OUT# x 0 x                80600         266
+#OUT# x 1 x                80900         267
+#OUT# x 1 x                81200         268
+#OUT# x 1 x                81500         269
+#OUT# x 1 x                81800         270
+#OUT# x 0 x                82100         271
+#OUT# x 1 x                82400         272
+#OUT# x 0 x                82700         273
+#OUT# x 0 x                83000         274
+#OUT# x 0 x                83300         275
+#OUT# x 1 x                83600         276
+#OUT# x 0 x                83900         277
+#OUT# x 1 x                84200         278
+#OUT# x 1 x                84500         279
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x                84800         280
+#OUT# x 1 x                85100         281
+#OUT# x 0 x                85400         282
+#OUT# x 0 x                85700         283
+#OUT# x 1 x                86000         284
+#OUT# x 1 x                86300         285
+#OUT# x 1 x                86600         286
+#OUT# x 1 x                86900         287
+#OUT# x 1 x                87200         288
+#OUT# x 1 x                87500         289
+#OUT# x 1 x                87800         290
+#OUT# x 1 x                88100         291
+#OUT# x 1 x                88400         292
+#OUT# x 1 x                88700         293
+#OUT# x 0 x                89000         294
+#OUT# x 1 x                89300         295
+#OUT# x 1 x                89600         296
+#OUT# x 0 x                89900         297
+#OUT# x 0 x                90200         298
+#OUT# x 1 x                90500         299
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x                90800         300
+#OUT# x 0 x                91100         301
+#OUT# x 1 x                91400         302
+#OUT# x 1 x                91700         303
+#OUT# x 1 x                92000         304
+#OUT# x 0 x                92300         305
+#OUT# x 1 x                92600         306
+#OUT# x 1 x                92900         307
+#OUT# x 0 x                93200         308
+#OUT# x 0 x                93500         309
+#OUT# x 1 x                93800         310
+#OUT# x 1 x                94100         311
+#OUT# x 0 x                94400         312
+#OUT# x 0 x                94700         313
+#OUT# x 1 x                95000         314
+#OUT# x 1 x                95300         315
+#OUT# x 1 x                95600         316
+#OUT# x 0 x                95900         317
+#OUT# x 1 x                96200         318
+#OUT# x 1 x                96500         319
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x                96800         320
+#OUT# x 1 x                97100         321
+#OUT# x 1 x                97400         322
+#OUT# x 0 x                97700         323
+#OUT# x 1 x                98000         324
+#OUT# x 0 x                98300         325
+#OUT# x 1 x                98600         326
+#OUT# x 0 x                98900         327
+#OUT# x 0 x                99200         328
+#OUT# x 1 x                99500         329
+#OUT# x 1 x                99800         330
+#OUT# x 1 x               100100         331
+#OUT# x 1 x               100400         332
+#OUT# x 1 x               100700         333
+#OUT# x 0 x               101000         334
+#OUT# x 0 x               101300         335
+#OUT# x 1 x               101600         336
+#OUT# x 0 x               101900         337
+#OUT# x 1 x               102200         338
+#OUT# x 1 x               102500         339
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               102800         340
+#OUT# x 1 x               103100         341
+#OUT# x 0 x               103400         342
+#OUT# x 0 x               103700         343
+#OUT# x 1 x               104000         344
+#OUT# x 0 x               104300         345
+#OUT# x 0 x               104600         346
+#OUT# x 0 x               104900         347
+#OUT# x 1 x               105200         348
+#OUT# x 1 x               105500         349
+#OUT# x 1 x               105800         350
+#OUT# x 0 x               106100         351
+#OUT# x 0 x               106400         352
+#OUT# x 1 x               106700         353
+#OUT# x 1 x               107000         354
+#OUT# x 0 x               107300         355
+#OUT# x 0 x               107600         356
+#OUT# x 1 x               107900         357
+#OUT# x 0 x               108200         358
+#OUT# x 0 x               108500         359
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               108800         360
+#OUT# x 0 x               109100         361
+#OUT# x 0 x               109400         362
+#OUT# x 0 x               109700         363
+#OUT# x 0 x               110000         364
+#OUT# x 0 x               110300         365
+#OUT# x 0 x               110600         366
+#OUT# x 0 x               110900         367
+#OUT# x 1 x               111200         368
+#OUT# x 0 x               111500         369
+#OUT# x 1 x               111800         370
+#OUT# x 1 x               112100         371
+#OUT# x 1 x               112400         372
+#OUT# x 1 x               112700         373
+#OUT# x 1 x               113000         374
+#OUT# x 0 x               113300         375
+#OUT# x 0 x               113600         376
+#OUT# x 1 x               113900         377
+#OUT# x 0 x               114200         378
+#OUT# x 1 x               114500         379
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               114800         380
+#OUT# x 0 x               115100         381
+#OUT# x 1 x               115400         382
+#OUT# x 0 x               115700         383
+#OUT# x 0 x               116000         384
+#OUT# x 0 x               116300         385
+#OUT# x 1 x               116600         386
+#OUT# x 0 x               116900         387
+#OUT# x 1 x               117200         388
+#OUT# x 0 x               117500         389
+#OUT# x 1 x               117800         390
+#OUT# x 1 x               118100         391
+#OUT# x 0 x               118400         392
+#OUT# x 1 x               118700         393
+#OUT# x 1 x               119000         394
+#OUT# x 0 x               119300         395
+#OUT# x 1 x               119600         396
+#OUT# x 0 x               119900         397
+#OUT# x 1 x               120200         398
+#OUT# x 0 x               120500         399
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               120800         400
+#OUT# x 0 x               121100         401
+#OUT# x 0 x               121400         402
+#OUT# x 0 x               121700         403
+#OUT# x 1 x               122000         404
+#OUT# x 0 x               122300         405
+#OUT# x 0 x               122600         406
+#OUT# x 0 x               122900         407
+#OUT# x 1 x               123200         408
+#OUT# x 0 x               123500         409
+#OUT# x 1 x               123800         410
+#OUT# x 1 x               124100         411
+#OUT# x 1 x               124400         412
+#OUT# x 0 x               124700         413
+#OUT# x 0 x               125000         414
+#OUT# x 1 x               125300         415
+#OUT# x 0 x               125600         416
+#OUT# x 1 x               125900         417
+#OUT# x 0 x               126200         418
+#OUT# x 1 x               126500         419
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               126800         420
+#OUT# x 0 x               127100         421
+#OUT# x 1 x               127400         422
+#OUT# x 0 x               127700         423
+#OUT# x 1 x               128000         424
+#OUT# x 0 x               128300         425
+#OUT# x 0 x               128600         426
+#OUT# x 0 x               128900         427
+#OUT# x 1 x               129200         428
+#OUT# x 1 x               129500         429
+#OUT# x 0 x               129800         430
+#OUT# x 0 x               130100         431
+#OUT# x 0 x               130400         432
+#OUT# x 1 x               130700         433
+#OUT# x 1 x               131000         434
+#OUT# x 1 x               131300         435
+#OUT# x 0 x               131600         436
+#OUT# x 0 x               131900         437
+#OUT# x 0 x               132200         438
+#OUT# x 1 x               132500         439
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               132800         440
+#OUT# x 0 x               133100         441
+#OUT# x 0 x               133400         442
+#OUT# x 1 x               133700         443
+#OUT# x 0 x               134000         444
+#OUT# x 0 x               134300         445
+#OUT# x 0 x               134600         446
+#OUT# x 1 x               134900         447
+#OUT# x 1 x               135200         448
+#OUT# x 0 x               135500         449
+#OUT# x 0 x               135800         450
+#OUT# x 0 x               136100         451
+#OUT# x 1 x               136400         452
+#OUT# x 0 x               136700         453
+#OUT# x 1 x               137000         454
+#OUT# x 1 x               137300         455
+#OUT# x 0 x               137600         456
+#OUT# x 1 x               137900         457
+#OUT# x 0 x               138200         458
+#OUT# x 1 x               138500         459
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               138800         460
+#OUT# x 1 x               139100         461
+#OUT# x 0 x               139400         462
+#OUT# x 1 x               139700         463
+#OUT# x 0 x               140000         464
+#OUT# x 1 x               140300         465
+#OUT# x 1 x               140600         466
+#OUT# x 1 x               140900         467
+#OUT# x 1 x               141200         468
+#OUT# x 0 x               141500         469
+#OUT# x 1 x               141800         470
+#OUT# x 0 x               142100         471
+#OUT# x 1 x               142400         472
+#OUT# x 1 x               142700         473
+#OUT# x 0 x               143000         474
+#OUT# x 0 x               143300         475
+#OUT# x 0 x               143600         476
+#OUT# x 0 x               143900         477
+#OUT# x 1 x               144200         478
+#OUT# x 0 x               144500         479
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               144800         480
+#OUT# x 1 x               145100         481
+#OUT# x 0 x               145400         482
+#OUT# x 0 x               145700         483
+#OUT# x 1 x               146000         484
+#OUT# x 0 x               146300         485
+#OUT# x 0 x               146600         486
+#OUT# x 0 x               146900         487
+#OUT# x 1 x               147200         488
+#OUT# x 1 x               147500         489
+#OUT# x 1 x               147800         490
+#OUT# x 1 x               148100         491
+#OUT# x 0 x               148400         492
+#OUT# x 0 x               148700         493
+#OUT# x 1 x               149000         494
+#OUT# x 1 x               149300         495
+#OUT# x 1 x               149600         496
+#OUT# x 1 x               149900         497
+#OUT# x 0 x               150200         498
+#OUT# x 1 x               150500         499
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               150800         500
+#OUT# x 0 x               151100         501
+#OUT# x 0 x               151400         502
+#OUT# x 1 x               151700         503
+#OUT# x 0 x               152000         504
+#OUT# x 0 x               152300         505
+#OUT# x 1 x               152600         506
+#OUT# x 1 x               152900         507
+#OUT# x 1 x               153200         508
+#OUT# x 0 x               153500         509
+#OUT# x 1 x               153800         510
+#OUT# x 0 x               154100         511
+#OUT# x 0 x               154400         512
+#OUT# x 1 x               154700         513
+#OUT# x 0 x               155000         514
+#OUT# x 0 x               155300         515
+#OUT# x 0 x               155600         516
+#OUT# x 0 x               155900         517
+#OUT# x 0 x               156200         518
+#OUT# x 0 x               156500         519
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               156800         520
+#OUT# x 1 x               157100         521
+#OUT# x 0 x               157400         522
+#OUT# x 0 x               157700         523
+#OUT# x 0 x               158000         524
+#OUT# x 1 x               158300         525
+#OUT# x 0 x               158600         526
+#OUT# x 1 x               158900         527
+#OUT# x 1 x               159200         528
+#OUT# x 1 x               159500         529
+#OUT# x 0 x               159800         530
+#OUT# x 0 x               160100         531
+#OUT# x 1 x               160400         532
+#OUT# x 1 x               160700         533
+#OUT# x 0 x               161000         534
+#OUT# x 0 x               161300         535
+#OUT# x 0 x               161600         536
+#OUT# x 0 x               161900         537
+#OUT# x 0 x               162200         538
+#OUT# x 0 x               162500         539
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               162800         540
+#OUT# x 0 x               163100         541
+#OUT# x 1 x               163400         542
+#OUT# x 0 x               163700         543
+#OUT# x 1 x               164000         544
+#OUT# x 1 x               164300         545
+#OUT# x 1 x               164600         546
+#OUT# x 0 x               164900         547
+#OUT# x 1 x               165200         548
+#OUT# x 0 x               165500         549
+#OUT# x 1 x               165800         550
+#OUT# x 0 x               166100         551
+#OUT# x 0 x               166400         552
+#OUT# x 0 x               166700         553
+#OUT# x 1 x               167000         554
+#OUT# x 1 x               167300         555
+#OUT# x 0 x               167600         556
+#OUT# x 0 x               167900         557
+#OUT# x 1 x               168200         558
+#OUT# x 1 x               168500         559
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               168800         560
+#OUT# x 0 x               169100         561
+#OUT# x 0 x               169400         562
+#OUT# x 0 x               169700         563
+#OUT# x 0 x               170000         564
+#OUT# x 1 x               170300         565
+#OUT# x 0 x               170600         566
+#OUT# x 0 x               170900         567
+#OUT# x 1 x               171200         568
+#OUT# x 1 x               171500         569
+#OUT# x 0 x               171800         570
+#OUT# x 1 x               172100         571
+#OUT# x 0 x               172400         572
+#OUT# x 0 x               172700         573
+#OUT# x 0 x               173000         574
+#OUT# x 0 x               173300         575
+#OUT# x 0 x               173600         576
+#OUT# x 0 x               173900         577
+#OUT# x 1 x               174200         578
+#OUT# x 0 x               174500         579
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               174800         580
+#OUT# x 1 x               175100         581
+#OUT# x 0 x               175400         582
+#OUT# x 0 x               175700         583
+#OUT# x 0 x               176000         584
+#OUT# x 0 x               176300         585
+#OUT# x 1 x               176600         586
+#OUT# x 1 x               176900         587
+#OUT# x 1 x               177200         588
+#OUT# x 0 x               177500         589
+#OUT# x 0 x               177800         590
+#OUT# x 1 x               178100         591
+#OUT# x 1 x               178400         592
+#OUT# x 1 x               178700         593
+#OUT# x 0 x               179000         594
+#OUT# x 0 x               179300         595
+#OUT# x 0 x               179600         596
+#OUT# x 1 x               179900         597
+#OUT# x 0 x               180200         598
+#OUT# x 1 x               180500         599
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               180800         600
+#OUT# x 0 x               181100         601
+#OUT# x 1 x               181400         602
+#OUT# x 1 x               181700         603
+#OUT# x 0 x               182000         604
+#OUT# x 0 x               182300         605
+#OUT# x 0 x               182600         606
+#OUT# x 1 x               182900         607
+#OUT# x 1 x               183200         608
+#OUT# x 0 x               183500         609
+#OUT# x 1 x               183800         610
+#OUT# x 1 x               184100         611
+#OUT# x 1 x               184400         612
+#OUT# x 0 x               184700         613
+#OUT# x 0 x               185000         614
+#OUT# x 1 x               185300         615
+#OUT# x 1 x               185600         616
+#OUT# x 0 x               185900         617
+#OUT# x 0 x               186200         618
+#OUT# x 0 x               186500         619
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               186800         620
+#OUT# x 0 x               187100         621
+#OUT# x 1 x               187400         622
+#OUT# x 0 x               187700         623
+#OUT# x 0 x               188000         624
+#OUT# x 1 x               188300         625
+#OUT# x 0 x               188600         626
+#OUT# x 0 x               188900         627
+#OUT# x 0 x               189200         628
+#OUT# x 1 x               189500         629
+#OUT# x 1 x               189800         630
+#OUT# x 1 x               190100         631
+#OUT# x 1 x               190400         632
+#OUT# x 1 x               190700         633
+#OUT# x 0 x               191000         634
+#OUT# x 1 x               191300         635
+#OUT# x 1 x               191600         636
+#OUT# x 0 x               191900         637
+#OUT# x 1 x               192200         638
+#OUT# x 0 x               192500         639
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               192800         640
+#OUT# x 0 x               193100         641
+#OUT# x 1 x               193400         642
+#OUT# x 1 x               193700         643
+#OUT# x 1 x               194000         644
+#OUT# x 1 x               194300         645
+#OUT# x 1 x               194600         646
+#OUT# x 1 x               194900         647
+#OUT# x 0 x               195200         648
+#OUT# x 0 x               195500         649
+#OUT# x 1 x               195800         650
+#OUT# x 0 x               196100         651
+#OUT# x 0 x               196400         652
+#OUT# x 1 x               196700         653
+#OUT# x 0 x               197000         654
+#OUT# x 0 x               197300         655
+#OUT# x 1 x               197600         656
+#OUT# x 1 x               197900         657
+#OUT# x 0 x               198200         658
+#OUT# x 0 x               198500         659
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               198800         660
+#OUT# x 1 x               199100         661
+#OUT# x 1 x               199400         662
+#OUT# x 1 x               199700         663
+#OUT# x 1 x               200000         664
+#OUT# x 1 x               200300         665
+#OUT# x 1 x               200600         666
+#OUT# x 1 x               200900         667
+#OUT# x 1 x               201200         668
+#OUT# x 0 x               201500         669
+#OUT# x 0 x               201800         670
+#OUT# x 0 x               202100         671
+#OUT# x 1 x               202400         672
+#OUT# x 0 x               202700         673
+#OUT# x 0 x               203000         674
+#OUT# x 0 x               203300         675
+#OUT# x 1 x               203600         676
+#OUT# x 1 x               203900         677
+#OUT# x 0 x               204200         678
+#OUT# x 1 x               204500         679
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               204800         680
+#OUT# x 0 x               205100         681
+#OUT# x 1 x               205400         682
+#OUT# x 1 x               205700         683
+#OUT# x 1 x               206000         684
+#OUT# x 0 x               206300         685
+#OUT# x 1 x               206600         686
+#OUT# x 0 x               206900         687
+#OUT# x 1 x               207200         688
+#OUT# x 1 x               207500         689
+#OUT# x 1 x               207800         690
+#OUT# x 1 x               208100         691
+#OUT# x 1 x               208400         692
+#OUT# x 1 x               208700         693
+#OUT# x 1 x               209000         694
+#OUT# x 0 x               209300         695
+#OUT# x 0 x               209600         696
+#OUT# x 1 x               209900         697
+#OUT# x 1 x               210200         698
+#OUT# x 0 x               210500         699
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               210800         700
+#OUT# x 0 x               211100         701
+#OUT# x 1 x               211400         702
+#OUT# x 0 x               211700         703
+#OUT# x 0 x               212000         704
+#OUT# x 0 x               212300         705
+#OUT# x 1 x               212600         706
+#OUT# x 0 x               212900         707
+#OUT# x 1 x               213200         708
+#OUT# x 0 x               213500         709
+#OUT# x 0 x               213800         710
+#OUT# x 1 x               214100         711
+#OUT# x 1 x               214400         712
+#OUT# x 1 x               214700         713
+#OUT# x 0 x               215000         714
+#OUT# x 1 x               215300         715
+#OUT# x 1 x               215600         716
+#OUT# x 0 x               215900         717
+#OUT# x 0 x               216200         718
+#OUT# x 1 x               216500         719
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               216800         720
+#OUT# x 0 x               217100         721
+#OUT# x 0 x               217400         722
+#OUT# x 1 x               217700         723
+#OUT# x 0 x               218000         724
+#OUT# x 0 x               218300         725
+#OUT# x 0 x               218600         726
+#OUT# x 1 x               218900         727
+#OUT# x 1 x               219200         728
+#OUT# x 1 x               219500         729
+#OUT# x 1 x               219800         730
+#OUT# x 1 x               220100         731
+#OUT# x 1 x               220400         732
+#OUT# x 1 x               220700         733
+#OUT# x 0 x               221000         734
+#OUT# x 0 x               221300         735
+#OUT# x 1 x               221600         736
+#OUT# x 1 x               221900         737
+#OUT# x 0 x               222200         738
+#OUT# x 1 x               222500         739
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               222800         740
+#OUT# x 0 x               223100         741
+#OUT# x 0 x               223400         742
+#OUT# x 0 x               223700         743
+#OUT# x 1 x               224000         744
+#OUT# x 0 x               224300         745
+#OUT# x 1 x               224600         746
+#OUT# x 0 x               224900         747
+#OUT# x 0 x               225200         748
+#OUT# x 0 x               225500         749
+#OUT# x 1 x               225800         750
+#OUT# x 1 x               226100         751
+#OUT# x 1 x               226400         752
+#OUT# x 1 x               226700         753
+#OUT# x 0 x               227000         754
+#OUT# x 0 x               227300         755
+#OUT# x 0 x               227600         756
+#OUT# x 1 x               227900         757
+#OUT# x 1 x               228200         758
+#OUT# x 1 x               228500         759
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               228800         760
+#OUT# x 0 x               229100         761
+#OUT# x 0 x               229400         762
+#OUT# x 0 x               229700         763
+#OUT# x 0 x               230000         764
+#OUT# x 0 x               230300         765
+#OUT# x 1 x               230600         766
+#OUT# x 1 x               230900         767
+#OUT# x 0 x               231200         768
+#OUT# x 0 x               231500         769
+#OUT# x 0 x               231800         770
+#OUT# x 0 x               232100         771
+#OUT# x 1 x               232400         772
+#OUT# x 1 x               232700         773
+#OUT# x 1 x               233000         774
+#OUT# x 1 x               233300         775
+#OUT# x 0 x               233600         776
+#OUT# x 0 x               233900         777
+#OUT# x 1 x               234200         778
+#OUT# x 1 x               234500         779
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               234800         780
+#OUT# x 0 x               235100         781
+#OUT# x 0 x               235400         782
+#OUT# x 0 x               235700         783
+#OUT# x 0 x               236000         784
+#OUT# x 0 x               236300         785
+#OUT# x 1 x               236600         786
+#OUT# x 1 x               236900         787
+#OUT# x 1 x               237200         788
+#OUT# x 0 x               237500         789
+#OUT# x 1 x               237800         790
+#OUT# x 1 x               238100         791
+#OUT# x 1 x               238400         792
+#OUT# x 0 x               238700         793
+#OUT# x 0 x               239000         794
+#OUT# x 1 x               239300         795
+#OUT# x 0 x               239600         796
+#OUT# x 1 x               239900         797
+#OUT# x 1 x               240200         798
+#OUT# x 0 x               240500         799
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               240800         800
+#OUT# x 0 x               241100         801
+#OUT# x 0 x               241400         802
+#OUT# x 1 x               241700         803
+#OUT# x 0 x               242000         804
+#OUT# x 1 x               242300         805
+#OUT# x 0 x               242600         806
+#OUT# x 1 x               242900         807
+#OUT# x 0 x               243200         808
+#OUT# x 0 x               243500         809
+#OUT# x 0 x               243800         810
+#OUT# x 0 x               244100         811
+#OUT# x 1 x               244400         812
+#OUT# x 1 x               244700         813
+#OUT# x 0 x               245000         814
+#OUT# x 1 x               245300         815
+#OUT# x 1 x               245600         816
+#OUT# x 1 x               245900         817
+#OUT# x 1 x               246200         818
+#OUT# x 0 x               246500         819
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               246800         820
+#OUT# x 0 x               247100         821
+#OUT# x 0 x               247400         822
+#OUT# x 1 x               247700         823
+#OUT# x 0 x               248000         824
+#OUT# x 1 x               248300         825
+#OUT# x 1 x               248600         826
+#OUT# x 0 x               248900         827
+#OUT# x 0 x               249200         828
+#OUT# x 0 x               249500         829
+#OUT# x 1 x               249800         830
+#OUT# x 0 x               250100         831
+#OUT# x 0 x               250400         832
+#OUT# x 1 x               250700         833
+#OUT# x 1 x               251000         834
+#OUT# x 1 x               251300         835
+#OUT# x 1 x               251600         836
+#OUT# x 0 x               251900         837
+#OUT# x 0 x               252200         838
+#OUT# x 1 x               252500         839
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               252800         840
+#OUT# x 0 x               253100         841
+#OUT# x 0 x               253400         842
+#OUT# x 1 x               253700         843
+#OUT# x 0 x               254000         844
+#OUT# x 0 x               254300         845
+#OUT# x 1 x               254600         846
+#OUT# x 1 x               254900         847
+#OUT# x 0 x               255200         848
+#OUT# x 0 x               255500         849
+#OUT# x 1 x               255800         850
+#OUT# x 0 x               256100         851
+#OUT# x 0 x               256400         852
+#OUT# x 1 x               256700         853
+#OUT# x 1 x               257000         854
+#OUT# x 0 x               257300         855
+#OUT# x 0 x               257600         856
+#OUT# x 1 x               257900         857
+#OUT# x 0 x               258200         858
+#OUT# x 1 x               258500         859
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               258800         860
+#OUT# x 1 x               259100         861
+#OUT# x 1 x               259400         862
+#OUT# x 0 x               259700         863
+#OUT# x 0 x               260000         864
+#OUT# x 1 x               260300         865
+#OUT# x 0 x               260600         866
+#OUT# x 0 x               260900         867
+#OUT# x 1 x               261200         868
+#OUT# x 1 x               261500         869
+#OUT# x 0 x               261800         870
+#OUT# x 1 x               262100         871
+#OUT# x 0 x               262400         872
+#OUT# x 1 x               262700         873
+#OUT# x 0 x               263000         874
+#OUT# x 1 x               263300         875
+#OUT# x 0 x               263600         876
+#OUT# x 1 x               263900         877
+#OUT# x 1 x               264200         878
+#OUT# x 0 x               264500         879
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               264800         880
+#OUT# x 0 x               265100         881
+#OUT# x 1 x               265400         882
+#OUT# x 0 x               265700         883
+#OUT# x 1 x               266000         884
+#OUT# x 0 x               266300         885
+#OUT# x 1 x               266600         886
+#OUT# x 1 x               266900         887
+#OUT# x 0 x               267200         888
+#OUT# x 0 x               267500         889
+#OUT# x 1 x               267800         890
+#OUT# x 0 x               268100         891
+#OUT# x 0 x               268400         892
+#OUT# x 1 x               268700         893
+#OUT# x 0 x               269000         894
+#OUT# x 1 x               269300         895
+#OUT# x 1 x               269600         896
+#OUT# x 1 x               269900         897
+#OUT# x 0 x               270200         898
+#OUT# x 0 x               270500         899
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               270800         900
+#OUT# x 0 x               271100         901
+#OUT# x 0 x               271400         902
+#OUT# x 1 x               271700         903
+#OUT# x 0 x               272000         904
+#OUT# x 1 x               272300         905
+#OUT# x 1 x               272600         906
+#OUT# x 0 x               272900         907
+#OUT# x 0 x               273200         908
+#OUT# x 1 x               273500         909
+#OUT# x 0 x               273800         910
+#OUT# x 0 x               274100         911
+#OUT# x 0 x               274400         912
+#OUT# x 1 x               274700         913
+#OUT# x 0 x               275000         914
+#OUT# x 0 x               275300         915
+#OUT# x 1 x               275600         916
+#OUT# x 0 x               275900         917
+#OUT# x 1 x               276200         918
+#OUT# x 1 x               276500         919
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               276800         920
+#OUT# x 0 x               277100         921
+#OUT# x 0 x               277400         922
+#OUT# x 0 x               277700         923
+#OUT# x 0 x               278000         924
+#OUT# x 1 x               278300         925
+#OUT# x 1 x               278600         926
+#OUT# x 0 x               278900         927
+#OUT# x 1 x               279200         928
+#OUT# x 1 x               279500         929
+#OUT# x 1 x               279800         930
+#OUT# x 0 x               280100         931
+#OUT# x 0 x               280400         932
+#OUT# x 0 x               280700         933
+#OUT# x 1 x               281000         934
+#OUT# x 1 x               281300         935
+#OUT# x 1 x               281600         936
+#OUT# x 1 x               281900         937
+#OUT# x 1 x               282200         938
+#OUT# x 0 x               282500         939
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               282800         940
+#OUT# x 1 x               283100         941
+#OUT# x 0 x               283400         942
+#OUT# x 0 x               283700         943
+#OUT# x 1 x               284000         944
+#OUT# x 0 x               284300         945
+#OUT# x 1 x               284600         946
+#OUT# x 0 x               284900         947
+#OUT# x 0 x               285200         948
+#OUT# x 1 x               285500         949
+#OUT# x 0 x               285800         950
+#OUT# x 1 x               286100         951
+#OUT# x 0 x               286400         952
+#OUT# x 1 x               286700         953
+#OUT# x 1 x               287000         954
+#OUT# x 1 x               287300         955
+#OUT# x 0 x               287600         956
+#OUT# x 1 x               287900         957
+#OUT# x 0 x               288200         958
+#OUT# x 0 x               288500         959
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 1 x               288800         960
+#OUT# x 0 x               289100         961
+#OUT# x 0 x               289400         962
+#OUT# x 0 x               289700         963
+#OUT# x 1 x               290000         964
+#OUT# x 0 x               290300         965
+#OUT# x 1 x               290600         966
+#OUT# x 0 x               290900         967
+#OUT# x 0 x               291200         968
+#OUT# x 0 x               291500         969
+#OUT# x 0 x               291800         970
+#OUT# x 0 x               292100         971
+#OUT# x 0 x               292400         972
+#OUT# x 0 x               292700         973
+#OUT# x 0 x               293000         974
+#OUT# x 1 x               293300         975
+#OUT# x 1 x               293600         976
+#OUT# x 1 x               293900         977
+#OUT# x 0 x               294200         978
+#OUT# x 1 x               294500         979
+#OUT#
+#OUT#   A   sig_../cnt1.aig_clk 
+#OUT#
+#OUT# # A #
+#OUT# x 0 x               294800         980
+#OUT# x 0 x               295100         981
+#OUT# x 1 x               295400         982
+#OUT# x 0 x               295700         983
+#OUT# x 1 x               296000         984
+#OUT# x 1 x               296300         985
+#OUT# x 0 x               296600         986
+#OUT# x 1 x               296900         987
+#OUT# x 1 x               297200         988
+#OUT# x 1 x               297500         989
+#OUT# x 1 x               297800         990
+#OUT# x 0 x               298100         991
+#OUT# x 1 x               298400         992
+#OUT# x 0 x               298700         993
+#OUT# x 1 x               299000         994
+#OUT# x 1 x               299300         995
+#OUT# x 0 x               299600         996
+#OUT# x 0 x               299900         997
+#OUT# x 1 x               300200         998
+#OUT# x 0 x               300500         999
