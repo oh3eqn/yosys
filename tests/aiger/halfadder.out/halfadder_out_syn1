@@ -1,0 +1,1352 @@
+#OUT#
+#OUT# ==== ../halfadder.aig  ====
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01                  600           0
+#OUT# 00 x 00                 1000           1
+#OUT# 01 x 01                 1400           2
+#OUT# 10 x 01                 1800           3
+#OUT# 10 x 01                 2200           4
+#OUT# 01 x 01                 2600           5
+#OUT# 01 x 01                 3000           6
+#OUT# 00 x 00                 3400           7
+#OUT# 11 x 10                 3800           8
+#OUT# 00 x 00                 4200           9
+#OUT# 11 x 10                 4600          10
+#OUT# 01 x 01                 5000          11
+#OUT# 10 x 01                 5400          12
+#OUT# 01 x 01                 5800          13
+#OUT# 00 x 00                 6200          14
+#OUT# 11 x 10                 6600          15
+#OUT# 10 x 01                 7000          16
+#OUT# 11 x 10                 7400          17
+#OUT# 00 x 00                 7800          18
+#OUT# 10 x 01                 8200          19
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01                 8600          20
+#OUT# 01 x 01                 9000          21
+#OUT# 11 x 10                 9400          22
+#OUT# 10 x 01                 9800          23
+#OUT# 00 x 00                10200          24
+#OUT# 01 x 01                10600          25
+#OUT# 11 x 10                11000          26
+#OUT# 10 x 01                11400          27
+#OUT# 00 x 00                11800          28
+#OUT# 01 x 01                12200          29
+#OUT# 00 x 00                12600          30
+#OUT# 11 x 10                13000          31
+#OUT# 01 x 01                13400          32
+#OUT# 10 x 01                13800          33
+#OUT# 11 x 10                14200          34
+#OUT# 01 x 01                14600          35
+#OUT# 11 x 10                15000          36
+#OUT# 00 x 00                15400          37
+#OUT# 01 x 01                15800          38
+#OUT# 11 x 10                16200          39
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10                16600          40
+#OUT# 00 x 00                17000          41
+#OUT# 11 x 10                17400          42
+#OUT# 01 x 01                17800          43
+#OUT# 11 x 10                18200          44
+#OUT# 11 x 10                18600          45
+#OUT# 11 x 10                19000          46
+#OUT# 00 x 00                19400          47
+#OUT# 01 x 01                19800          48
+#OUT# 00 x 00                20200          49
+#OUT# 01 x 01                20600          50
+#OUT# 11 x 10                21000          51
+#OUT# 01 x 01                21400          52
+#OUT# 00 x 00                21800          53
+#OUT# 00 x 00                22200          54
+#OUT# 00 x 00                22600          55
+#OUT# 11 x 10                23000          56
+#OUT# 00 x 00                23400          57
+#OUT# 10 x 01                23800          58
+#OUT# 00 x 00                24200          59
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01                24600          60
+#OUT# 00 x 00                25000          61
+#OUT# 01 x 01                25400          62
+#OUT# 01 x 01                25800          63
+#OUT# 00 x 00                26200          64
+#OUT# 10 x 01                26600          65
+#OUT# 00 x 00                27000          66
+#OUT# 00 x 00                27400          67
+#OUT# 10 x 01                27800          68
+#OUT# 00 x 00                28200          69
+#OUT# 01 x 01                28600          70
+#OUT# 10 x 01                29000          71
+#OUT# 01 x 01                29400          72
+#OUT# 11 x 10                29800          73
+#OUT# 01 x 01                30200          74
+#OUT# 00 x 00                30600          75
+#OUT# 01 x 01                31000          76
+#OUT# 11 x 10                31400          77
+#OUT# 11 x 10                31800          78
+#OUT# 11 x 10                32200          79
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01                32600          80
+#OUT# 10 x 01                33000          81
+#OUT# 00 x 00                33400          82
+#OUT# 01 x 01                33800          83
+#OUT# 00 x 00                34200          84
+#OUT# 11 x 10                34600          85
+#OUT# 11 x 10                35000          86
+#OUT# 00 x 00                35400          87
+#OUT# 01 x 01                35800          88
+#OUT# 11 x 10                36200          89
+#OUT# 10 x 01                36600          90
+#OUT# 11 x 10                37000          91
+#OUT# 01 x 01                37400          92
+#OUT# 01 x 01                37800          93
+#OUT# 01 x 01                38200          94
+#OUT# 01 x 01                38600          95
+#OUT# 11 x 10                39000          96
+#OUT# 01 x 01                39400          97
+#OUT# 01 x 01                39800          98
+#OUT# 00 x 00                40200          99
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00                40600         100
+#OUT# 01 x 01                41000         101
+#OUT# 11 x 10                41400         102
+#OUT# 11 x 10                41800         103
+#OUT# 10 x 01                42200         104
+#OUT# 10 x 01                42600         105
+#OUT# 11 x 10                43000         106
+#OUT# 01 x 01                43400         107
+#OUT# 11 x 10                43800         108
+#OUT# 01 x 01                44200         109
+#OUT# 01 x 01                44600         110
+#OUT# 01 x 01                45000         111
+#OUT# 00 x 00                45400         112
+#OUT# 10 x 01                45800         113
+#OUT# 10 x 01                46200         114
+#OUT# 10 x 01                46600         115
+#OUT# 10 x 01                47000         116
+#OUT# 11 x 10                47400         117
+#OUT# 10 x 01                47800         118
+#OUT# 10 x 01                48200         119
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10                48600         120
+#OUT# 01 x 01                49000         121
+#OUT# 10 x 01                49400         122
+#OUT# 00 x 00                49800         123
+#OUT# 10 x 01                50200         124
+#OUT# 10 x 01                50600         125
+#OUT# 10 x 01                51000         126
+#OUT# 10 x 01                51400         127
+#OUT# 00 x 00                51800         128
+#OUT# 11 x 10                52200         129
+#OUT# 00 x 00                52600         130
+#OUT# 10 x 01                53000         131
+#OUT# 10 x 01                53400         132
+#OUT# 10 x 01                53800         133
+#OUT# 11 x 10                54200         134
+#OUT# 10 x 01                54600         135
+#OUT# 00 x 00                55000         136
+#OUT# 11 x 10                55400         137
+#OUT# 00 x 00                55800         138
+#OUT# 01 x 01                56200         139
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10                56600         140
+#OUT# 01 x 01                57000         141
+#OUT# 01 x 01                57400         142
+#OUT# 11 x 10                57800         143
+#OUT# 11 x 10                58200         144
+#OUT# 11 x 10                58600         145
+#OUT# 11 x 10                59000         146
+#OUT# 00 x 00                59400         147
+#OUT# 10 x 01                59800         148
+#OUT# 10 x 01                60200         149
+#OUT# 01 x 01                60600         150
+#OUT# 01 x 01                61000         151
+#OUT# 10 x 01                61400         152
+#OUT# 01 x 01                61800         153
+#OUT# 01 x 01                62200         154
+#OUT# 01 x 01                62600         155
+#OUT# 01 x 01                63000         156
+#OUT# 01 x 01                63400         157
+#OUT# 10 x 01                63800         158
+#OUT# 01 x 01                64200         159
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10                64600         160
+#OUT# 10 x 01                65000         161
+#OUT# 00 x 00                65400         162
+#OUT# 00 x 00                65800         163
+#OUT# 10 x 01                66200         164
+#OUT# 11 x 10                66600         165
+#OUT# 11 x 10                67000         166
+#OUT# 01 x 01                67400         167
+#OUT# 00 x 00                67800         168
+#OUT# 01 x 01                68200         169
+#OUT# 11 x 10                68600         170
+#OUT# 01 x 01                69000         171
+#OUT# 00 x 00                69400         172
+#OUT# 11 x 10                69800         173
+#OUT# 01 x 01                70200         174
+#OUT# 10 x 01                70600         175
+#OUT# 10 x 01                71000         176
+#OUT# 10 x 01                71400         177
+#OUT# 10 x 01                71800         178
+#OUT# 01 x 01                72200         179
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10                72600         180
+#OUT# 11 x 10                73000         181
+#OUT# 11 x 10                73400         182
+#OUT# 11 x 10                73800         183
+#OUT# 00 x 00                74200         184
+#OUT# 01 x 01                74600         185
+#OUT# 11 x 10                75000         186
+#OUT# 10 x 01                75400         187
+#OUT# 10 x 01                75800         188
+#OUT# 00 x 00                76200         189
+#OUT# 10 x 01                76600         190
+#OUT# 00 x 00                77000         191
+#OUT# 11 x 10                77400         192
+#OUT# 00 x 00                77800         193
+#OUT# 00 x 00                78200         194
+#OUT# 01 x 01                78600         195
+#OUT# 00 x 00                79000         196
+#OUT# 10 x 01                79400         197
+#OUT# 00 x 00                79800         198
+#OUT# 00 x 00                80200         199
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10                80600         200
+#OUT# 11 x 10                81000         201
+#OUT# 00 x 00                81400         202
+#OUT# 11 x 10                81800         203
+#OUT# 00 x 00                82200         204
+#OUT# 01 x 01                82600         205
+#OUT# 10 x 01                83000         206
+#OUT# 10 x 01                83400         207
+#OUT# 00 x 00                83800         208
+#OUT# 00 x 00                84200         209
+#OUT# 10 x 01                84600         210
+#OUT# 00 x 00                85000         211
+#OUT# 00 x 00                85400         212
+#OUT# 11 x 10                85800         213
+#OUT# 01 x 01                86200         214
+#OUT# 01 x 01                86600         215
+#OUT# 10 x 01                87000         216
+#OUT# 11 x 10                87400         217
+#OUT# 01 x 01                87800         218
+#OUT# 10 x 01                88200         219
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01                88600         220
+#OUT# 10 x 01                89000         221
+#OUT# 01 x 01                89400         222
+#OUT# 10 x 01                89800         223
+#OUT# 10 x 01                90200         224
+#OUT# 11 x 10                90600         225
+#OUT# 00 x 00                91000         226
+#OUT# 01 x 01                91400         227
+#OUT# 00 x 00                91800         228
+#OUT# 00 x 00                92200         229
+#OUT# 00 x 00                92600         230
+#OUT# 00 x 00                93000         231
+#OUT# 00 x 00                93400         232
+#OUT# 11 x 10                93800         233
+#OUT# 10 x 01                94200         234
+#OUT# 00 x 00                94600         235
+#OUT# 01 x 01                95000         236
+#OUT# 01 x 01                95400         237
+#OUT# 11 x 10                95800         238
+#OUT# 00 x 00                96200         239
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01                96600         240
+#OUT# 01 x 01                97000         241
+#OUT# 00 x 00                97400         242
+#OUT# 11 x 10                97800         243
+#OUT# 01 x 01                98200         244
+#OUT# 11 x 10                98600         245
+#OUT# 01 x 01                99000         246
+#OUT# 01 x 01                99400         247
+#OUT# 11 x 10                99800         248
+#OUT# 00 x 00               100200         249
+#OUT# 10 x 01               100600         250
+#OUT# 10 x 01               101000         251
+#OUT# 01 x 01               101400         252
+#OUT# 01 x 01               101800         253
+#OUT# 10 x 01               102200         254
+#OUT# 00 x 00               102600         255
+#OUT# 10 x 01               103000         256
+#OUT# 01 x 01               103400         257
+#OUT# 11 x 10               103800         258
+#OUT# 11 x 10               104200         259
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01               104600         260
+#OUT# 01 x 01               105000         261
+#OUT# 10 x 01               105400         262
+#OUT# 00 x 00               105800         263
+#OUT# 11 x 10               106200         264
+#OUT# 01 x 01               106600         265
+#OUT# 01 x 01               107000         266
+#OUT# 01 x 01               107400         267
+#OUT# 11 x 10               107800         268
+#OUT# 11 x 10               108200         269
+#OUT# 00 x 00               108600         270
+#OUT# 00 x 00               109000         271
+#OUT# 01 x 01               109400         272
+#OUT# 10 x 01               109800         273
+#OUT# 00 x 00               110200         274
+#OUT# 00 x 00               110600         275
+#OUT# 11 x 10               111000         276
+#OUT# 01 x 01               111400         277
+#OUT# 01 x 01               111800         278
+#OUT# 01 x 01               112200         279
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               112600         280
+#OUT# 11 x 10               113000         281
+#OUT# 10 x 01               113400         282
+#OUT# 01 x 01               113800         283
+#OUT# 01 x 01               114200         284
+#OUT# 00 x 00               114600         285
+#OUT# 01 x 01               115000         286
+#OUT# 11 x 10               115400         287
+#OUT# 11 x 10               115800         288
+#OUT# 00 x 00               116200         289
+#OUT# 01 x 01               116600         290
+#OUT# 01 x 01               117000         291
+#OUT# 11 x 10               117400         292
+#OUT# 01 x 01               117800         293
+#OUT# 10 x 01               118200         294
+#OUT# 10 x 01               118600         295
+#OUT# 11 x 10               119000         296
+#OUT# 01 x 01               119400         297
+#OUT# 10 x 01               119800         298
+#OUT# 00 x 00               120200         299
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01               120600         300
+#OUT# 01 x 01               121000         301
+#OUT# 01 x 01               121400         302
+#OUT# 10 x 01               121800         303
+#OUT# 10 x 01               122200         304
+#OUT# 01 x 01               122600         305
+#OUT# 10 x 01               123000         306
+#OUT# 10 x 01               123400         307
+#OUT# 10 x 01               123800         308
+#OUT# 11 x 10               124200         309
+#OUT# 11 x 10               124600         310
+#OUT# 00 x 00               125000         311
+#OUT# 10 x 01               125400         312
+#OUT# 01 x 01               125800         313
+#OUT# 10 x 01               126200         314
+#OUT# 11 x 10               126600         315
+#OUT# 11 x 10               127000         316
+#OUT# 00 x 00               127400         317
+#OUT# 10 x 01               127800         318
+#OUT# 00 x 00               128200         319
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10               128600         320
+#OUT# 01 x 01               129000         321
+#OUT# 11 x 10               129400         322
+#OUT# 11 x 10               129800         323
+#OUT# 01 x 01               130200         324
+#OUT# 00 x 00               130600         325
+#OUT# 10 x 01               131000         326
+#OUT# 01 x 01               131400         327
+#OUT# 01 x 01               131800         328
+#OUT# 01 x 01               132200         329
+#OUT# 01 x 01               132600         330
+#OUT# 11 x 10               133000         331
+#OUT# 11 x 10               133400         332
+#OUT# 11 x 10               133800         333
+#OUT# 10 x 01               134200         334
+#OUT# 11 x 10               134600         335
+#OUT# 00 x 00               135000         336
+#OUT# 11 x 10               135400         337
+#OUT# 01 x 01               135800         338
+#OUT# 00 x 00               136200         339
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               136600         340
+#OUT# 01 x 01               137000         341
+#OUT# 10 x 01               137400         342
+#OUT# 00 x 00               137800         343
+#OUT# 01 x 01               138200         344
+#OUT# 11 x 10               138600         345
+#OUT# 11 x 10               139000         346
+#OUT# 10 x 01               139400         347
+#OUT# 10 x 01               139800         348
+#OUT# 10 x 01               140200         349
+#OUT# 00 x 00               140600         350
+#OUT# 00 x 00               141000         351
+#OUT# 11 x 10               141400         352
+#OUT# 00 x 00               141800         353
+#OUT# 00 x 00               142200         354
+#OUT# 10 x 01               142600         355
+#OUT# 11 x 10               143000         356
+#OUT# 00 x 00               143400         357
+#OUT# 10 x 01               143800         358
+#OUT# 10 x 01               144200         359
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01               144600         360
+#OUT# 10 x 01               145000         361
+#OUT# 01 x 01               145400         362
+#OUT# 10 x 01               145800         363
+#OUT# 11 x 10               146200         364
+#OUT# 11 x 10               146600         365
+#OUT# 11 x 10               147000         366
+#OUT# 01 x 01               147400         367
+#OUT# 01 x 01               147800         368
+#OUT# 00 x 00               148200         369
+#OUT# 10 x 01               148600         370
+#OUT# 11 x 10               149000         371
+#OUT# 00 x 00               149400         372
+#OUT# 00 x 00               149800         373
+#OUT# 11 x 10               150200         374
+#OUT# 01 x 01               150600         375
+#OUT# 11 x 10               151000         376
+#OUT# 01 x 01               151400         377
+#OUT# 10 x 01               151800         378
+#OUT# 11 x 10               152200         379
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01               152600         380
+#OUT# 11 x 10               153000         381
+#OUT# 11 x 10               153400         382
+#OUT# 01 x 01               153800         383
+#OUT# 01 x 01               154200         384
+#OUT# 11 x 10               154600         385
+#OUT# 01 x 01               155000         386
+#OUT# 11 x 10               155400         387
+#OUT# 01 x 01               155800         388
+#OUT# 01 x 01               156200         389
+#OUT# 10 x 01               156600         390
+#OUT# 11 x 10               157000         391
+#OUT# 11 x 10               157400         392
+#OUT# 01 x 01               157800         393
+#OUT# 10 x 01               158200         394
+#OUT# 01 x 01               158600         395
+#OUT# 10 x 01               159000         396
+#OUT# 10 x 01               159400         397
+#OUT# 00 x 00               159800         398
+#OUT# 10 x 01               160200         399
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10               160600         400
+#OUT# 10 x 01               161000         401
+#OUT# 00 x 00               161400         402
+#OUT# 00 x 00               161800         403
+#OUT# 01 x 01               162200         404
+#OUT# 11 x 10               162600         405
+#OUT# 01 x 01               163000         406
+#OUT# 00 x 00               163400         407
+#OUT# 11 x 10               163800         408
+#OUT# 10 x 01               164200         409
+#OUT# 11 x 10               164600         410
+#OUT# 10 x 01               165000         411
+#OUT# 00 x 00               165400         412
+#OUT# 10 x 01               165800         413
+#OUT# 11 x 10               166200         414
+#OUT# 00 x 00               166600         415
+#OUT# 10 x 01               167000         416
+#OUT# 11 x 10               167400         417
+#OUT# 10 x 01               167800         418
+#OUT# 10 x 01               168200         419
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               168600         420
+#OUT# 10 x 01               169000         421
+#OUT# 01 x 01               169400         422
+#OUT# 01 x 01               169800         423
+#OUT# 01 x 01               170200         424
+#OUT# 00 x 00               170600         425
+#OUT# 10 x 01               171000         426
+#OUT# 10 x 01               171400         427
+#OUT# 10 x 01               171800         428
+#OUT# 00 x 00               172200         429
+#OUT# 11 x 10               172600         430
+#OUT# 10 x 01               173000         431
+#OUT# 10 x 01               173400         432
+#OUT# 01 x 01               173800         433
+#OUT# 01 x 01               174200         434
+#OUT# 00 x 00               174600         435
+#OUT# 00 x 00               175000         436
+#OUT# 00 x 00               175400         437
+#OUT# 00 x 00               175800         438
+#OUT# 10 x 01               176200         439
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00               176600         440
+#OUT# 00 x 00               177000         441
+#OUT# 00 x 00               177400         442
+#OUT# 01 x 01               177800         443
+#OUT# 01 x 01               178200         444
+#OUT# 00 x 00               178600         445
+#OUT# 10 x 01               179000         446
+#OUT# 00 x 00               179400         447
+#OUT# 11 x 10               179800         448
+#OUT# 01 x 01               180200         449
+#OUT# 11 x 10               180600         450
+#OUT# 10 x 01               181000         451
+#OUT# 00 x 00               181400         452
+#OUT# 10 x 01               181800         453
+#OUT# 10 x 01               182200         454
+#OUT# 01 x 01               182600         455
+#OUT# 10 x 01               183000         456
+#OUT# 01 x 01               183400         457
+#OUT# 00 x 00               183800         458
+#OUT# 01 x 01               184200         459
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01               184600         460
+#OUT# 11 x 10               185000         461
+#OUT# 10 x 01               185400         462
+#OUT# 10 x 01               185800         463
+#OUT# 01 x 01               186200         464
+#OUT# 10 x 01               186600         465
+#OUT# 11 x 10               187000         466
+#OUT# 01 x 01               187400         467
+#OUT# 11 x 10               187800         468
+#OUT# 10 x 01               188200         469
+#OUT# 01 x 01               188600         470
+#OUT# 01 x 01               189000         471
+#OUT# 00 x 00               189400         472
+#OUT# 00 x 00               189800         473
+#OUT# 10 x 01               190200         474
+#OUT# 00 x 00               190600         475
+#OUT# 00 x 00               191000         476
+#OUT# 11 x 10               191400         477
+#OUT# 00 x 00               191800         478
+#OUT# 01 x 01               192200         479
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00               192600         480
+#OUT# 11 x 10               193000         481
+#OUT# 00 x 00               193400         482
+#OUT# 00 x 00               193800         483
+#OUT# 11 x 10               194200         484
+#OUT# 11 x 10               194600         485
+#OUT# 11 x 10               195000         486
+#OUT# 10 x 01               195400         487
+#OUT# 11 x 10               195800         488
+#OUT# 00 x 00               196200         489
+#OUT# 01 x 01               196600         490
+#OUT# 00 x 00               197000         491
+#OUT# 01 x 01               197400         492
+#OUT# 00 x 00               197800         493
+#OUT# 11 x 10               198200         494
+#OUT# 10 x 01               198600         495
+#OUT# 00 x 00               199000         496
+#OUT# 01 x 01               199400         497
+#OUT# 01 x 01               199800         498
+#OUT# 00 x 00               200200         499
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               200600         500
+#OUT# 01 x 01               201000         501
+#OUT# 00 x 00               201400         502
+#OUT# 11 x 10               201800         503
+#OUT# 01 x 01               202200         504
+#OUT# 10 x 01               202600         505
+#OUT# 01 x 01               203000         506
+#OUT# 10 x 01               203400         507
+#OUT# 11 x 10               203800         508
+#OUT# 00 x 00               204200         509
+#OUT# 10 x 01               204600         510
+#OUT# 11 x 10               205000         511
+#OUT# 11 x 10               205400         512
+#OUT# 10 x 01               205800         513
+#OUT# 01 x 01               206200         514
+#OUT# 11 x 10               206600         515
+#OUT# 00 x 00               207000         516
+#OUT# 00 x 00               207400         517
+#OUT# 00 x 00               207800         518
+#OUT# 00 x 00               208200         519
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00               208600         520
+#OUT# 00 x 00               209000         521
+#OUT# 01 x 01               209400         522
+#OUT# 10 x 01               209800         523
+#OUT# 11 x 10               210200         524
+#OUT# 10 x 01               210600         525
+#OUT# 10 x 01               211000         526
+#OUT# 11 x 10               211400         527
+#OUT# 10 x 01               211800         528
+#OUT# 00 x 00               212200         529
+#OUT# 01 x 01               212600         530
+#OUT# 11 x 10               213000         531
+#OUT# 11 x 10               213400         532
+#OUT# 11 x 10               213800         533
+#OUT# 00 x 00               214200         534
+#OUT# 01 x 01               214600         535
+#OUT# 00 x 00               215000         536
+#OUT# 00 x 00               215400         537
+#OUT# 00 x 00               215800         538
+#OUT# 01 x 01               216200         539
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00               216600         540
+#OUT# 00 x 00               217000         541
+#OUT# 10 x 01               217400         542
+#OUT# 00 x 00               217800         543
+#OUT# 01 x 01               218200         544
+#OUT# 00 x 00               218600         545
+#OUT# 00 x 00               219000         546
+#OUT# 11 x 10               219400         547
+#OUT# 01 x 01               219800         548
+#OUT# 10 x 01               220200         549
+#OUT# 00 x 00               220600         550
+#OUT# 11 x 10               221000         551
+#OUT# 01 x 01               221400         552
+#OUT# 01 x 01               221800         553
+#OUT# 11 x 10               222200         554
+#OUT# 01 x 01               222600         555
+#OUT# 01 x 01               223000         556
+#OUT# 11 x 10               223400         557
+#OUT# 10 x 01               223800         558
+#OUT# 00 x 00               224200         559
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01               224600         560
+#OUT# 10 x 01               225000         561
+#OUT# 10 x 01               225400         562
+#OUT# 00 x 00               225800         563
+#OUT# 11 x 10               226200         564
+#OUT# 10 x 01               226600         565
+#OUT# 01 x 01               227000         566
+#OUT# 01 x 01               227400         567
+#OUT# 00 x 00               227800         568
+#OUT# 01 x 01               228200         569
+#OUT# 01 x 01               228600         570
+#OUT# 01 x 01               229000         571
+#OUT# 10 x 01               229400         572
+#OUT# 11 x 10               229800         573
+#OUT# 11 x 10               230200         574
+#OUT# 11 x 10               230600         575
+#OUT# 10 x 01               231000         576
+#OUT# 10 x 01               231400         577
+#OUT# 00 x 00               231800         578
+#OUT# 10 x 01               232200         579
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               232600         580
+#OUT# 11 x 10               233000         581
+#OUT# 01 x 01               233400         582
+#OUT# 00 x 00               233800         583
+#OUT# 01 x 01               234200         584
+#OUT# 00 x 00               234600         585
+#OUT# 01 x 01               235000         586
+#OUT# 11 x 10               235400         587
+#OUT# 11 x 10               235800         588
+#OUT# 01 x 01               236200         589
+#OUT# 00 x 00               236600         590
+#OUT# 11 x 10               237000         591
+#OUT# 00 x 00               237400         592
+#OUT# 00 x 00               237800         593
+#OUT# 00 x 00               238200         594
+#OUT# 11 x 10               238600         595
+#OUT# 01 x 01               239000         596
+#OUT# 00 x 00               239400         597
+#OUT# 00 x 00               239800         598
+#OUT# 00 x 00               240200         599
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               240600         600
+#OUT# 10 x 01               241000         601
+#OUT# 10 x 01               241400         602
+#OUT# 00 x 00               241800         603
+#OUT# 00 x 00               242200         604
+#OUT# 01 x 01               242600         605
+#OUT# 10 x 01               243000         606
+#OUT# 10 x 01               243400         607
+#OUT# 01 x 01               243800         608
+#OUT# 00 x 00               244200         609
+#OUT# 01 x 01               244600         610
+#OUT# 00 x 00               245000         611
+#OUT# 10 x 01               245400         612
+#OUT# 01 x 01               245800         613
+#OUT# 10 x 01               246200         614
+#OUT# 00 x 00               246600         615
+#OUT# 01 x 01               247000         616
+#OUT# 10 x 01               247400         617
+#OUT# 11 x 10               247800         618
+#OUT# 11 x 10               248200         619
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10               248600         620
+#OUT# 01 x 01               249000         621
+#OUT# 10 x 01               249400         622
+#OUT# 01 x 01               249800         623
+#OUT# 10 x 01               250200         624
+#OUT# 01 x 01               250600         625
+#OUT# 11 x 10               251000         626
+#OUT# 10 x 01               251400         627
+#OUT# 10 x 01               251800         628
+#OUT# 11 x 10               252200         629
+#OUT# 01 x 01               252600         630
+#OUT# 01 x 01               253000         631
+#OUT# 00 x 00               253400         632
+#OUT# 00 x 00               253800         633
+#OUT# 11 x 10               254200         634
+#OUT# 10 x 01               254600         635
+#OUT# 10 x 01               255000         636
+#OUT# 11 x 10               255400         637
+#OUT# 10 x 01               255800         638
+#OUT# 11 x 10               256200         639
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               256600         640
+#OUT# 01 x 01               257000         641
+#OUT# 10 x 01               257400         642
+#OUT# 00 x 00               257800         643
+#OUT# 01 x 01               258200         644
+#OUT# 11 x 10               258600         645
+#OUT# 01 x 01               259000         646
+#OUT# 10 x 01               259400         647
+#OUT# 11 x 10               259800         648
+#OUT# 01 x 01               260200         649
+#OUT# 10 x 01               260600         650
+#OUT# 11 x 10               261000         651
+#OUT# 11 x 10               261400         652
+#OUT# 01 x 01               261800         653
+#OUT# 00 x 00               262200         654
+#OUT# 01 x 01               262600         655
+#OUT# 01 x 01               263000         656
+#OUT# 10 x 01               263400         657
+#OUT# 01 x 01               263800         658
+#OUT# 10 x 01               264200         659
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10               264600         660
+#OUT# 01 x 01               265000         661
+#OUT# 01 x 01               265400         662
+#OUT# 00 x 00               265800         663
+#OUT# 01 x 01               266200         664
+#OUT# 01 x 01               266600         665
+#OUT# 10 x 01               267000         666
+#OUT# 01 x 01               267400         667
+#OUT# 00 x 00               267800         668
+#OUT# 00 x 00               268200         669
+#OUT# 00 x 00               268600         670
+#OUT# 11 x 10               269000         671
+#OUT# 00 x 00               269400         672
+#OUT# 11 x 10               269800         673
+#OUT# 10 x 01               270200         674
+#OUT# 11 x 10               270600         675
+#OUT# 00 x 00               271000         676
+#OUT# 01 x 01               271400         677
+#OUT# 10 x 01               271800         678
+#OUT# 00 x 00               272200         679
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00               272600         680
+#OUT# 01 x 01               273000         681
+#OUT# 11 x 10               273400         682
+#OUT# 00 x 00               273800         683
+#OUT# 01 x 01               274200         684
+#OUT# 01 x 01               274600         685
+#OUT# 11 x 10               275000         686
+#OUT# 01 x 01               275400         687
+#OUT# 11 x 10               275800         688
+#OUT# 00 x 00               276200         689
+#OUT# 00 x 00               276600         690
+#OUT# 11 x 10               277000         691
+#OUT# 00 x 00               277400         692
+#OUT# 01 x 01               277800         693
+#OUT# 01 x 01               278200         694
+#OUT# 01 x 01               278600         695
+#OUT# 11 x 10               279000         696
+#OUT# 10 x 01               279400         697
+#OUT# 01 x 01               279800         698
+#OUT# 10 x 01               280200         699
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01               280600         700
+#OUT# 01 x 01               281000         701
+#OUT# 00 x 00               281400         702
+#OUT# 00 x 00               281800         703
+#OUT# 01 x 01               282200         704
+#OUT# 11 x 10               282600         705
+#OUT# 00 x 00               283000         706
+#OUT# 11 x 10               283400         707
+#OUT# 01 x 01               283800         708
+#OUT# 10 x 01               284200         709
+#OUT# 10 x 01               284600         710
+#OUT# 00 x 00               285000         711
+#OUT# 00 x 00               285400         712
+#OUT# 01 x 01               285800         713
+#OUT# 10 x 01               286200         714
+#OUT# 10 x 01               286600         715
+#OUT# 00 x 00               287000         716
+#OUT# 10 x 01               287400         717
+#OUT# 00 x 00               287800         718
+#OUT# 01 x 01               288200         719
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10               288600         720
+#OUT# 00 x 00               289000         721
+#OUT# 00 x 00               289400         722
+#OUT# 01 x 01               289800         723
+#OUT# 01 x 01               290200         724
+#OUT# 10 x 01               290600         725
+#OUT# 01 x 01               291000         726
+#OUT# 01 x 01               291400         727
+#OUT# 10 x 01               291800         728
+#OUT# 00 x 00               292200         729
+#OUT# 01 x 01               292600         730
+#OUT# 01 x 01               293000         731
+#OUT# 01 x 01               293400         732
+#OUT# 01 x 01               293800         733
+#OUT# 00 x 00               294200         734
+#OUT# 00 x 00               294600         735
+#OUT# 11 x 10               295000         736
+#OUT# 01 x 01               295400         737
+#OUT# 10 x 01               295800         738
+#OUT# 01 x 01               296200         739
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               296600         740
+#OUT# 01 x 01               297000         741
+#OUT# 01 x 01               297400         742
+#OUT# 01 x 01               297800         743
+#OUT# 00 x 00               298200         744
+#OUT# 10 x 01               298600         745
+#OUT# 01 x 01               299000         746
+#OUT# 10 x 01               299400         747
+#OUT# 10 x 01               299800         748
+#OUT# 00 x 00               300200         749
+#OUT# 01 x 01               300600         750
+#OUT# 01 x 01               301000         751
+#OUT# 00 x 00               301400         752
+#OUT# 10 x 01               301800         753
+#OUT# 10 x 01               302200         754
+#OUT# 00 x 00               302600         755
+#OUT# 01 x 01               303000         756
+#OUT# 00 x 00               303400         757
+#OUT# 01 x 01               303800         758
+#OUT# 00 x 00               304200         759
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10               304600         760
+#OUT# 00 x 00               305000         761
+#OUT# 11 x 10               305400         762
+#OUT# 01 x 01               305800         763
+#OUT# 11 x 10               306200         764
+#OUT# 11 x 10               306600         765
+#OUT# 10 x 01               307000         766
+#OUT# 00 x 00               307400         767
+#OUT# 01 x 01               307800         768
+#OUT# 00 x 00               308200         769
+#OUT# 11 x 10               308600         770
+#OUT# 11 x 10               309000         771
+#OUT# 01 x 01               309400         772
+#OUT# 00 x 00               309800         773
+#OUT# 10 x 01               310200         774
+#OUT# 11 x 10               310600         775
+#OUT# 00 x 00               311000         776
+#OUT# 10 x 01               311400         777
+#OUT# 00 x 00               311800         778
+#OUT# 10 x 01               312200         779
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10               312600         780
+#OUT# 00 x 00               313000         781
+#OUT# 01 x 01               313400         782
+#OUT# 11 x 10               313800         783
+#OUT# 11 x 10               314200         784
+#OUT# 01 x 01               314600         785
+#OUT# 11 x 10               315000         786
+#OUT# 11 x 10               315400         787
+#OUT# 10 x 01               315800         788
+#OUT# 11 x 10               316200         789
+#OUT# 10 x 01               316600         790
+#OUT# 01 x 01               317000         791
+#OUT# 10 x 01               317400         792
+#OUT# 01 x 01               317800         793
+#OUT# 00 x 00               318200         794
+#OUT# 00 x 00               318600         795
+#OUT# 00 x 00               319000         796
+#OUT# 11 x 10               319400         797
+#OUT# 00 x 00               319800         798
+#OUT# 01 x 01               320200         799
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               320600         800
+#OUT# 11 x 10               321000         801
+#OUT# 11 x 10               321400         802
+#OUT# 10 x 01               321800         803
+#OUT# 11 x 10               322200         804
+#OUT# 01 x 01               322600         805
+#OUT# 00 x 00               323000         806
+#OUT# 10 x 01               323400         807
+#OUT# 11 x 10               323800         808
+#OUT# 11 x 10               324200         809
+#OUT# 11 x 10               324600         810
+#OUT# 00 x 00               325000         811
+#OUT# 00 x 00               325400         812
+#OUT# 01 x 01               325800         813
+#OUT# 11 x 10               326200         814
+#OUT# 01 x 01               326600         815
+#OUT# 11 x 10               327000         816
+#OUT# 00 x 00               327400         817
+#OUT# 00 x 00               327800         818
+#OUT# 11 x 10               328200         819
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               328600         820
+#OUT# 01 x 01               329000         821
+#OUT# 10 x 01               329400         822
+#OUT# 10 x 01               329800         823
+#OUT# 11 x 10               330200         824
+#OUT# 01 x 01               330600         825
+#OUT# 10 x 01               331000         826
+#OUT# 01 x 01               331400         827
+#OUT# 10 x 01               331800         828
+#OUT# 11 x 10               332200         829
+#OUT# 00 x 00               332600         830
+#OUT# 00 x 00               333000         831
+#OUT# 11 x 10               333400         832
+#OUT# 01 x 01               333800         833
+#OUT# 10 x 01               334200         834
+#OUT# 01 x 01               334600         835
+#OUT# 11 x 10               335000         836
+#OUT# 11 x 10               335400         837
+#OUT# 10 x 01               335800         838
+#OUT# 10 x 01               336200         839
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00               336600         840
+#OUT# 10 x 01               337000         841
+#OUT# 00 x 00               337400         842
+#OUT# 11 x 10               337800         843
+#OUT# 01 x 01               338200         844
+#OUT# 00 x 00               338600         845
+#OUT# 01 x 01               339000         846
+#OUT# 00 x 00               339400         847
+#OUT# 10 x 01               339800         848
+#OUT# 10 x 01               340200         849
+#OUT# 01 x 01               340600         850
+#OUT# 00 x 00               341000         851
+#OUT# 11 x 10               341400         852
+#OUT# 10 x 01               341800         853
+#OUT# 10 x 01               342200         854
+#OUT# 00 x 00               342600         855
+#OUT# 00 x 00               343000         856
+#OUT# 11 x 10               343400         857
+#OUT# 11 x 10               343800         858
+#OUT# 10 x 01               344200         859
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 11 x 10               344600         860
+#OUT# 10 x 01               345000         861
+#OUT# 00 x 00               345400         862
+#OUT# 11 x 10               345800         863
+#OUT# 00 x 00               346200         864
+#OUT# 11 x 10               346600         865
+#OUT# 11 x 10               347000         866
+#OUT# 01 x 01               347400         867
+#OUT# 10 x 01               347800         868
+#OUT# 11 x 10               348200         869
+#OUT# 01 x 01               348600         870
+#OUT# 10 x 01               349000         871
+#OUT# 11 x 10               349400         872
+#OUT# 00 x 00               349800         873
+#OUT# 10 x 01               350200         874
+#OUT# 11 x 10               350600         875
+#OUT# 01 x 01               351000         876
+#OUT# 11 x 10               351400         877
+#OUT# 10 x 01               351800         878
+#OUT# 00 x 00               352200         879
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01               352600         880
+#OUT# 00 x 00               353000         881
+#OUT# 01 x 01               353400         882
+#OUT# 11 x 10               353800         883
+#OUT# 10 x 01               354200         884
+#OUT# 00 x 00               354600         885
+#OUT# 10 x 01               355000         886
+#OUT# 00 x 00               355400         887
+#OUT# 10 x 01               355800         888
+#OUT# 01 x 01               356200         889
+#OUT# 00 x 00               356600         890
+#OUT# 10 x 01               357000         891
+#OUT# 00 x 00               357400         892
+#OUT# 11 x 10               357800         893
+#OUT# 11 x 10               358200         894
+#OUT# 00 x 00               358600         895
+#OUT# 10 x 01               359000         896
+#OUT# 00 x 00               359400         897
+#OUT# 11 x 10               359800         898
+#OUT# 11 x 10               360200         899
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00               360600         900
+#OUT# 11 x 10               361000         901
+#OUT# 11 x 10               361400         902
+#OUT# 11 x 10               361800         903
+#OUT# 01 x 01               362200         904
+#OUT# 10 x 01               362600         905
+#OUT# 01 x 01               363000         906
+#OUT# 00 x 00               363400         907
+#OUT# 01 x 01               363800         908
+#OUT# 11 x 10               364200         909
+#OUT# 11 x 10               364600         910
+#OUT# 00 x 00               365000         911
+#OUT# 00 x 00               365400         912
+#OUT# 00 x 00               365800         913
+#OUT# 01 x 01               366200         914
+#OUT# 11 x 10               366600         915
+#OUT# 00 x 00               367000         916
+#OUT# 11 x 10               367400         917
+#OUT# 00 x 00               367800         918
+#OUT# 10 x 01               368200         919
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00               368600         920
+#OUT# 10 x 01               369000         921
+#OUT# 00 x 00               369400         922
+#OUT# 00 x 00               369800         923
+#OUT# 10 x 01               370200         924
+#OUT# 10 x 01               370600         925
+#OUT# 01 x 01               371000         926
+#OUT# 00 x 00               371400         927
+#OUT# 10 x 01               371800         928
+#OUT# 10 x 01               372200         929
+#OUT# 10 x 01               372600         930
+#OUT# 00 x 00               373000         931
+#OUT# 01 x 01               373400         932
+#OUT# 00 x 00               373800         933
+#OUT# 11 x 10               374200         934
+#OUT# 11 x 10               374600         935
+#OUT# 10 x 01               375000         936
+#OUT# 10 x 01               375400         937
+#OUT# 00 x 00               375800         938
+#OUT# 00 x 00               376200         939
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 01 x 01               376600         940
+#OUT# 00 x 00               377000         941
+#OUT# 00 x 00               377400         942
+#OUT# 00 x 00               377800         943
+#OUT# 00 x 00               378200         944
+#OUT# 10 x 01               378600         945
+#OUT# 10 x 01               379000         946
+#OUT# 11 x 10               379400         947
+#OUT# 10 x 01               379800         948
+#OUT# 01 x 01               380200         949
+#OUT# 10 x 01               380600         950
+#OUT# 11 x 10               381000         951
+#OUT# 11 x 10               381400         952
+#OUT# 10 x 01               381800         953
+#OUT# 00 x 00               382200         954
+#OUT# 01 x 01               382600         955
+#OUT# 11 x 10               383000         956
+#OUT# 01 x 01               383400         957
+#OUT# 01 x 01               383800         958
+#OUT# 10 x 01               384200         959
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 00 x 00               384600         960
+#OUT# 10 x 01               385000         961
+#OUT# 10 x 01               385400         962
+#OUT# 11 x 10               385800         963
+#OUT# 10 x 01               386200         964
+#OUT# 11 x 10               386600         965
+#OUT# 11 x 10               387000         966
+#OUT# 00 x 00               387400         967
+#OUT# 01 x 01               387800         968
+#OUT# 10 x 01               388200         969
+#OUT# 11 x 10               388600         970
+#OUT# 00 x 00               389000         971
+#OUT# 00 x 00               389400         972
+#OUT# 11 x 10               389800         973
+#OUT# 01 x 01               390200         974
+#OUT# 10 x 01               390600         975
+#OUT# 10 x 01               391000         976
+#OUT# 00 x 00               391400         977
+#OUT# 00 x 00               391800         978
+#OUT# 11 x 10               392200         979
+#OUT#
+#OUT#   A   sig_../halfadder.aig_x 
+#OUT#   B   sig_../halfadder.aig_y 
+#OUT#   C   sig_../halfadder.aig_c 
+#OUT#   D   sig_../halfadder.aig_s 
+#OUT#
+#OUT# AB # CD
+#OUT# 10 x 01               392600         980
+#OUT# 01 x 01               393000         981
+#OUT# 11 x 10               393400         982
+#OUT# 00 x 00               393800         983
+#OUT# 11 x 10               394200         984
+#OUT# 01 x 01               394600         985
+#OUT# 01 x 01               395000         986
+#OUT# 00 x 00               395400         987
+#OUT# 10 x 01               395800         988
+#OUT# 01 x 01               396200         989
+#OUT# 10 x 01               396600         990
+#OUT# 10 x 01               397000         991
+#OUT# 11 x 10               397400         992
+#OUT# 00 x 00               397800         993
+#OUT# 00 x 00               398200         994
+#OUT# 11 x 10               398600         995
+#OUT# 01 x 01               399000         996
+#OUT# 01 x 01               399400         997
+#OUT# 10 x 01               399800         998
+#OUT# 10 x 01               400200         999

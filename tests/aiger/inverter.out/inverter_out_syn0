@@ -1,0 +1,1252 @@
+#OUT#
+#OUT# ==== ../inverter.aig  ====
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1                  600           0
+#OUT# 1 x 0                 1000           1
+#OUT# 0 x 1                 1400           2
+#OUT# 0 x 1                 1800           3
+#OUT# 0 x 1                 2200           4
+#OUT# 1 x 0                 2600           5
+#OUT# 1 x 0                 3000           6
+#OUT# 0 x 1                 3400           7
+#OUT# 1 x 0                 3800           8
+#OUT# 0 x 1                 4200           9
+#OUT# 0 x 1                 4600          10
+#OUT# 1 x 0                 5000          11
+#OUT# 0 x 1                 5400          12
+#OUT# 1 x 0                 5800          13
+#OUT# 0 x 1                 6200          14
+#OUT# 0 x 1                 6600          15
+#OUT# 1 x 0                 7000          16
+#OUT# 1 x 0                 7400          17
+#OUT# 0 x 1                 7800          18
+#OUT# 0 x 1                 8200          19
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0                 8600          20
+#OUT# 1 x 0                 9000          21
+#OUT# 0 x 1                 9400          22
+#OUT# 1 x 0                 9800          23
+#OUT# 1 x 0                10200          24
+#OUT# 0 x 1                10600          25
+#OUT# 0 x 1                11000          26
+#OUT# 1 x 0                11400          27
+#OUT# 0 x 1                11800          28
+#OUT# 0 x 1                12200          29
+#OUT# 1 x 0                12600          30
+#OUT# 1 x 0                13000          31
+#OUT# 1 x 0                13400          32
+#OUT# 0 x 1                13800          33
+#OUT# 1 x 0                14200          34
+#OUT# 1 x 0                14600          35
+#OUT# 0 x 1                15000          36
+#OUT# 0 x 1                15400          37
+#OUT# 1 x 0                15800          38
+#OUT# 0 x 1                16200          39
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0                16600          40
+#OUT# 0 x 1                17000          41
+#OUT# 0 x 1                17400          42
+#OUT# 1 x 0                17800          43
+#OUT# 1 x 0                18200          44
+#OUT# 1 x 0                18600          45
+#OUT# 1 x 0                19000          46
+#OUT# 0 x 1                19400          47
+#OUT# 0 x 1                19800          48
+#OUT# 0 x 1                20200          49
+#OUT# 0 x 1                20600          50
+#OUT# 1 x 0                21000          51
+#OUT# 1 x 0                21400          52
+#OUT# 1 x 0                21800          53
+#OUT# 1 x 0                22200          54
+#OUT# 0 x 1                22600          55
+#OUT# 0 x 1                23000          56
+#OUT# 0 x 1                23400          57
+#OUT# 0 x 1                23800          58
+#OUT# 1 x 0                24200          59
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1                24600          60
+#OUT# 0 x 1                25000          61
+#OUT# 1 x 0                25400          62
+#OUT# 1 x 0                25800          63
+#OUT# 0 x 1                26200          64
+#OUT# 1 x 0                26600          65
+#OUT# 1 x 0                27000          66
+#OUT# 0 x 1                27400          67
+#OUT# 1 x 0                27800          68
+#OUT# 1 x 0                28200          69
+#OUT# 0 x 1                28600          70
+#OUT# 1 x 0                29000          71
+#OUT# 1 x 0                29400          72
+#OUT# 1 x 0                29800          73
+#OUT# 0 x 1                30200          74
+#OUT# 0 x 1                30600          75
+#OUT# 0 x 1                31000          76
+#OUT# 1 x 0                31400          77
+#OUT# 1 x 0                31800          78
+#OUT# 1 x 0                32200          79
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0                32600          80
+#OUT# 1 x 0                33000          81
+#OUT# 0 x 1                33400          82
+#OUT# 0 x 1                33800          83
+#OUT# 1 x 0                34200          84
+#OUT# 1 x 0                34600          85
+#OUT# 0 x 1                35000          86
+#OUT# 1 x 0                35400          87
+#OUT# 1 x 0                35800          88
+#OUT# 1 x 0                36200          89
+#OUT# 1 x 0                36600          90
+#OUT# 1 x 0                37000          91
+#OUT# 1 x 0                37400          92
+#OUT# 1 x 0                37800          93
+#OUT# 0 x 1                38200          94
+#OUT# 0 x 1                38600          95
+#OUT# 0 x 1                39000          96
+#OUT# 1 x 0                39400          97
+#OUT# 0 x 1                39800          98
+#OUT# 0 x 1                40200          99
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1                40600         100
+#OUT# 1 x 0                41000         101
+#OUT# 1 x 0                41400         102
+#OUT# 1 x 0                41800         103
+#OUT# 0 x 1                42200         104
+#OUT# 1 x 0                42600         105
+#OUT# 0 x 1                43000         106
+#OUT# 0 x 1                43400         107
+#OUT# 0 x 1                43800         108
+#OUT# 0 x 1                44200         109
+#OUT# 0 x 1                44600         110
+#OUT# 0 x 1                45000         111
+#OUT# 1 x 0                45400         112
+#OUT# 1 x 0                45800         113
+#OUT# 0 x 1                46200         114
+#OUT# 0 x 1                46600         115
+#OUT# 1 x 0                47000         116
+#OUT# 0 x 1                47400         117
+#OUT# 0 x 1                47800         118
+#OUT# 0 x 1                48200         119
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0                48600         120
+#OUT# 0 x 1                49000         121
+#OUT# 0 x 1                49400         122
+#OUT# 0 x 1                49800         123
+#OUT# 0 x 1                50200         124
+#OUT# 1 x 0                50600         125
+#OUT# 0 x 1                51000         126
+#OUT# 1 x 0                51400         127
+#OUT# 0 x 1                51800         128
+#OUT# 0 x 1                52200         129
+#OUT# 1 x 0                52600         130
+#OUT# 0 x 1                53000         131
+#OUT# 0 x 1                53400         132
+#OUT# 0 x 1                53800         133
+#OUT# 0 x 1                54200         134
+#OUT# 0 x 1                54600         135
+#OUT# 1 x 0                55000         136
+#OUT# 0 x 1                55400         137
+#OUT# 0 x 1                55800         138
+#OUT# 0 x 1                56200         139
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1                56600         140
+#OUT# 1 x 0                57000         141
+#OUT# 1 x 0                57400         142
+#OUT# 0 x 1                57800         143
+#OUT# 0 x 1                58200         144
+#OUT# 1 x 0                58600         145
+#OUT# 1 x 0                59000         146
+#OUT# 1 x 0                59400         147
+#OUT# 0 x 1                59800         148
+#OUT# 1 x 0                60200         149
+#OUT# 0 x 1                60600         150
+#OUT# 0 x 1                61000         151
+#OUT# 0 x 1                61400         152
+#OUT# 1 x 0                61800         153
+#OUT# 1 x 0                62200         154
+#OUT# 1 x 0                62600         155
+#OUT# 1 x 0                63000         156
+#OUT# 1 x 0                63400         157
+#OUT# 1 x 0                63800         158
+#OUT# 1 x 0                64200         159
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0                64600         160
+#OUT# 0 x 1                65000         161
+#OUT# 1 x 0                65400         162
+#OUT# 0 x 1                65800         163
+#OUT# 0 x 1                66200         164
+#OUT# 0 x 1                66600         165
+#OUT# 0 x 1                67000         166
+#OUT# 1 x 0                67400         167
+#OUT# 0 x 1                67800         168
+#OUT# 0 x 1                68200         169
+#OUT# 1 x 0                68600         170
+#OUT# 1 x 0                69000         171
+#OUT# 1 x 0                69400         172
+#OUT# 1 x 0                69800         173
+#OUT# 0 x 1                70200         174
+#OUT# 0 x 1                70600         175
+#OUT# 0 x 1                71000         176
+#OUT# 1 x 0                71400         177
+#OUT# 1 x 0                71800         178
+#OUT# 1 x 0                72200         179
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0                72600         180
+#OUT# 0 x 1                73000         181
+#OUT# 1 x 0                73400         182
+#OUT# 1 x 0                73800         183
+#OUT# 0 x 1                74200         184
+#OUT# 1 x 0                74600         185
+#OUT# 0 x 1                75000         186
+#OUT# 1 x 0                75400         187
+#OUT# 0 x 1                75800         188
+#OUT# 1 x 0                76200         189
+#OUT# 0 x 1                76600         190
+#OUT# 1 x 0                77000         191
+#OUT# 1 x 0                77400         192
+#OUT# 1 x 0                77800         193
+#OUT# 0 x 1                78200         194
+#OUT# 1 x 0                78600         195
+#OUT# 0 x 1                79000         196
+#OUT# 1 x 0                79400         197
+#OUT# 0 x 1                79800         198
+#OUT# 0 x 1                80200         199
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1                80600         200
+#OUT# 0 x 1                81000         201
+#OUT# 0 x 1                81400         202
+#OUT# 1 x 0                81800         203
+#OUT# 1 x 0                82200         204
+#OUT# 1 x 0                82600         205
+#OUT# 1 x 0                83000         206
+#OUT# 1 x 0                83400         207
+#OUT# 1 x 0                83800         208
+#OUT# 0 x 1                84200         209
+#OUT# 1 x 0                84600         210
+#OUT# 0 x 1                85000         211
+#OUT# 1 x 0                85400         212
+#OUT# 1 x 0                85800         213
+#OUT# 0 x 1                86200         214
+#OUT# 1 x 0                86600         215
+#OUT# 1 x 0                87000         216
+#OUT# 1 x 0                87400         217
+#OUT# 0 x 1                87800         218
+#OUT# 1 x 0                88200         219
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1                88600         220
+#OUT# 1 x 0                89000         221
+#OUT# 0 x 1                89400         222
+#OUT# 1 x 0                89800         223
+#OUT# 0 x 1                90200         224
+#OUT# 0 x 1                90600         225
+#OUT# 1 x 0                91000         226
+#OUT# 0 x 1                91400         227
+#OUT# 1 x 0                91800         228
+#OUT# 0 x 1                92200         229
+#OUT# 1 x 0                92600         230
+#OUT# 0 x 1                93000         231
+#OUT# 1 x 0                93400         232
+#OUT# 0 x 1                93800         233
+#OUT# 1 x 0                94200         234
+#OUT# 1 x 0                94600         235
+#OUT# 1 x 0                95000         236
+#OUT# 0 x 1                95400         237
+#OUT# 1 x 0                95800         238
+#OUT# 0 x 1                96200         239
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0                96600         240
+#OUT# 1 x 0                97000         241
+#OUT# 0 x 1                97400         242
+#OUT# 1 x 0                97800         243
+#OUT# 1 x 0                98200         244
+#OUT# 0 x 1                98600         245
+#OUT# 0 x 1                99000         246
+#OUT# 0 x 1                99400         247
+#OUT# 1 x 0                99800         248
+#OUT# 0 x 1               100200         249
+#OUT# 1 x 0               100600         250
+#OUT# 0 x 1               101000         251
+#OUT# 1 x 0               101400         252
+#OUT# 0 x 1               101800         253
+#OUT# 1 x 0               102200         254
+#OUT# 0 x 1               102600         255
+#OUT# 0 x 1               103000         256
+#OUT# 0 x 1               103400         257
+#OUT# 1 x 0               103800         258
+#OUT# 1 x 0               104200         259
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               104600         260
+#OUT# 0 x 1               105000         261
+#OUT# 1 x 0               105400         262
+#OUT# 0 x 1               105800         263
+#OUT# 1 x 0               106200         264
+#OUT# 0 x 1               106600         265
+#OUT# 1 x 0               107000         266
+#OUT# 0 x 1               107400         267
+#OUT# 1 x 0               107800         268
+#OUT# 1 x 0               108200         269
+#OUT# 1 x 0               108600         270
+#OUT# 0 x 1               109000         271
+#OUT# 0 x 1               109400         272
+#OUT# 0 x 1               109800         273
+#OUT# 1 x 0               110200         274
+#OUT# 1 x 0               110600         275
+#OUT# 0 x 1               111000         276
+#OUT# 0 x 1               111400         277
+#OUT# 0 x 1               111800         278
+#OUT# 1 x 0               112200         279
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               112600         280
+#OUT# 1 x 0               113000         281
+#OUT# 0 x 1               113400         282
+#OUT# 1 x 0               113800         283
+#OUT# 0 x 1               114200         284
+#OUT# 1 x 0               114600         285
+#OUT# 1 x 0               115000         286
+#OUT# 1 x 0               115400         287
+#OUT# 1 x 0               115800         288
+#OUT# 1 x 0               116200         289
+#OUT# 1 x 0               116600         290
+#OUT# 1 x 0               117000         291
+#OUT# 1 x 0               117400         292
+#OUT# 1 x 0               117800         293
+#OUT# 0 x 1               118200         294
+#OUT# 0 x 1               118600         295
+#OUT# 1 x 0               119000         296
+#OUT# 0 x 1               119400         297
+#OUT# 1 x 0               119800         298
+#OUT# 0 x 1               120200         299
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               120600         300
+#OUT# 1 x 0               121000         301
+#OUT# 0 x 1               121400         302
+#OUT# 1 x 0               121800         303
+#OUT# 1 x 0               122200         304
+#OUT# 0 x 1               122600         305
+#OUT# 0 x 1               123000         306
+#OUT# 1 x 0               123400         307
+#OUT# 0 x 1               123800         308
+#OUT# 1 x 0               124200         309
+#OUT# 0 x 1               124600         310
+#OUT# 1 x 0               125000         311
+#OUT# 0 x 1               125400         312
+#OUT# 1 x 0               125800         313
+#OUT# 0 x 1               126200         314
+#OUT# 1 x 0               126600         315
+#OUT# 1 x 0               127000         316
+#OUT# 0 x 1               127400         317
+#OUT# 0 x 1               127800         318
+#OUT# 1 x 0               128200         319
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               128600         320
+#OUT# 1 x 0               129000         321
+#OUT# 1 x 0               129400         322
+#OUT# 0 x 1               129800         323
+#OUT# 0 x 1               130200         324
+#OUT# 0 x 1               130600         325
+#OUT# 0 x 1               131000         326
+#OUT# 0 x 1               131400         327
+#OUT# 1 x 0               131800         328
+#OUT# 0 x 1               132200         329
+#OUT# 1 x 0               132600         330
+#OUT# 1 x 0               133000         331
+#OUT# 1 x 0               133400         332
+#OUT# 1 x 0               133800         333
+#OUT# 0 x 1               134200         334
+#OUT# 1 x 0               134600         335
+#OUT# 0 x 1               135000         336
+#OUT# 0 x 1               135400         337
+#OUT# 0 x 1               135800         338
+#OUT# 1 x 0               136200         339
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               136600         340
+#OUT# 1 x 0               137000         341
+#OUT# 0 x 1               137400         342
+#OUT# 1 x 0               137800         343
+#OUT# 0 x 1               138200         344
+#OUT# 0 x 1               138600         345
+#OUT# 1 x 0               139000         346
+#OUT# 1 x 0               139400         347
+#OUT# 0 x 1               139800         348
+#OUT# 1 x 0               140200         349
+#OUT# 1 x 0               140600         350
+#OUT# 0 x 1               141000         351
+#OUT# 1 x 0               141400         352
+#OUT# 0 x 1               141800         353
+#OUT# 1 x 0               142200         354
+#OUT# 0 x 1               142600         355
+#OUT# 1 x 0               143000         356
+#OUT# 0 x 1               143400         357
+#OUT# 0 x 1               143800         358
+#OUT# 1 x 0               144200         359
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               144600         360
+#OUT# 1 x 0               145000         361
+#OUT# 1 x 0               145400         362
+#OUT# 1 x 0               145800         363
+#OUT# 1 x 0               146200         364
+#OUT# 1 x 0               146600         365
+#OUT# 1 x 0               147000         366
+#OUT# 1 x 0               147400         367
+#OUT# 0 x 1               147800         368
+#OUT# 0 x 1               148200         369
+#OUT# 0 x 1               148600         370
+#OUT# 1 x 0               149000         371
+#OUT# 1 x 0               149400         372
+#OUT# 1 x 0               149800         373
+#OUT# 1 x 0               150200         374
+#OUT# 0 x 1               150600         375
+#OUT# 1 x 0               151000         376
+#OUT# 0 x 1               151400         377
+#OUT# 0 x 1               151800         378
+#OUT# 0 x 1               152200         379
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               152600         380
+#OUT# 0 x 1               153000         381
+#OUT# 0 x 1               153400         382
+#OUT# 0 x 1               153800         383
+#OUT# 1 x 0               154200         384
+#OUT# 1 x 0               154600         385
+#OUT# 0 x 1               155000         386
+#OUT# 0 x 1               155400         387
+#OUT# 0 x 1               155800         388
+#OUT# 0 x 1               156200         389
+#OUT# 0 x 1               156600         390
+#OUT# 1 x 0               157000         391
+#OUT# 0 x 1               157400         392
+#OUT# 0 x 1               157800         393
+#OUT# 1 x 0               158200         394
+#OUT# 0 x 1               158600         395
+#OUT# 0 x 1               159000         396
+#OUT# 0 x 1               159400         397
+#OUT# 0 x 1               159800         398
+#OUT# 0 x 1               160200         399
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               160600         400
+#OUT# 1 x 0               161000         401
+#OUT# 1 x 0               161400         402
+#OUT# 1 x 0               161800         403
+#OUT# 0 x 1               162200         404
+#OUT# 0 x 1               162600         405
+#OUT# 1 x 0               163000         406
+#OUT# 1 x 0               163400         407
+#OUT# 0 x 1               163800         408
+#OUT# 0 x 1               164200         409
+#OUT# 0 x 1               164600         410
+#OUT# 1 x 0               165000         411
+#OUT# 1 x 0               165400         412
+#OUT# 0 x 1               165800         413
+#OUT# 1 x 0               166200         414
+#OUT# 0 x 1               166600         415
+#OUT# 0 x 1               167000         416
+#OUT# 0 x 1               167400         417
+#OUT# 0 x 1               167800         418
+#OUT# 0 x 1               168200         419
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               168600         420
+#OUT# 0 x 1               169000         421
+#OUT# 0 x 1               169400         422
+#OUT# 0 x 1               169800         423
+#OUT# 0 x 1               170200         424
+#OUT# 0 x 1               170600         425
+#OUT# 1 x 0               171000         426
+#OUT# 1 x 0               171400         427
+#OUT# 0 x 1               171800         428
+#OUT# 1 x 0               172200         429
+#OUT# 0 x 1               172600         430
+#OUT# 1 x 0               173000         431
+#OUT# 1 x 0               173400         432
+#OUT# 0 x 1               173800         433
+#OUT# 1 x 0               174200         434
+#OUT# 1 x 0               174600         435
+#OUT# 0 x 1               175000         436
+#OUT# 1 x 0               175400         437
+#OUT# 1 x 0               175800         438
+#OUT# 0 x 1               176200         439
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               176600         440
+#OUT# 0 x 1               177000         441
+#OUT# 1 x 0               177400         442
+#OUT# 0 x 1               177800         443
+#OUT# 0 x 1               178200         444
+#OUT# 1 x 0               178600         445
+#OUT# 1 x 0               179000         446
+#OUT# 0 x 1               179400         447
+#OUT# 1 x 0               179800         448
+#OUT# 0 x 1               180200         449
+#OUT# 1 x 0               180600         450
+#OUT# 1 x 0               181000         451
+#OUT# 0 x 1               181400         452
+#OUT# 0 x 1               181800         453
+#OUT# 0 x 1               182200         454
+#OUT# 1 x 0               182600         455
+#OUT# 0 x 1               183000         456
+#OUT# 0 x 1               183400         457
+#OUT# 0 x 1               183800         458
+#OUT# 0 x 1               184200         459
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               184600         460
+#OUT# 0 x 1               185000         461
+#OUT# 0 x 1               185400         462
+#OUT# 0 x 1               185800         463
+#OUT# 0 x 1               186200         464
+#OUT# 0 x 1               186600         465
+#OUT# 1 x 0               187000         466
+#OUT# 1 x 0               187400         467
+#OUT# 1 x 0               187800         468
+#OUT# 0 x 1               188200         469
+#OUT# 0 x 1               188600         470
+#OUT# 0 x 1               189000         471
+#OUT# 0 x 1               189400         472
+#OUT# 1 x 0               189800         473
+#OUT# 0 x 1               190200         474
+#OUT# 1 x 0               190600         475
+#OUT# 1 x 0               191000         476
+#OUT# 1 x 0               191400         477
+#OUT# 0 x 1               191800         478
+#OUT# 0 x 1               192200         479
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               192600         480
+#OUT# 1 x 0               193000         481
+#OUT# 0 x 1               193400         482
+#OUT# 1 x 0               193800         483
+#OUT# 0 x 1               194200         484
+#OUT# 0 x 1               194600         485
+#OUT# 1 x 0               195000         486
+#OUT# 1 x 0               195400         487
+#OUT# 0 x 1               195800         488
+#OUT# 1 x 0               196200         489
+#OUT# 1 x 0               196600         490
+#OUT# 1 x 0               197000         491
+#OUT# 0 x 1               197400         492
+#OUT# 1 x 0               197800         493
+#OUT# 0 x 1               198200         494
+#OUT# 1 x 0               198600         495
+#OUT# 1 x 0               199000         496
+#OUT# 1 x 0               199400         497
+#OUT# 0 x 1               199800         498
+#OUT# 0 x 1               200200         499
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               200600         500
+#OUT# 0 x 1               201000         501
+#OUT# 1 x 0               201400         502
+#OUT# 0 x 1               201800         503
+#OUT# 0 x 1               202200         504
+#OUT# 1 x 0               202600         505
+#OUT# 0 x 1               203000         506
+#OUT# 1 x 0               203400         507
+#OUT# 1 x 0               203800         508
+#OUT# 0 x 1               204200         509
+#OUT# 0 x 1               204600         510
+#OUT# 0 x 1               205000         511
+#OUT# 1 x 0               205400         512
+#OUT# 0 x 1               205800         513
+#OUT# 0 x 1               206200         514
+#OUT# 1 x 0               206600         515
+#OUT# 1 x 0               207000         516
+#OUT# 1 x 0               207400         517
+#OUT# 1 x 0               207800         518
+#OUT# 1 x 0               208200         519
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               208600         520
+#OUT# 1 x 0               209000         521
+#OUT# 0 x 1               209400         522
+#OUT# 1 x 0               209800         523
+#OUT# 1 x 0               210200         524
+#OUT# 0 x 1               210600         525
+#OUT# 0 x 1               211000         526
+#OUT# 0 x 1               211400         527
+#OUT# 1 x 0               211800         528
+#OUT# 1 x 0               212200         529
+#OUT# 0 x 1               212600         530
+#OUT# 1 x 0               213000         531
+#OUT# 0 x 1               213400         532
+#OUT# 1 x 0               213800         533
+#OUT# 0 x 1               214200         534
+#OUT# 1 x 0               214600         535
+#OUT# 1 x 0               215000         536
+#OUT# 1 x 0               215400         537
+#OUT# 1 x 0               215800         538
+#OUT# 1 x 0               216200         539
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               216600         540
+#OUT# 0 x 1               217000         541
+#OUT# 0 x 1               217400         542
+#OUT# 0 x 1               217800         543
+#OUT# 0 x 1               218200         544
+#OUT# 1 x 0               218600         545
+#OUT# 1 x 0               219000         546
+#OUT# 0 x 1               219400         547
+#OUT# 0 x 1               219800         548
+#OUT# 0 x 1               220200         549
+#OUT# 0 x 1               220600         550
+#OUT# 0 x 1               221000         551
+#OUT# 1 x 0               221400         552
+#OUT# 1 x 0               221800         553
+#OUT# 0 x 1               222200         554
+#OUT# 1 x 0               222600         555
+#OUT# 0 x 1               223000         556
+#OUT# 1 x 0               223400         557
+#OUT# 0 x 1               223800         558
+#OUT# 1 x 0               224200         559
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               224600         560
+#OUT# 0 x 1               225000         561
+#OUT# 1 x 0               225400         562
+#OUT# 1 x 0               225800         563
+#OUT# 1 x 0               226200         564
+#OUT# 0 x 1               226600         565
+#OUT# 0 x 1               227000         566
+#OUT# 1 x 0               227400         567
+#OUT# 0 x 1               227800         568
+#OUT# 1 x 0               228200         569
+#OUT# 0 x 1               228600         570
+#OUT# 0 x 1               229000         571
+#OUT# 0 x 1               229400         572
+#OUT# 1 x 0               229800         573
+#OUT# 1 x 0               230200         574
+#OUT# 1 x 0               230600         575
+#OUT# 1 x 0               231000         576
+#OUT# 1 x 0               231400         577
+#OUT# 0 x 1               231800         578
+#OUT# 0 x 1               232200         579
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               232600         580
+#OUT# 1 x 0               233000         581
+#OUT# 0 x 1               233400         582
+#OUT# 1 x 0               233800         583
+#OUT# 1 x 0               234200         584
+#OUT# 1 x 0               234600         585
+#OUT# 0 x 1               235000         586
+#OUT# 1 x 0               235400         587
+#OUT# 1 x 0               235800         588
+#OUT# 0 x 1               236200         589
+#OUT# 1 x 0               236600         590
+#OUT# 0 x 1               237000         591
+#OUT# 1 x 0               237400         592
+#OUT# 1 x 0               237800         593
+#OUT# 0 x 1               238200         594
+#OUT# 1 x 0               238600         595
+#OUT# 1 x 0               239000         596
+#OUT# 0 x 1               239400         597
+#OUT# 0 x 1               239800         598
+#OUT# 0 x 1               240200         599
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               240600         600
+#OUT# 1 x 0               241000         601
+#OUT# 0 x 1               241400         602
+#OUT# 1 x 0               241800         603
+#OUT# 0 x 1               242200         604
+#OUT# 1 x 0               242600         605
+#OUT# 1 x 0               243000         606
+#OUT# 0 x 1               243400         607
+#OUT# 1 x 0               243800         608
+#OUT# 0 x 1               244200         609
+#OUT# 0 x 1               244600         610
+#OUT# 1 x 0               245000         611
+#OUT# 1 x 0               245400         612
+#OUT# 0 x 1               245800         613
+#OUT# 1 x 0               246200         614
+#OUT# 0 x 1               246600         615
+#OUT# 1 x 0               247000         616
+#OUT# 0 x 1               247400         617
+#OUT# 1 x 0               247800         618
+#OUT# 1 x 0               248200         619
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               248600         620
+#OUT# 1 x 0               249000         621
+#OUT# 0 x 1               249400         622
+#OUT# 0 x 1               249800         623
+#OUT# 1 x 0               250200         624
+#OUT# 0 x 1               250600         625
+#OUT# 0 x 1               251000         626
+#OUT# 1 x 0               251400         627
+#OUT# 1 x 0               251800         628
+#OUT# 0 x 1               252200         629
+#OUT# 1 x 0               252600         630
+#OUT# 1 x 0               253000         631
+#OUT# 1 x 0               253400         632
+#OUT# 1 x 0               253800         633
+#OUT# 0 x 1               254200         634
+#OUT# 0 x 1               254600         635
+#OUT# 1 x 0               255000         636
+#OUT# 0 x 1               255400         637
+#OUT# 0 x 1               255800         638
+#OUT# 0 x 1               256200         639
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               256600         640
+#OUT# 1 x 0               257000         641
+#OUT# 0 x 1               257400         642
+#OUT# 1 x 0               257800         643
+#OUT# 1 x 0               258200         644
+#OUT# 1 x 0               258600         645
+#OUT# 1 x 0               259000         646
+#OUT# 1 x 0               259400         647
+#OUT# 0 x 1               259800         648
+#OUT# 1 x 0               260200         649
+#OUT# 0 x 1               260600         650
+#OUT# 0 x 1               261000         651
+#OUT# 1 x 0               261400         652
+#OUT# 0 x 1               261800         653
+#OUT# 0 x 1               262200         654
+#OUT# 1 x 0               262600         655
+#OUT# 0 x 1               263000         656
+#OUT# 1 x 0               263400         657
+#OUT# 0 x 1               263800         658
+#OUT# 1 x 0               264200         659
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               264600         660
+#OUT# 1 x 0               265000         661
+#OUT# 1 x 0               265400         662
+#OUT# 1 x 0               265800         663
+#OUT# 1 x 0               266200         664
+#OUT# 1 x 0               266600         665
+#OUT# 1 x 0               267000         666
+#OUT# 1 x 0               267400         667
+#OUT# 1 x 0               267800         668
+#OUT# 0 x 1               268200         669
+#OUT# 1 x 0               268600         670
+#OUT# 1 x 0               269000         671
+#OUT# 0 x 1               269400         672
+#OUT# 0 x 1               269800         673
+#OUT# 1 x 0               270200         674
+#OUT# 1 x 0               270600         675
+#OUT# 0 x 1               271000         676
+#OUT# 1 x 0               271400         677
+#OUT# 0 x 1               271800         678
+#OUT# 0 x 1               272200         679
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               272600         680
+#OUT# 0 x 1               273000         681
+#OUT# 0 x 1               273400         682
+#OUT# 1 x 0               273800         683
+#OUT# 1 x 0               274200         684
+#OUT# 0 x 1               274600         685
+#OUT# 0 x 1               275000         686
+#OUT# 0 x 1               275400         687
+#OUT# 0 x 1               275800         688
+#OUT# 1 x 0               276200         689
+#OUT# 1 x 0               276600         690
+#OUT# 1 x 0               277000         691
+#OUT# 1 x 0               277400         692
+#OUT# 1 x 0               277800         693
+#OUT# 1 x 0               278200         694
+#OUT# 0 x 1               278600         695
+#OUT# 1 x 0               279000         696
+#OUT# 0 x 1               279400         697
+#OUT# 1 x 0               279800         698
+#OUT# 0 x 1               280200         699
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               280600         700
+#OUT# 0 x 1               281000         701
+#OUT# 0 x 1               281400         702
+#OUT# 0 x 1               281800         703
+#OUT# 1 x 0               282200         704
+#OUT# 1 x 0               282600         705
+#OUT# 0 x 1               283000         706
+#OUT# 0 x 1               283400         707
+#OUT# 0 x 1               283800         708
+#OUT# 0 x 1               284200         709
+#OUT# 1 x 0               284600         710
+#OUT# 0 x 1               285000         711
+#OUT# 1 x 0               285400         712
+#OUT# 1 x 0               285800         713
+#OUT# 0 x 1               286200         714
+#OUT# 0 x 1               286600         715
+#OUT# 1 x 0               287000         716
+#OUT# 0 x 1               287400         717
+#OUT# 1 x 0               287800         718
+#OUT# 0 x 1               288200         719
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               288600         720
+#OUT# 1 x 0               289000         721
+#OUT# 1 x 0               289400         722
+#OUT# 0 x 1               289800         723
+#OUT# 0 x 1               290200         724
+#OUT# 1 x 0               290600         725
+#OUT# 1 x 0               291000         726
+#OUT# 0 x 1               291400         727
+#OUT# 1 x 0               291800         728
+#OUT# 1 x 0               292200         729
+#OUT# 1 x 0               292600         730
+#OUT# 1 x 0               293000         731
+#OUT# 1 x 0               293400         732
+#OUT# 1 x 0               293800         733
+#OUT# 0 x 1               294200         734
+#OUT# 1 x 0               294600         735
+#OUT# 0 x 1               295000         736
+#OUT# 1 x 0               295400         737
+#OUT# 0 x 1               295800         738
+#OUT# 0 x 1               296200         739
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               296600         740
+#OUT# 0 x 1               297000         741
+#OUT# 1 x 0               297400         742
+#OUT# 1 x 0               297800         743
+#OUT# 0 x 1               298200         744
+#OUT# 0 x 1               298600         745
+#OUT# 0 x 1               299000         746
+#OUT# 0 x 1               299400         747
+#OUT# 1 x 0               299800         748
+#OUT# 1 x 0               300200         749
+#OUT# 0 x 1               300600         750
+#OUT# 1 x 0               301000         751
+#OUT# 1 x 0               301400         752
+#OUT# 1 x 0               301800         753
+#OUT# 0 x 1               302200         754
+#OUT# 1 x 0               302600         755
+#OUT# 1 x 0               303000         756
+#OUT# 0 x 1               303400         757
+#OUT# 1 x 0               303800         758
+#OUT# 1 x 0               304200         759
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               304600         760
+#OUT# 1 x 0               305000         761
+#OUT# 1 x 0               305400         762
+#OUT# 1 x 0               305800         763
+#OUT# 1 x 0               306200         764
+#OUT# 1 x 0               306600         765
+#OUT# 0 x 1               307000         766
+#OUT# 1 x 0               307400         767
+#OUT# 0 x 1               307800         768
+#OUT# 1 x 0               308200         769
+#OUT# 1 x 0               308600         770
+#OUT# 1 x 0               309000         771
+#OUT# 0 x 1               309400         772
+#OUT# 1 x 0               309800         773
+#OUT# 1 x 0               310200         774
+#OUT# 1 x 0               310600         775
+#OUT# 0 x 1               311000         776
+#OUT# 1 x 0               311400         777
+#OUT# 0 x 1               311800         778
+#OUT# 1 x 0               312200         779
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               312600         780
+#OUT# 0 x 1               313000         781
+#OUT# 1 x 0               313400         782
+#OUT# 1 x 0               313800         783
+#OUT# 1 x 0               314200         784
+#OUT# 1 x 0               314600         785
+#OUT# 0 x 1               315000         786
+#OUT# 1 x 0               315400         787
+#OUT# 1 x 0               315800         788
+#OUT# 0 x 1               316200         789
+#OUT# 0 x 1               316600         790
+#OUT# 1 x 0               317000         791
+#OUT# 1 x 0               317400         792
+#OUT# 0 x 1               317800         793
+#OUT# 1 x 0               318200         794
+#OUT# 0 x 1               318600         795
+#OUT# 0 x 1               319000         796
+#OUT# 0 x 1               319400         797
+#OUT# 1 x 0               319800         798
+#OUT# 0 x 1               320200         799
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               320600         800
+#OUT# 1 x 0               321000         801
+#OUT# 1 x 0               321400         802
+#OUT# 0 x 1               321800         803
+#OUT# 0 x 1               322200         804
+#OUT# 0 x 1               322600         805
+#OUT# 0 x 1               323000         806
+#OUT# 0 x 1               323400         807
+#OUT# 0 x 1               323800         808
+#OUT# 1 x 0               324200         809
+#OUT# 1 x 0               324600         810
+#OUT# 1 x 0               325000         811
+#OUT# 0 x 1               325400         812
+#OUT# 1 x 0               325800         813
+#OUT# 0 x 1               326200         814
+#OUT# 0 x 1               326600         815
+#OUT# 1 x 0               327000         816
+#OUT# 1 x 0               327400         817
+#OUT# 1 x 0               327800         818
+#OUT# 0 x 1               328200         819
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               328600         820
+#OUT# 1 x 0               329000         821
+#OUT# 1 x 0               329400         822
+#OUT# 0 x 1               329800         823
+#OUT# 0 x 1               330200         824
+#OUT# 0 x 1               330600         825
+#OUT# 1 x 0               331000         826
+#OUT# 0 x 1               331400         827
+#OUT# 1 x 0               331800         828
+#OUT# 1 x 0               332200         829
+#OUT# 0 x 1               332600         830
+#OUT# 0 x 1               333000         831
+#OUT# 1 x 0               333400         832
+#OUT# 0 x 1               333800         833
+#OUT# 1 x 0               334200         834
+#OUT# 1 x 0               334600         835
+#OUT# 1 x 0               335000         836
+#OUT# 0 x 1               335400         837
+#OUT# 1 x 0               335800         838
+#OUT# 0 x 1               336200         839
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               336600         840
+#OUT# 0 x 1               337000         841
+#OUT# 1 x 0               337400         842
+#OUT# 0 x 1               337800         843
+#OUT# 0 x 1               338200         844
+#OUT# 1 x 0               338600         845
+#OUT# 0 x 1               339000         846
+#OUT# 1 x 0               339400         847
+#OUT# 0 x 1               339800         848
+#OUT# 1 x 0               340200         849
+#OUT# 0 x 1               340600         850
+#OUT# 0 x 1               341000         851
+#OUT# 1 x 0               341400         852
+#OUT# 0 x 1               341800         853
+#OUT# 1 x 0               342200         854
+#OUT# 0 x 1               342600         855
+#OUT# 1 x 0               343000         856
+#OUT# 0 x 1               343400         857
+#OUT# 0 x 1               343800         858
+#OUT# 0 x 1               344200         859
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               344600         860
+#OUT# 1 x 0               345000         861
+#OUT# 1 x 0               345400         862
+#OUT# 0 x 1               345800         863
+#OUT# 1 x 0               346200         864
+#OUT# 0 x 1               346600         865
+#OUT# 0 x 1               347000         866
+#OUT# 1 x 0               347400         867
+#OUT# 0 x 1               347800         868
+#OUT# 1 x 0               348200         869
+#OUT# 0 x 1               348600         870
+#OUT# 0 x 1               349000         871
+#OUT# 0 x 1               349400         872
+#OUT# 0 x 1               349800         873
+#OUT# 0 x 1               350200         874
+#OUT# 0 x 1               350600         875
+#OUT# 0 x 1               351000         876
+#OUT# 0 x 1               351400         877
+#OUT# 1 x 0               351800         878
+#OUT# 0 x 1               352200         879
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               352600         880
+#OUT# 0 x 1               353000         881
+#OUT# 0 x 1               353400         882
+#OUT# 0 x 1               353800         883
+#OUT# 0 x 1               354200         884
+#OUT# 0 x 1               354600         885
+#OUT# 0 x 1               355000         886
+#OUT# 1 x 0               355400         887
+#OUT# 0 x 1               355800         888
+#OUT# 1 x 0               356200         889
+#OUT# 0 x 1               356600         890
+#OUT# 0 x 1               357000         891
+#OUT# 1 x 0               357400         892
+#OUT# 0 x 1               357800         893
+#OUT# 0 x 1               358200         894
+#OUT# 0 x 1               358600         895
+#OUT# 1 x 0               359000         896
+#OUT# 1 x 0               359400         897
+#OUT# 0 x 1               359800         898
+#OUT# 1 x 0               360200         899
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 1 x 0               360600         900
+#OUT# 1 x 0               361000         901
+#OUT# 1 x 0               361400         902
+#OUT# 0 x 1               361800         903
+#OUT# 0 x 1               362200         904
+#OUT# 0 x 1               362600         905
+#OUT# 1 x 0               363000         906
+#OUT# 0 x 1               363400         907
+#OUT# 1 x 0               363800         908
+#OUT# 0 x 1               364200         909
+#OUT# 0 x 1               364600         910
+#OUT# 1 x 0               365000         911
+#OUT# 1 x 0               365400         912
+#OUT# 0 x 1               365800         913
+#OUT# 0 x 1               366200         914
+#OUT# 1 x 0               366600         915
+#OUT# 0 x 1               367000         916
+#OUT# 0 x 1               367400         917
+#OUT# 0 x 1               367800         918
+#OUT# 1 x 0               368200         919
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               368600         920
+#OUT# 1 x 0               369000         921
+#OUT# 1 x 0               369400         922
+#OUT# 1 x 0               369800         923
+#OUT# 1 x 0               370200         924
+#OUT# 0 x 1               370600         925
+#OUT# 1 x 0               371000         926
+#OUT# 0 x 1               371400         927
+#OUT# 0 x 1               371800         928
+#OUT# 1 x 0               372200         929
+#OUT# 1 x 0               372600         930
+#OUT# 0 x 1               373000         931
+#OUT# 1 x 0               373400         932
+#OUT# 1 x 0               373800         933
+#OUT# 0 x 1               374200         934
+#OUT# 1 x 0               374600         935
+#OUT# 1 x 0               375000         936
+#OUT# 1 x 0               375400         937
+#OUT# 1 x 0               375800         938
+#OUT# 0 x 1               376200         939
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               376600         940
+#OUT# 1 x 0               377000         941
+#OUT# 0 x 1               377400         942
+#OUT# 1 x 0               377800         943
+#OUT# 0 x 1               378200         944
+#OUT# 0 x 1               378600         945
+#OUT# 0 x 1               379000         946
+#OUT# 0 x 1               379400         947
+#OUT# 1 x 0               379800         948
+#OUT# 0 x 1               380200         949
+#OUT# 0 x 1               380600         950
+#OUT# 0 x 1               381000         951
+#OUT# 0 x 1               381400         952
+#OUT# 0 x 1               381800         953
+#OUT# 1 x 0               382200         954
+#OUT# 1 x 0               382600         955
+#OUT# 0 x 1               383000         956
+#OUT# 0 x 1               383400         957
+#OUT# 0 x 1               383800         958
+#OUT# 1 x 0               384200         959
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               384600         960
+#OUT# 0 x 1               385000         961
+#OUT# 1 x 0               385400         962
+#OUT# 1 x 0               385800         963
+#OUT# 0 x 1               386200         964
+#OUT# 0 x 1               386600         965
+#OUT# 0 x 1               387000         966
+#OUT# 0 x 1               387400         967
+#OUT# 1 x 0               387800         968
+#OUT# 1 x 0               388200         969
+#OUT# 1 x 0               388600         970
+#OUT# 1 x 0               389000         971
+#OUT# 1 x 0               389400         972
+#OUT# 1 x 0               389800         973
+#OUT# 1 x 0               390200         974
+#OUT# 0 x 1               390600         975
+#OUT# 1 x 0               391000         976
+#OUT# 1 x 0               391400         977
+#OUT# 0 x 1               391800         978
+#OUT# 0 x 1               392200         979
+#OUT#
+#OUT#   A   sig_../inverter.aig_n1 
+#OUT#   B   sig_../inverter.aig_n1_inv 
+#OUT#
+#OUT# A # B
+#OUT# 0 x 1               392600         980
+#OUT# 1 x 0               393000         981
+#OUT# 0 x 1               393400         982
+#OUT# 0 x 1               393800         983
+#OUT# 0 x 1               394200         984
+#OUT# 1 x 0               394600         985
+#OUT# 0 x 1               395000         986
+#OUT# 0 x 1               395400         987
+#OUT# 1 x 0               395800         988
+#OUT# 1 x 0               396200         989
+#OUT# 1 x 0               396600         990
+#OUT# 0 x 1               397000         991
+#OUT# 0 x 1               397400         992
+#OUT# 0 x 1               397800         993
+#OUT# 0 x 1               398200         994
+#OUT# 1 x 0               398600         995
+#OUT# 0 x 1               399000         996
+#OUT# 1 x 0               399400         997
+#OUT# 0 x 1               399800         998
+#OUT# 0 x 1               400200         999

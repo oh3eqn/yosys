@@ -1,0 +1,1202 @@
+#OUT#
+#OUT# ==== ../false.aig  ====
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                  300           0
+#OUT# x x x                  600           1
+#OUT# x x x                  900           2
+#OUT# x x x                 1200           3
+#OUT# x x x                 1500           4
+#OUT# x x x                 1800           5
+#OUT# x x x                 2100           6
+#OUT# x x x                 2400           7
+#OUT# x x x                 2700           8
+#OUT# x x x                 3000           9
+#OUT# x x x                 3300          10
+#OUT# x x x                 3600          11
+#OUT# x x x                 3900          12
+#OUT# x x x                 4200          13
+#OUT# x x x                 4500          14
+#OUT# x x x                 4800          15
+#OUT# x x x                 5100          16
+#OUT# x x x                 5400          17
+#OUT# x x x                 5700          18
+#OUT# x x x                 6000          19
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                 6300          20
+#OUT# x x x                 6600          21
+#OUT# x x x                 6900          22
+#OUT# x x x                 7200          23
+#OUT# x x x                 7500          24
+#OUT# x x x                 7800          25
+#OUT# x x x                 8100          26
+#OUT# x x x                 8400          27
+#OUT# x x x                 8700          28
+#OUT# x x x                 9000          29
+#OUT# x x x                 9300          30
+#OUT# x x x                 9600          31
+#OUT# x x x                 9900          32
+#OUT# x x x                10200          33
+#OUT# x x x                10500          34
+#OUT# x x x                10800          35
+#OUT# x x x                11100          36
+#OUT# x x x                11400          37
+#OUT# x x x                11700          38
+#OUT# x x x                12000          39
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                12300          40
+#OUT# x x x                12600          41
+#OUT# x x x                12900          42
+#OUT# x x x                13200          43
+#OUT# x x x                13500          44
+#OUT# x x x                13800          45
+#OUT# x x x                14100          46
+#OUT# x x x                14400          47
+#OUT# x x x                14700          48
+#OUT# x x x                15000          49
+#OUT# x x x                15300          50
+#OUT# x x x                15600          51
+#OUT# x x x                15900          52
+#OUT# x x x                16200          53
+#OUT# x x x                16500          54
+#OUT# x x x                16800          55
+#OUT# x x x                17100          56
+#OUT# x x x                17400          57
+#OUT# x x x                17700          58
+#OUT# x x x                18000          59
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                18300          60
+#OUT# x x x                18600          61
+#OUT# x x x                18900          62
+#OUT# x x x                19200          63
+#OUT# x x x                19500          64
+#OUT# x x x                19800          65
+#OUT# x x x                20100          66
+#OUT# x x x                20400          67
+#OUT# x x x                20700          68
+#OUT# x x x                21000          69
+#OUT# x x x                21300          70
+#OUT# x x x                21600          71
+#OUT# x x x                21900          72
+#OUT# x x x                22200          73
+#OUT# x x x                22500          74
+#OUT# x x x                22800          75
+#OUT# x x x                23100          76
+#OUT# x x x                23400          77
+#OUT# x x x                23700          78
+#OUT# x x x                24000          79
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                24300          80
+#OUT# x x x                24600          81
+#OUT# x x x                24900          82
+#OUT# x x x                25200          83
+#OUT# x x x                25500          84
+#OUT# x x x                25800          85
+#OUT# x x x                26100          86
+#OUT# x x x                26400          87
+#OUT# x x x                26700          88
+#OUT# x x x                27000          89
+#OUT# x x x                27300          90
+#OUT# x x x                27600          91
+#OUT# x x x                27900          92
+#OUT# x x x                28200          93
+#OUT# x x x                28500          94
+#OUT# x x x                28800          95
+#OUT# x x x                29100          96
+#OUT# x x x                29400          97
+#OUT# x x x                29700          98
+#OUT# x x x                30000          99
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                30300         100
+#OUT# x x x                30600         101
+#OUT# x x x                30900         102
+#OUT# x x x                31200         103
+#OUT# x x x                31500         104
+#OUT# x x x                31800         105
+#OUT# x x x                32100         106
+#OUT# x x x                32400         107
+#OUT# x x x                32700         108
+#OUT# x x x                33000         109
+#OUT# x x x                33300         110
+#OUT# x x x                33600         111
+#OUT# x x x                33900         112
+#OUT# x x x                34200         113
+#OUT# x x x                34500         114
+#OUT# x x x                34800         115
+#OUT# x x x                35100         116
+#OUT# x x x                35400         117
+#OUT# x x x                35700         118
+#OUT# x x x                36000         119
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                36300         120
+#OUT# x x x                36600         121
+#OUT# x x x                36900         122
+#OUT# x x x                37200         123
+#OUT# x x x                37500         124
+#OUT# x x x                37800         125
+#OUT# x x x                38100         126
+#OUT# x x x                38400         127
+#OUT# x x x                38700         128
+#OUT# x x x                39000         129
+#OUT# x x x                39300         130
+#OUT# x x x                39600         131
+#OUT# x x x                39900         132
+#OUT# x x x                40200         133
+#OUT# x x x                40500         134
+#OUT# x x x                40800         135
+#OUT# x x x                41100         136
+#OUT# x x x                41400         137
+#OUT# x x x                41700         138
+#OUT# x x x                42000         139
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                42300         140
+#OUT# x x x                42600         141
+#OUT# x x x                42900         142
+#OUT# x x x                43200         143
+#OUT# x x x                43500         144
+#OUT# x x x                43800         145
+#OUT# x x x                44100         146
+#OUT# x x x                44400         147
+#OUT# x x x                44700         148
+#OUT# x x x                45000         149
+#OUT# x x x                45300         150
+#OUT# x x x                45600         151
+#OUT# x x x                45900         152
+#OUT# x x x                46200         153
+#OUT# x x x                46500         154
+#OUT# x x x                46800         155
+#OUT# x x x                47100         156
+#OUT# x x x                47400         157
+#OUT# x x x                47700         158
+#OUT# x x x                48000         159
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                48300         160
+#OUT# x x x                48600         161
+#OUT# x x x                48900         162
+#OUT# x x x                49200         163
+#OUT# x x x                49500         164
+#OUT# x x x                49800         165
+#OUT# x x x                50100         166
+#OUT# x x x                50400         167
+#OUT# x x x                50700         168
+#OUT# x x x                51000         169
+#OUT# x x x                51300         170
+#OUT# x x x                51600         171
+#OUT# x x x                51900         172
+#OUT# x x x                52200         173
+#OUT# x x x                52500         174
+#OUT# x x x                52800         175
+#OUT# x x x                53100         176
+#OUT# x x x                53400         177
+#OUT# x x x                53700         178
+#OUT# x x x                54000         179
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                54300         180
+#OUT# x x x                54600         181
+#OUT# x x x                54900         182
+#OUT# x x x                55200         183
+#OUT# x x x                55500         184
+#OUT# x x x                55800         185
+#OUT# x x x                56100         186
+#OUT# x x x                56400         187
+#OUT# x x x                56700         188
+#OUT# x x x                57000         189
+#OUT# x x x                57300         190
+#OUT# x x x                57600         191
+#OUT# x x x                57900         192
+#OUT# x x x                58200         193
+#OUT# x x x                58500         194
+#OUT# x x x                58800         195
+#OUT# x x x                59100         196
+#OUT# x x x                59400         197
+#OUT# x x x                59700         198
+#OUT# x x x                60000         199
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                60300         200
+#OUT# x x x                60600         201
+#OUT# x x x                60900         202
+#OUT# x x x                61200         203
+#OUT# x x x                61500         204
+#OUT# x x x                61800         205
+#OUT# x x x                62100         206
+#OUT# x x x                62400         207
+#OUT# x x x                62700         208
+#OUT# x x x                63000         209
+#OUT# x x x                63300         210
+#OUT# x x x                63600         211
+#OUT# x x x                63900         212
+#OUT# x x x                64200         213
+#OUT# x x x                64500         214
+#OUT# x x x                64800         215
+#OUT# x x x                65100         216
+#OUT# x x x                65400         217
+#OUT# x x x                65700         218
+#OUT# x x x                66000         219
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                66300         220
+#OUT# x x x                66600         221
+#OUT# x x x                66900         222
+#OUT# x x x                67200         223
+#OUT# x x x                67500         224
+#OUT# x x x                67800         225
+#OUT# x x x                68100         226
+#OUT# x x x                68400         227
+#OUT# x x x                68700         228
+#OUT# x x x                69000         229
+#OUT# x x x                69300         230
+#OUT# x x x                69600         231
+#OUT# x x x                69900         232
+#OUT# x x x                70200         233
+#OUT# x x x                70500         234
+#OUT# x x x                70800         235
+#OUT# x x x                71100         236
+#OUT# x x x                71400         237
+#OUT# x x x                71700         238
+#OUT# x x x                72000         239
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                72300         240
+#OUT# x x x                72600         241
+#OUT# x x x                72900         242
+#OUT# x x x                73200         243
+#OUT# x x x                73500         244
+#OUT# x x x                73800         245
+#OUT# x x x                74100         246
+#OUT# x x x                74400         247
+#OUT# x x x                74700         248
+#OUT# x x x                75000         249
+#OUT# x x x                75300         250
+#OUT# x x x                75600         251
+#OUT# x x x                75900         252
+#OUT# x x x                76200         253
+#OUT# x x x                76500         254
+#OUT# x x x                76800         255
+#OUT# x x x                77100         256
+#OUT# x x x                77400         257
+#OUT# x x x                77700         258
+#OUT# x x x                78000         259
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                78300         260
+#OUT# x x x                78600         261
+#OUT# x x x                78900         262
+#OUT# x x x                79200         263
+#OUT# x x x                79500         264
+#OUT# x x x                79800         265
+#OUT# x x x                80100         266
+#OUT# x x x                80400         267
+#OUT# x x x                80700         268
+#OUT# x x x                81000         269
+#OUT# x x x                81300         270
+#OUT# x x x                81600         271
+#OUT# x x x                81900         272
+#OUT# x x x                82200         273
+#OUT# x x x                82500         274
+#OUT# x x x                82800         275
+#OUT# x x x                83100         276
+#OUT# x x x                83400         277
+#OUT# x x x                83700         278
+#OUT# x x x                84000         279
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                84300         280
+#OUT# x x x                84600         281
+#OUT# x x x                84900         282
+#OUT# x x x                85200         283
+#OUT# x x x                85500         284
+#OUT# x x x                85800         285
+#OUT# x x x                86100         286
+#OUT# x x x                86400         287
+#OUT# x x x                86700         288
+#OUT# x x x                87000         289
+#OUT# x x x                87300         290
+#OUT# x x x                87600         291
+#OUT# x x x                87900         292
+#OUT# x x x                88200         293
+#OUT# x x x                88500         294
+#OUT# x x x                88800         295
+#OUT# x x x                89100         296
+#OUT# x x x                89400         297
+#OUT# x x x                89700         298
+#OUT# x x x                90000         299
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                90300         300
+#OUT# x x x                90600         301
+#OUT# x x x                90900         302
+#OUT# x x x                91200         303
+#OUT# x x x                91500         304
+#OUT# x x x                91800         305
+#OUT# x x x                92100         306
+#OUT# x x x                92400         307
+#OUT# x x x                92700         308
+#OUT# x x x                93000         309
+#OUT# x x x                93300         310
+#OUT# x x x                93600         311
+#OUT# x x x                93900         312
+#OUT# x x x                94200         313
+#OUT# x x x                94500         314
+#OUT# x x x                94800         315
+#OUT# x x x                95100         316
+#OUT# x x x                95400         317
+#OUT# x x x                95700         318
+#OUT# x x x                96000         319
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x                96300         320
+#OUT# x x x                96600         321
+#OUT# x x x                96900         322
+#OUT# x x x                97200         323
+#OUT# x x x                97500         324
+#OUT# x x x                97800         325
+#OUT# x x x                98100         326
+#OUT# x x x                98400         327
+#OUT# x x x                98700         328
+#OUT# x x x                99000         329
+#OUT# x x x                99300         330
+#OUT# x x x                99600         331
+#OUT# x x x                99900         332
+#OUT# x x x               100200         333
+#OUT# x x x               100500         334
+#OUT# x x x               100800         335
+#OUT# x x x               101100         336
+#OUT# x x x               101400         337
+#OUT# x x x               101700         338
+#OUT# x x x               102000         339
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               102300         340
+#OUT# x x x               102600         341
+#OUT# x x x               102900         342
+#OUT# x x x               103200         343
+#OUT# x x x               103500         344
+#OUT# x x x               103800         345
+#OUT# x x x               104100         346
+#OUT# x x x               104400         347
+#OUT# x x x               104700         348
+#OUT# x x x               105000         349
+#OUT# x x x               105300         350
+#OUT# x x x               105600         351
+#OUT# x x x               105900         352
+#OUT# x x x               106200         353
+#OUT# x x x               106500         354
+#OUT# x x x               106800         355
+#OUT# x x x               107100         356
+#OUT# x x x               107400         357
+#OUT# x x x               107700         358
+#OUT# x x x               108000         359
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               108300         360
+#OUT# x x x               108600         361
+#OUT# x x x               108900         362
+#OUT# x x x               109200         363
+#OUT# x x x               109500         364
+#OUT# x x x               109800         365
+#OUT# x x x               110100         366
+#OUT# x x x               110400         367
+#OUT# x x x               110700         368
+#OUT# x x x               111000         369
+#OUT# x x x               111300         370
+#OUT# x x x               111600         371
+#OUT# x x x               111900         372
+#OUT# x x x               112200         373
+#OUT# x x x               112500         374
+#OUT# x x x               112800         375
+#OUT# x x x               113100         376
+#OUT# x x x               113400         377
+#OUT# x x x               113700         378
+#OUT# x x x               114000         379
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               114300         380
+#OUT# x x x               114600         381
+#OUT# x x x               114900         382
+#OUT# x x x               115200         383
+#OUT# x x x               115500         384
+#OUT# x x x               115800         385
+#OUT# x x x               116100         386
+#OUT# x x x               116400         387
+#OUT# x x x               116700         388
+#OUT# x x x               117000         389
+#OUT# x x x               117300         390
+#OUT# x x x               117600         391
+#OUT# x x x               117900         392
+#OUT# x x x               118200         393
+#OUT# x x x               118500         394
+#OUT# x x x               118800         395
+#OUT# x x x               119100         396
+#OUT# x x x               119400         397
+#OUT# x x x               119700         398
+#OUT# x x x               120000         399
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               120300         400
+#OUT# x x x               120600         401
+#OUT# x x x               120900         402
+#OUT# x x x               121200         403
+#OUT# x x x               121500         404
+#OUT# x x x               121800         405
+#OUT# x x x               122100         406
+#OUT# x x x               122400         407
+#OUT# x x x               122700         408
+#OUT# x x x               123000         409
+#OUT# x x x               123300         410
+#OUT# x x x               123600         411
+#OUT# x x x               123900         412
+#OUT# x x x               124200         413
+#OUT# x x x               124500         414
+#OUT# x x x               124800         415
+#OUT# x x x               125100         416
+#OUT# x x x               125400         417
+#OUT# x x x               125700         418
+#OUT# x x x               126000         419
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               126300         420
+#OUT# x x x               126600         421
+#OUT# x x x               126900         422
+#OUT# x x x               127200         423
+#OUT# x x x               127500         424
+#OUT# x x x               127800         425
+#OUT# x x x               128100         426
+#OUT# x x x               128400         427
+#OUT# x x x               128700         428
+#OUT# x x x               129000         429
+#OUT# x x x               129300         430
+#OUT# x x x               129600         431
+#OUT# x x x               129900         432
+#OUT# x x x               130200         433
+#OUT# x x x               130500         434
+#OUT# x x x               130800         435
+#OUT# x x x               131100         436
+#OUT# x x x               131400         437
+#OUT# x x x               131700         438
+#OUT# x x x               132000         439
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               132300         440
+#OUT# x x x               132600         441
+#OUT# x x x               132900         442
+#OUT# x x x               133200         443
+#OUT# x x x               133500         444
+#OUT# x x x               133800         445
+#OUT# x x x               134100         446
+#OUT# x x x               134400         447
+#OUT# x x x               134700         448
+#OUT# x x x               135000         449
+#OUT# x x x               135300         450
+#OUT# x x x               135600         451
+#OUT# x x x               135900         452
+#OUT# x x x               136200         453
+#OUT# x x x               136500         454
+#OUT# x x x               136800         455
+#OUT# x x x               137100         456
+#OUT# x x x               137400         457
+#OUT# x x x               137700         458
+#OUT# x x x               138000         459
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               138300         460
+#OUT# x x x               138600         461
+#OUT# x x x               138900         462
+#OUT# x x x               139200         463
+#OUT# x x x               139500         464
+#OUT# x x x               139800         465
+#OUT# x x x               140100         466
+#OUT# x x x               140400         467
+#OUT# x x x               140700         468
+#OUT# x x x               141000         469
+#OUT# x x x               141300         470
+#OUT# x x x               141600         471
+#OUT# x x x               141900         472
+#OUT# x x x               142200         473
+#OUT# x x x               142500         474
+#OUT# x x x               142800         475
+#OUT# x x x               143100         476
+#OUT# x x x               143400         477
+#OUT# x x x               143700         478
+#OUT# x x x               144000         479
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               144300         480
+#OUT# x x x               144600         481
+#OUT# x x x               144900         482
+#OUT# x x x               145200         483
+#OUT# x x x               145500         484
+#OUT# x x x               145800         485
+#OUT# x x x               146100         486
+#OUT# x x x               146400         487
+#OUT# x x x               146700         488
+#OUT# x x x               147000         489
+#OUT# x x x               147300         490
+#OUT# x x x               147600         491
+#OUT# x x x               147900         492
+#OUT# x x x               148200         493
+#OUT# x x x               148500         494
+#OUT# x x x               148800         495
+#OUT# x x x               149100         496
+#OUT# x x x               149400         497
+#OUT# x x x               149700         498
+#OUT# x x x               150000         499
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               150300         500
+#OUT# x x x               150600         501
+#OUT# x x x               150900         502
+#OUT# x x x               151200         503
+#OUT# x x x               151500         504
+#OUT# x x x               151800         505
+#OUT# x x x               152100         506
+#OUT# x x x               152400         507
+#OUT# x x x               152700         508
+#OUT# x x x               153000         509
+#OUT# x x x               153300         510
+#OUT# x x x               153600         511
+#OUT# x x x               153900         512
+#OUT# x x x               154200         513
+#OUT# x x x               154500         514
+#OUT# x x x               154800         515
+#OUT# x x x               155100         516
+#OUT# x x x               155400         517
+#OUT# x x x               155700         518
+#OUT# x x x               156000         519
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               156300         520
+#OUT# x x x               156600         521
+#OUT# x x x               156900         522
+#OUT# x x x               157200         523
+#OUT# x x x               157500         524
+#OUT# x x x               157800         525
+#OUT# x x x               158100         526
+#OUT# x x x               158400         527
+#OUT# x x x               158700         528
+#OUT# x x x               159000         529
+#OUT# x x x               159300         530
+#OUT# x x x               159600         531
+#OUT# x x x               159900         532
+#OUT# x x x               160200         533
+#OUT# x x x               160500         534
+#OUT# x x x               160800         535
+#OUT# x x x               161100         536
+#OUT# x x x               161400         537
+#OUT# x x x               161700         538
+#OUT# x x x               162000         539
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               162300         540
+#OUT# x x x               162600         541
+#OUT# x x x               162900         542
+#OUT# x x x               163200         543
+#OUT# x x x               163500         544
+#OUT# x x x               163800         545
+#OUT# x x x               164100         546
+#OUT# x x x               164400         547
+#OUT# x x x               164700         548
+#OUT# x x x               165000         549
+#OUT# x x x               165300         550
+#OUT# x x x               165600         551
+#OUT# x x x               165900         552
+#OUT# x x x               166200         553
+#OUT# x x x               166500         554
+#OUT# x x x               166800         555
+#OUT# x x x               167100         556
+#OUT# x x x               167400         557
+#OUT# x x x               167700         558
+#OUT# x x x               168000         559
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               168300         560
+#OUT# x x x               168600         561
+#OUT# x x x               168900         562
+#OUT# x x x               169200         563
+#OUT# x x x               169500         564
+#OUT# x x x               169800         565
+#OUT# x x x               170100         566
+#OUT# x x x               170400         567
+#OUT# x x x               170700         568
+#OUT# x x x               171000         569
+#OUT# x x x               171300         570
+#OUT# x x x               171600         571
+#OUT# x x x               171900         572
+#OUT# x x x               172200         573
+#OUT# x x x               172500         574
+#OUT# x x x               172800         575
+#OUT# x x x               173100         576
+#OUT# x x x               173400         577
+#OUT# x x x               173700         578
+#OUT# x x x               174000         579
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               174300         580
+#OUT# x x x               174600         581
+#OUT# x x x               174900         582
+#OUT# x x x               175200         583
+#OUT# x x x               175500         584
+#OUT# x x x               175800         585
+#OUT# x x x               176100         586
+#OUT# x x x               176400         587
+#OUT# x x x               176700         588
+#OUT# x x x               177000         589
+#OUT# x x x               177300         590
+#OUT# x x x               177600         591
+#OUT# x x x               177900         592
+#OUT# x x x               178200         593
+#OUT# x x x               178500         594
+#OUT# x x x               178800         595
+#OUT# x x x               179100         596
+#OUT# x x x               179400         597
+#OUT# x x x               179700         598
+#OUT# x x x               180000         599
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               180300         600
+#OUT# x x x               180600         601
+#OUT# x x x               180900         602
+#OUT# x x x               181200         603
+#OUT# x x x               181500         604
+#OUT# x x x               181800         605
+#OUT# x x x               182100         606
+#OUT# x x x               182400         607
+#OUT# x x x               182700         608
+#OUT# x x x               183000         609
+#OUT# x x x               183300         610
+#OUT# x x x               183600         611
+#OUT# x x x               183900         612
+#OUT# x x x               184200         613
+#OUT# x x x               184500         614
+#OUT# x x x               184800         615
+#OUT# x x x               185100         616
+#OUT# x x x               185400         617
+#OUT# x x x               185700         618
+#OUT# x x x               186000         619
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               186300         620
+#OUT# x x x               186600         621
+#OUT# x x x               186900         622
+#OUT# x x x               187200         623
+#OUT# x x x               187500         624
+#OUT# x x x               187800         625
+#OUT# x x x               188100         626
+#OUT# x x x               188400         627
+#OUT# x x x               188700         628
+#OUT# x x x               189000         629
+#OUT# x x x               189300         630
+#OUT# x x x               189600         631
+#OUT# x x x               189900         632
+#OUT# x x x               190200         633
+#OUT# x x x               190500         634
+#OUT# x x x               190800         635
+#OUT# x x x               191100         636
+#OUT# x x x               191400         637
+#OUT# x x x               191700         638
+#OUT# x x x               192000         639
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               192300         640
+#OUT# x x x               192600         641
+#OUT# x x x               192900         642
+#OUT# x x x               193200         643
+#OUT# x x x               193500         644
+#OUT# x x x               193800         645
+#OUT# x x x               194100         646
+#OUT# x x x               194400         647
+#OUT# x x x               194700         648
+#OUT# x x x               195000         649
+#OUT# x x x               195300         650
+#OUT# x x x               195600         651
+#OUT# x x x               195900         652
+#OUT# x x x               196200         653
+#OUT# x x x               196500         654
+#OUT# x x x               196800         655
+#OUT# x x x               197100         656
+#OUT# x x x               197400         657
+#OUT# x x x               197700         658
+#OUT# x x x               198000         659
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               198300         660
+#OUT# x x x               198600         661
+#OUT# x x x               198900         662
+#OUT# x x x               199200         663
+#OUT# x x x               199500         664
+#OUT# x x x               199800         665
+#OUT# x x x               200100         666
+#OUT# x x x               200400         667
+#OUT# x x x               200700         668
+#OUT# x x x               201000         669
+#OUT# x x x               201300         670
+#OUT# x x x               201600         671
+#OUT# x x x               201900         672
+#OUT# x x x               202200         673
+#OUT# x x x               202500         674
+#OUT# x x x               202800         675
+#OUT# x x x               203100         676
+#OUT# x x x               203400         677
+#OUT# x x x               203700         678
+#OUT# x x x               204000         679
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               204300         680
+#OUT# x x x               204600         681
+#OUT# x x x               204900         682
+#OUT# x x x               205200         683
+#OUT# x x x               205500         684
+#OUT# x x x               205800         685
+#OUT# x x x               206100         686
+#OUT# x x x               206400         687
+#OUT# x x x               206700         688
+#OUT# x x x               207000         689
+#OUT# x x x               207300         690
+#OUT# x x x               207600         691
+#OUT# x x x               207900         692
+#OUT# x x x               208200         693
+#OUT# x x x               208500         694
+#OUT# x x x               208800         695
+#OUT# x x x               209100         696
+#OUT# x x x               209400         697
+#OUT# x x x               209700         698
+#OUT# x x x               210000         699
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               210300         700
+#OUT# x x x               210600         701
+#OUT# x x x               210900         702
+#OUT# x x x               211200         703
+#OUT# x x x               211500         704
+#OUT# x x x               211800         705
+#OUT# x x x               212100         706
+#OUT# x x x               212400         707
+#OUT# x x x               212700         708
+#OUT# x x x               213000         709
+#OUT# x x x               213300         710
+#OUT# x x x               213600         711
+#OUT# x x x               213900         712
+#OUT# x x x               214200         713
+#OUT# x x x               214500         714
+#OUT# x x x               214800         715
+#OUT# x x x               215100         716
+#OUT# x x x               215400         717
+#OUT# x x x               215700         718
+#OUT# x x x               216000         719
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               216300         720
+#OUT# x x x               216600         721
+#OUT# x x x               216900         722
+#OUT# x x x               217200         723
+#OUT# x x x               217500         724
+#OUT# x x x               217800         725
+#OUT# x x x               218100         726
+#OUT# x x x               218400         727
+#OUT# x x x               218700         728
+#OUT# x x x               219000         729
+#OUT# x x x               219300         730
+#OUT# x x x               219600         731
+#OUT# x x x               219900         732
+#OUT# x x x               220200         733
+#OUT# x x x               220500         734
+#OUT# x x x               220800         735
+#OUT# x x x               221100         736
+#OUT# x x x               221400         737
+#OUT# x x x               221700         738
+#OUT# x x x               222000         739
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               222300         740
+#OUT# x x x               222600         741
+#OUT# x x x               222900         742
+#OUT# x x x               223200         743
+#OUT# x x x               223500         744
+#OUT# x x x               223800         745
+#OUT# x x x               224100         746
+#OUT# x x x               224400         747
+#OUT# x x x               224700         748
+#OUT# x x x               225000         749
+#OUT# x x x               225300         750
+#OUT# x x x               225600         751
+#OUT# x x x               225900         752
+#OUT# x x x               226200         753
+#OUT# x x x               226500         754
+#OUT# x x x               226800         755
+#OUT# x x x               227100         756
+#OUT# x x x               227400         757
+#OUT# x x x               227700         758
+#OUT# x x x               228000         759
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               228300         760
+#OUT# x x x               228600         761
+#OUT# x x x               228900         762
+#OUT# x x x               229200         763
+#OUT# x x x               229500         764
+#OUT# x x x               229800         765
+#OUT# x x x               230100         766
+#OUT# x x x               230400         767
+#OUT# x x x               230700         768
+#OUT# x x x               231000         769
+#OUT# x x x               231300         770
+#OUT# x x x               231600         771
+#OUT# x x x               231900         772
+#OUT# x x x               232200         773
+#OUT# x x x               232500         774
+#OUT# x x x               232800         775
+#OUT# x x x               233100         776
+#OUT# x x x               233400         777
+#OUT# x x x               233700         778
+#OUT# x x x               234000         779
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               234300         780
+#OUT# x x x               234600         781
+#OUT# x x x               234900         782
+#OUT# x x x               235200         783
+#OUT# x x x               235500         784
+#OUT# x x x               235800         785
+#OUT# x x x               236100         786
+#OUT# x x x               236400         787
+#OUT# x x x               236700         788
+#OUT# x x x               237000         789
+#OUT# x x x               237300         790
+#OUT# x x x               237600         791
+#OUT# x x x               237900         792
+#OUT# x x x               238200         793
+#OUT# x x x               238500         794
+#OUT# x x x               238800         795
+#OUT# x x x               239100         796
+#OUT# x x x               239400         797
+#OUT# x x x               239700         798
+#OUT# x x x               240000         799
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               240300         800
+#OUT# x x x               240600         801
+#OUT# x x x               240900         802
+#OUT# x x x               241200         803
+#OUT# x x x               241500         804
+#OUT# x x x               241800         805
+#OUT# x x x               242100         806
+#OUT# x x x               242400         807
+#OUT# x x x               242700         808
+#OUT# x x x               243000         809
+#OUT# x x x               243300         810
+#OUT# x x x               243600         811
+#OUT# x x x               243900         812
+#OUT# x x x               244200         813
+#OUT# x x x               244500         814
+#OUT# x x x               244800         815
+#OUT# x x x               245100         816
+#OUT# x x x               245400         817
+#OUT# x x x               245700         818
+#OUT# x x x               246000         819
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               246300         820
+#OUT# x x x               246600         821
+#OUT# x x x               246900         822
+#OUT# x x x               247200         823
+#OUT# x x x               247500         824
+#OUT# x x x               247800         825
+#OUT# x x x               248100         826
+#OUT# x x x               248400         827
+#OUT# x x x               248700         828
+#OUT# x x x               249000         829
+#OUT# x x x               249300         830
+#OUT# x x x               249600         831
+#OUT# x x x               249900         832
+#OUT# x x x               250200         833
+#OUT# x x x               250500         834
+#OUT# x x x               250800         835
+#OUT# x x x               251100         836
+#OUT# x x x               251400         837
+#OUT# x x x               251700         838
+#OUT# x x x               252000         839
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               252300         840
+#OUT# x x x               252600         841
+#OUT# x x x               252900         842
+#OUT# x x x               253200         843
+#OUT# x x x               253500         844
+#OUT# x x x               253800         845
+#OUT# x x x               254100         846
+#OUT# x x x               254400         847
+#OUT# x x x               254700         848
+#OUT# x x x               255000         849
+#OUT# x x x               255300         850
+#OUT# x x x               255600         851
+#OUT# x x x               255900         852
+#OUT# x x x               256200         853
+#OUT# x x x               256500         854
+#OUT# x x x               256800         855
+#OUT# x x x               257100         856
+#OUT# x x x               257400         857
+#OUT# x x x               257700         858
+#OUT# x x x               258000         859
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               258300         860
+#OUT# x x x               258600         861
+#OUT# x x x               258900         862
+#OUT# x x x               259200         863
+#OUT# x x x               259500         864
+#OUT# x x x               259800         865
+#OUT# x x x               260100         866
+#OUT# x x x               260400         867
+#OUT# x x x               260700         868
+#OUT# x x x               261000         869
+#OUT# x x x               261300         870
+#OUT# x x x               261600         871
+#OUT# x x x               261900         872
+#OUT# x x x               262200         873
+#OUT# x x x               262500         874
+#OUT# x x x               262800         875
+#OUT# x x x               263100         876
+#OUT# x x x               263400         877
+#OUT# x x x               263700         878
+#OUT# x x x               264000         879
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               264300         880
+#OUT# x x x               264600         881
+#OUT# x x x               264900         882
+#OUT# x x x               265200         883
+#OUT# x x x               265500         884
+#OUT# x x x               265800         885
+#OUT# x x x               266100         886
+#OUT# x x x               266400         887
+#OUT# x x x               266700         888
+#OUT# x x x               267000         889
+#OUT# x x x               267300         890
+#OUT# x x x               267600         891
+#OUT# x x x               267900         892
+#OUT# x x x               268200         893
+#OUT# x x x               268500         894
+#OUT# x x x               268800         895
+#OUT# x x x               269100         896
+#OUT# x x x               269400         897
+#OUT# x x x               269700         898
+#OUT# x x x               270000         899
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               270300         900
+#OUT# x x x               270600         901
+#OUT# x x x               270900         902
+#OUT# x x x               271200         903
+#OUT# x x x               271500         904
+#OUT# x x x               271800         905
+#OUT# x x x               272100         906
+#OUT# x x x               272400         907
+#OUT# x x x               272700         908
+#OUT# x x x               273000         909
+#OUT# x x x               273300         910
+#OUT# x x x               273600         911
+#OUT# x x x               273900         912
+#OUT# x x x               274200         913
+#OUT# x x x               274500         914
+#OUT# x x x               274800         915
+#OUT# x x x               275100         916
+#OUT# x x x               275400         917
+#OUT# x x x               275700         918
+#OUT# x x x               276000         919
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               276300         920
+#OUT# x x x               276600         921
+#OUT# x x x               276900         922
+#OUT# x x x               277200         923
+#OUT# x x x               277500         924
+#OUT# x x x               277800         925
+#OUT# x x x               278100         926
+#OUT# x x x               278400         927
+#OUT# x x x               278700         928
+#OUT# x x x               279000         929
+#OUT# x x x               279300         930
+#OUT# x x x               279600         931
+#OUT# x x x               279900         932
+#OUT# x x x               280200         933
+#OUT# x x x               280500         934
+#OUT# x x x               280800         935
+#OUT# x x x               281100         936
+#OUT# x x x               281400         937
+#OUT# x x x               281700         938
+#OUT# x x x               282000         939
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               282300         940
+#OUT# x x x               282600         941
+#OUT# x x x               282900         942
+#OUT# x x x               283200         943
+#OUT# x x x               283500         944
+#OUT# x x x               283800         945
+#OUT# x x x               284100         946
+#OUT# x x x               284400         947
+#OUT# x x x               284700         948
+#OUT# x x x               285000         949
+#OUT# x x x               285300         950
+#OUT# x x x               285600         951
+#OUT# x x x               285900         952
+#OUT# x x x               286200         953
+#OUT# x x x               286500         954
+#OUT# x x x               286800         955
+#OUT# x x x               287100         956
+#OUT# x x x               287400         957
+#OUT# x x x               287700         958
+#OUT# x x x               288000         959
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               288300         960
+#OUT# x x x               288600         961
+#OUT# x x x               288900         962
+#OUT# x x x               289200         963
+#OUT# x x x               289500         964
+#OUT# x x x               289800         965
+#OUT# x x x               290100         966
+#OUT# x x x               290400         967
+#OUT# x x x               290700         968
+#OUT# x x x               291000         969
+#OUT# x x x               291300         970
+#OUT# x x x               291600         971
+#OUT# x x x               291900         972
+#OUT# x x x               292200         973
+#OUT# x x x               292500         974
+#OUT# x x x               292800         975
+#OUT# x x x               293100         976
+#OUT# x x x               293400         977
+#OUT# x x x               293700         978
+#OUT# x x x               294000         979
+#OUT#
+#OUT#   A   sig_../false.aig_n0 
+#OUT#
+#OUT# # # A
+#OUT# x x x               294300         980
+#OUT# x x x               294600         981
+#OUT# x x x               294900         982
+#OUT# x x x               295200         983
+#OUT# x x x               295500         984
+#OUT# x x x               295800         985
+#OUT# x x x               296100         986
+#OUT# x x x               296400         987
+#OUT# x x x               296700         988
+#OUT# x x x               297000         989
+#OUT# x x x               297300         990
+#OUT# x x x               297600         991
+#OUT# x x x               297900         992
+#OUT# x x x               298200         993
+#OUT# x x x               298500         994
+#OUT# x x x               298800         995
+#OUT# x x x               299100         996
+#OUT# x x x               299400         997
+#OUT# x x x               299700         998
+#OUT# x x x               300000         999

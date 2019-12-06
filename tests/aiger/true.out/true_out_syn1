@@ -1,0 +1,1202 @@
+#OUT#
+#OUT# ==== ../true.aig  ====
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                  300           0
+#OUT# x x 1                  600           1
+#OUT# x x 1                  900           2
+#OUT# x x 1                 1200           3
+#OUT# x x 1                 1500           4
+#OUT# x x 1                 1800           5
+#OUT# x x 1                 2100           6
+#OUT# x x 1                 2400           7
+#OUT# x x 1                 2700           8
+#OUT# x x 1                 3000           9
+#OUT# x x 1                 3300          10
+#OUT# x x 1                 3600          11
+#OUT# x x 1                 3900          12
+#OUT# x x 1                 4200          13
+#OUT# x x 1                 4500          14
+#OUT# x x 1                 4800          15
+#OUT# x x 1                 5100          16
+#OUT# x x 1                 5400          17
+#OUT# x x 1                 5700          18
+#OUT# x x 1                 6000          19
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                 6300          20
+#OUT# x x 1                 6600          21
+#OUT# x x 1                 6900          22
+#OUT# x x 1                 7200          23
+#OUT# x x 1                 7500          24
+#OUT# x x 1                 7800          25
+#OUT# x x 1                 8100          26
+#OUT# x x 1                 8400          27
+#OUT# x x 1                 8700          28
+#OUT# x x 1                 9000          29
+#OUT# x x 1                 9300          30
+#OUT# x x 1                 9600          31
+#OUT# x x 1                 9900          32
+#OUT# x x 1                10200          33
+#OUT# x x 1                10500          34
+#OUT# x x 1                10800          35
+#OUT# x x 1                11100          36
+#OUT# x x 1                11400          37
+#OUT# x x 1                11700          38
+#OUT# x x 1                12000          39
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                12300          40
+#OUT# x x 1                12600          41
+#OUT# x x 1                12900          42
+#OUT# x x 1                13200          43
+#OUT# x x 1                13500          44
+#OUT# x x 1                13800          45
+#OUT# x x 1                14100          46
+#OUT# x x 1                14400          47
+#OUT# x x 1                14700          48
+#OUT# x x 1                15000          49
+#OUT# x x 1                15300          50
+#OUT# x x 1                15600          51
+#OUT# x x 1                15900          52
+#OUT# x x 1                16200          53
+#OUT# x x 1                16500          54
+#OUT# x x 1                16800          55
+#OUT# x x 1                17100          56
+#OUT# x x 1                17400          57
+#OUT# x x 1                17700          58
+#OUT# x x 1                18000          59
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                18300          60
+#OUT# x x 1                18600          61
+#OUT# x x 1                18900          62
+#OUT# x x 1                19200          63
+#OUT# x x 1                19500          64
+#OUT# x x 1                19800          65
+#OUT# x x 1                20100          66
+#OUT# x x 1                20400          67
+#OUT# x x 1                20700          68
+#OUT# x x 1                21000          69
+#OUT# x x 1                21300          70
+#OUT# x x 1                21600          71
+#OUT# x x 1                21900          72
+#OUT# x x 1                22200          73
+#OUT# x x 1                22500          74
+#OUT# x x 1                22800          75
+#OUT# x x 1                23100          76
+#OUT# x x 1                23400          77
+#OUT# x x 1                23700          78
+#OUT# x x 1                24000          79
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                24300          80
+#OUT# x x 1                24600          81
+#OUT# x x 1                24900          82
+#OUT# x x 1                25200          83
+#OUT# x x 1                25500          84
+#OUT# x x 1                25800          85
+#OUT# x x 1                26100          86
+#OUT# x x 1                26400          87
+#OUT# x x 1                26700          88
+#OUT# x x 1                27000          89
+#OUT# x x 1                27300          90
+#OUT# x x 1                27600          91
+#OUT# x x 1                27900          92
+#OUT# x x 1                28200          93
+#OUT# x x 1                28500          94
+#OUT# x x 1                28800          95
+#OUT# x x 1                29100          96
+#OUT# x x 1                29400          97
+#OUT# x x 1                29700          98
+#OUT# x x 1                30000          99
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                30300         100
+#OUT# x x 1                30600         101
+#OUT# x x 1                30900         102
+#OUT# x x 1                31200         103
+#OUT# x x 1                31500         104
+#OUT# x x 1                31800         105
+#OUT# x x 1                32100         106
+#OUT# x x 1                32400         107
+#OUT# x x 1                32700         108
+#OUT# x x 1                33000         109
+#OUT# x x 1                33300         110
+#OUT# x x 1                33600         111
+#OUT# x x 1                33900         112
+#OUT# x x 1                34200         113
+#OUT# x x 1                34500         114
+#OUT# x x 1                34800         115
+#OUT# x x 1                35100         116
+#OUT# x x 1                35400         117
+#OUT# x x 1                35700         118
+#OUT# x x 1                36000         119
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                36300         120
+#OUT# x x 1                36600         121
+#OUT# x x 1                36900         122
+#OUT# x x 1                37200         123
+#OUT# x x 1                37500         124
+#OUT# x x 1                37800         125
+#OUT# x x 1                38100         126
+#OUT# x x 1                38400         127
+#OUT# x x 1                38700         128
+#OUT# x x 1                39000         129
+#OUT# x x 1                39300         130
+#OUT# x x 1                39600         131
+#OUT# x x 1                39900         132
+#OUT# x x 1                40200         133
+#OUT# x x 1                40500         134
+#OUT# x x 1                40800         135
+#OUT# x x 1                41100         136
+#OUT# x x 1                41400         137
+#OUT# x x 1                41700         138
+#OUT# x x 1                42000         139
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                42300         140
+#OUT# x x 1                42600         141
+#OUT# x x 1                42900         142
+#OUT# x x 1                43200         143
+#OUT# x x 1                43500         144
+#OUT# x x 1                43800         145
+#OUT# x x 1                44100         146
+#OUT# x x 1                44400         147
+#OUT# x x 1                44700         148
+#OUT# x x 1                45000         149
+#OUT# x x 1                45300         150
+#OUT# x x 1                45600         151
+#OUT# x x 1                45900         152
+#OUT# x x 1                46200         153
+#OUT# x x 1                46500         154
+#OUT# x x 1                46800         155
+#OUT# x x 1                47100         156
+#OUT# x x 1                47400         157
+#OUT# x x 1                47700         158
+#OUT# x x 1                48000         159
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                48300         160
+#OUT# x x 1                48600         161
+#OUT# x x 1                48900         162
+#OUT# x x 1                49200         163
+#OUT# x x 1                49500         164
+#OUT# x x 1                49800         165
+#OUT# x x 1                50100         166
+#OUT# x x 1                50400         167
+#OUT# x x 1                50700         168
+#OUT# x x 1                51000         169
+#OUT# x x 1                51300         170
+#OUT# x x 1                51600         171
+#OUT# x x 1                51900         172
+#OUT# x x 1                52200         173
+#OUT# x x 1                52500         174
+#OUT# x x 1                52800         175
+#OUT# x x 1                53100         176
+#OUT# x x 1                53400         177
+#OUT# x x 1                53700         178
+#OUT# x x 1                54000         179
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                54300         180
+#OUT# x x 1                54600         181
+#OUT# x x 1                54900         182
+#OUT# x x 1                55200         183
+#OUT# x x 1                55500         184
+#OUT# x x 1                55800         185
+#OUT# x x 1                56100         186
+#OUT# x x 1                56400         187
+#OUT# x x 1                56700         188
+#OUT# x x 1                57000         189
+#OUT# x x 1                57300         190
+#OUT# x x 1                57600         191
+#OUT# x x 1                57900         192
+#OUT# x x 1                58200         193
+#OUT# x x 1                58500         194
+#OUT# x x 1                58800         195
+#OUT# x x 1                59100         196
+#OUT# x x 1                59400         197
+#OUT# x x 1                59700         198
+#OUT# x x 1                60000         199
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                60300         200
+#OUT# x x 1                60600         201
+#OUT# x x 1                60900         202
+#OUT# x x 1                61200         203
+#OUT# x x 1                61500         204
+#OUT# x x 1                61800         205
+#OUT# x x 1                62100         206
+#OUT# x x 1                62400         207
+#OUT# x x 1                62700         208
+#OUT# x x 1                63000         209
+#OUT# x x 1                63300         210
+#OUT# x x 1                63600         211
+#OUT# x x 1                63900         212
+#OUT# x x 1                64200         213
+#OUT# x x 1                64500         214
+#OUT# x x 1                64800         215
+#OUT# x x 1                65100         216
+#OUT# x x 1                65400         217
+#OUT# x x 1                65700         218
+#OUT# x x 1                66000         219
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                66300         220
+#OUT# x x 1                66600         221
+#OUT# x x 1                66900         222
+#OUT# x x 1                67200         223
+#OUT# x x 1                67500         224
+#OUT# x x 1                67800         225
+#OUT# x x 1                68100         226
+#OUT# x x 1                68400         227
+#OUT# x x 1                68700         228
+#OUT# x x 1                69000         229
+#OUT# x x 1                69300         230
+#OUT# x x 1                69600         231
+#OUT# x x 1                69900         232
+#OUT# x x 1                70200         233
+#OUT# x x 1                70500         234
+#OUT# x x 1                70800         235
+#OUT# x x 1                71100         236
+#OUT# x x 1                71400         237
+#OUT# x x 1                71700         238
+#OUT# x x 1                72000         239
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                72300         240
+#OUT# x x 1                72600         241
+#OUT# x x 1                72900         242
+#OUT# x x 1                73200         243
+#OUT# x x 1                73500         244
+#OUT# x x 1                73800         245
+#OUT# x x 1                74100         246
+#OUT# x x 1                74400         247
+#OUT# x x 1                74700         248
+#OUT# x x 1                75000         249
+#OUT# x x 1                75300         250
+#OUT# x x 1                75600         251
+#OUT# x x 1                75900         252
+#OUT# x x 1                76200         253
+#OUT# x x 1                76500         254
+#OUT# x x 1                76800         255
+#OUT# x x 1                77100         256
+#OUT# x x 1                77400         257
+#OUT# x x 1                77700         258
+#OUT# x x 1                78000         259
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                78300         260
+#OUT# x x 1                78600         261
+#OUT# x x 1                78900         262
+#OUT# x x 1                79200         263
+#OUT# x x 1                79500         264
+#OUT# x x 1                79800         265
+#OUT# x x 1                80100         266
+#OUT# x x 1                80400         267
+#OUT# x x 1                80700         268
+#OUT# x x 1                81000         269
+#OUT# x x 1                81300         270
+#OUT# x x 1                81600         271
+#OUT# x x 1                81900         272
+#OUT# x x 1                82200         273
+#OUT# x x 1                82500         274
+#OUT# x x 1                82800         275
+#OUT# x x 1                83100         276
+#OUT# x x 1                83400         277
+#OUT# x x 1                83700         278
+#OUT# x x 1                84000         279
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                84300         280
+#OUT# x x 1                84600         281
+#OUT# x x 1                84900         282
+#OUT# x x 1                85200         283
+#OUT# x x 1                85500         284
+#OUT# x x 1                85800         285
+#OUT# x x 1                86100         286
+#OUT# x x 1                86400         287
+#OUT# x x 1                86700         288
+#OUT# x x 1                87000         289
+#OUT# x x 1                87300         290
+#OUT# x x 1                87600         291
+#OUT# x x 1                87900         292
+#OUT# x x 1                88200         293
+#OUT# x x 1                88500         294
+#OUT# x x 1                88800         295
+#OUT# x x 1                89100         296
+#OUT# x x 1                89400         297
+#OUT# x x 1                89700         298
+#OUT# x x 1                90000         299
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                90300         300
+#OUT# x x 1                90600         301
+#OUT# x x 1                90900         302
+#OUT# x x 1                91200         303
+#OUT# x x 1                91500         304
+#OUT# x x 1                91800         305
+#OUT# x x 1                92100         306
+#OUT# x x 1                92400         307
+#OUT# x x 1                92700         308
+#OUT# x x 1                93000         309
+#OUT# x x 1                93300         310
+#OUT# x x 1                93600         311
+#OUT# x x 1                93900         312
+#OUT# x x 1                94200         313
+#OUT# x x 1                94500         314
+#OUT# x x 1                94800         315
+#OUT# x x 1                95100         316
+#OUT# x x 1                95400         317
+#OUT# x x 1                95700         318
+#OUT# x x 1                96000         319
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1                96300         320
+#OUT# x x 1                96600         321
+#OUT# x x 1                96900         322
+#OUT# x x 1                97200         323
+#OUT# x x 1                97500         324
+#OUT# x x 1                97800         325
+#OUT# x x 1                98100         326
+#OUT# x x 1                98400         327
+#OUT# x x 1                98700         328
+#OUT# x x 1                99000         329
+#OUT# x x 1                99300         330
+#OUT# x x 1                99600         331
+#OUT# x x 1                99900         332
+#OUT# x x 1               100200         333
+#OUT# x x 1               100500         334
+#OUT# x x 1               100800         335
+#OUT# x x 1               101100         336
+#OUT# x x 1               101400         337
+#OUT# x x 1               101700         338
+#OUT# x x 1               102000         339
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               102300         340
+#OUT# x x 1               102600         341
+#OUT# x x 1               102900         342
+#OUT# x x 1               103200         343
+#OUT# x x 1               103500         344
+#OUT# x x 1               103800         345
+#OUT# x x 1               104100         346
+#OUT# x x 1               104400         347
+#OUT# x x 1               104700         348
+#OUT# x x 1               105000         349
+#OUT# x x 1               105300         350
+#OUT# x x 1               105600         351
+#OUT# x x 1               105900         352
+#OUT# x x 1               106200         353
+#OUT# x x 1               106500         354
+#OUT# x x 1               106800         355
+#OUT# x x 1               107100         356
+#OUT# x x 1               107400         357
+#OUT# x x 1               107700         358
+#OUT# x x 1               108000         359
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               108300         360
+#OUT# x x 1               108600         361
+#OUT# x x 1               108900         362
+#OUT# x x 1               109200         363
+#OUT# x x 1               109500         364
+#OUT# x x 1               109800         365
+#OUT# x x 1               110100         366
+#OUT# x x 1               110400         367
+#OUT# x x 1               110700         368
+#OUT# x x 1               111000         369
+#OUT# x x 1               111300         370
+#OUT# x x 1               111600         371
+#OUT# x x 1               111900         372
+#OUT# x x 1               112200         373
+#OUT# x x 1               112500         374
+#OUT# x x 1               112800         375
+#OUT# x x 1               113100         376
+#OUT# x x 1               113400         377
+#OUT# x x 1               113700         378
+#OUT# x x 1               114000         379
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               114300         380
+#OUT# x x 1               114600         381
+#OUT# x x 1               114900         382
+#OUT# x x 1               115200         383
+#OUT# x x 1               115500         384
+#OUT# x x 1               115800         385
+#OUT# x x 1               116100         386
+#OUT# x x 1               116400         387
+#OUT# x x 1               116700         388
+#OUT# x x 1               117000         389
+#OUT# x x 1               117300         390
+#OUT# x x 1               117600         391
+#OUT# x x 1               117900         392
+#OUT# x x 1               118200         393
+#OUT# x x 1               118500         394
+#OUT# x x 1               118800         395
+#OUT# x x 1               119100         396
+#OUT# x x 1               119400         397
+#OUT# x x 1               119700         398
+#OUT# x x 1               120000         399
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               120300         400
+#OUT# x x 1               120600         401
+#OUT# x x 1               120900         402
+#OUT# x x 1               121200         403
+#OUT# x x 1               121500         404
+#OUT# x x 1               121800         405
+#OUT# x x 1               122100         406
+#OUT# x x 1               122400         407
+#OUT# x x 1               122700         408
+#OUT# x x 1               123000         409
+#OUT# x x 1               123300         410
+#OUT# x x 1               123600         411
+#OUT# x x 1               123900         412
+#OUT# x x 1               124200         413
+#OUT# x x 1               124500         414
+#OUT# x x 1               124800         415
+#OUT# x x 1               125100         416
+#OUT# x x 1               125400         417
+#OUT# x x 1               125700         418
+#OUT# x x 1               126000         419
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               126300         420
+#OUT# x x 1               126600         421
+#OUT# x x 1               126900         422
+#OUT# x x 1               127200         423
+#OUT# x x 1               127500         424
+#OUT# x x 1               127800         425
+#OUT# x x 1               128100         426
+#OUT# x x 1               128400         427
+#OUT# x x 1               128700         428
+#OUT# x x 1               129000         429
+#OUT# x x 1               129300         430
+#OUT# x x 1               129600         431
+#OUT# x x 1               129900         432
+#OUT# x x 1               130200         433
+#OUT# x x 1               130500         434
+#OUT# x x 1               130800         435
+#OUT# x x 1               131100         436
+#OUT# x x 1               131400         437
+#OUT# x x 1               131700         438
+#OUT# x x 1               132000         439
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               132300         440
+#OUT# x x 1               132600         441
+#OUT# x x 1               132900         442
+#OUT# x x 1               133200         443
+#OUT# x x 1               133500         444
+#OUT# x x 1               133800         445
+#OUT# x x 1               134100         446
+#OUT# x x 1               134400         447
+#OUT# x x 1               134700         448
+#OUT# x x 1               135000         449
+#OUT# x x 1               135300         450
+#OUT# x x 1               135600         451
+#OUT# x x 1               135900         452
+#OUT# x x 1               136200         453
+#OUT# x x 1               136500         454
+#OUT# x x 1               136800         455
+#OUT# x x 1               137100         456
+#OUT# x x 1               137400         457
+#OUT# x x 1               137700         458
+#OUT# x x 1               138000         459
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               138300         460
+#OUT# x x 1               138600         461
+#OUT# x x 1               138900         462
+#OUT# x x 1               139200         463
+#OUT# x x 1               139500         464
+#OUT# x x 1               139800         465
+#OUT# x x 1               140100         466
+#OUT# x x 1               140400         467
+#OUT# x x 1               140700         468
+#OUT# x x 1               141000         469
+#OUT# x x 1               141300         470
+#OUT# x x 1               141600         471
+#OUT# x x 1               141900         472
+#OUT# x x 1               142200         473
+#OUT# x x 1               142500         474
+#OUT# x x 1               142800         475
+#OUT# x x 1               143100         476
+#OUT# x x 1               143400         477
+#OUT# x x 1               143700         478
+#OUT# x x 1               144000         479
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               144300         480
+#OUT# x x 1               144600         481
+#OUT# x x 1               144900         482
+#OUT# x x 1               145200         483
+#OUT# x x 1               145500         484
+#OUT# x x 1               145800         485
+#OUT# x x 1               146100         486
+#OUT# x x 1               146400         487
+#OUT# x x 1               146700         488
+#OUT# x x 1               147000         489
+#OUT# x x 1               147300         490
+#OUT# x x 1               147600         491
+#OUT# x x 1               147900         492
+#OUT# x x 1               148200         493
+#OUT# x x 1               148500         494
+#OUT# x x 1               148800         495
+#OUT# x x 1               149100         496
+#OUT# x x 1               149400         497
+#OUT# x x 1               149700         498
+#OUT# x x 1               150000         499
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               150300         500
+#OUT# x x 1               150600         501
+#OUT# x x 1               150900         502
+#OUT# x x 1               151200         503
+#OUT# x x 1               151500         504
+#OUT# x x 1               151800         505
+#OUT# x x 1               152100         506
+#OUT# x x 1               152400         507
+#OUT# x x 1               152700         508
+#OUT# x x 1               153000         509
+#OUT# x x 1               153300         510
+#OUT# x x 1               153600         511
+#OUT# x x 1               153900         512
+#OUT# x x 1               154200         513
+#OUT# x x 1               154500         514
+#OUT# x x 1               154800         515
+#OUT# x x 1               155100         516
+#OUT# x x 1               155400         517
+#OUT# x x 1               155700         518
+#OUT# x x 1               156000         519
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               156300         520
+#OUT# x x 1               156600         521
+#OUT# x x 1               156900         522
+#OUT# x x 1               157200         523
+#OUT# x x 1               157500         524
+#OUT# x x 1               157800         525
+#OUT# x x 1               158100         526
+#OUT# x x 1               158400         527
+#OUT# x x 1               158700         528
+#OUT# x x 1               159000         529
+#OUT# x x 1               159300         530
+#OUT# x x 1               159600         531
+#OUT# x x 1               159900         532
+#OUT# x x 1               160200         533
+#OUT# x x 1               160500         534
+#OUT# x x 1               160800         535
+#OUT# x x 1               161100         536
+#OUT# x x 1               161400         537
+#OUT# x x 1               161700         538
+#OUT# x x 1               162000         539
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               162300         540
+#OUT# x x 1               162600         541
+#OUT# x x 1               162900         542
+#OUT# x x 1               163200         543
+#OUT# x x 1               163500         544
+#OUT# x x 1               163800         545
+#OUT# x x 1               164100         546
+#OUT# x x 1               164400         547
+#OUT# x x 1               164700         548
+#OUT# x x 1               165000         549
+#OUT# x x 1               165300         550
+#OUT# x x 1               165600         551
+#OUT# x x 1               165900         552
+#OUT# x x 1               166200         553
+#OUT# x x 1               166500         554
+#OUT# x x 1               166800         555
+#OUT# x x 1               167100         556
+#OUT# x x 1               167400         557
+#OUT# x x 1               167700         558
+#OUT# x x 1               168000         559
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               168300         560
+#OUT# x x 1               168600         561
+#OUT# x x 1               168900         562
+#OUT# x x 1               169200         563
+#OUT# x x 1               169500         564
+#OUT# x x 1               169800         565
+#OUT# x x 1               170100         566
+#OUT# x x 1               170400         567
+#OUT# x x 1               170700         568
+#OUT# x x 1               171000         569
+#OUT# x x 1               171300         570
+#OUT# x x 1               171600         571
+#OUT# x x 1               171900         572
+#OUT# x x 1               172200         573
+#OUT# x x 1               172500         574
+#OUT# x x 1               172800         575
+#OUT# x x 1               173100         576
+#OUT# x x 1               173400         577
+#OUT# x x 1               173700         578
+#OUT# x x 1               174000         579
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               174300         580
+#OUT# x x 1               174600         581
+#OUT# x x 1               174900         582
+#OUT# x x 1               175200         583
+#OUT# x x 1               175500         584
+#OUT# x x 1               175800         585
+#OUT# x x 1               176100         586
+#OUT# x x 1               176400         587
+#OUT# x x 1               176700         588
+#OUT# x x 1               177000         589
+#OUT# x x 1               177300         590
+#OUT# x x 1               177600         591
+#OUT# x x 1               177900         592
+#OUT# x x 1               178200         593
+#OUT# x x 1               178500         594
+#OUT# x x 1               178800         595
+#OUT# x x 1               179100         596
+#OUT# x x 1               179400         597
+#OUT# x x 1               179700         598
+#OUT# x x 1               180000         599
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               180300         600
+#OUT# x x 1               180600         601
+#OUT# x x 1               180900         602
+#OUT# x x 1               181200         603
+#OUT# x x 1               181500         604
+#OUT# x x 1               181800         605
+#OUT# x x 1               182100         606
+#OUT# x x 1               182400         607
+#OUT# x x 1               182700         608
+#OUT# x x 1               183000         609
+#OUT# x x 1               183300         610
+#OUT# x x 1               183600         611
+#OUT# x x 1               183900         612
+#OUT# x x 1               184200         613
+#OUT# x x 1               184500         614
+#OUT# x x 1               184800         615
+#OUT# x x 1               185100         616
+#OUT# x x 1               185400         617
+#OUT# x x 1               185700         618
+#OUT# x x 1               186000         619
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               186300         620
+#OUT# x x 1               186600         621
+#OUT# x x 1               186900         622
+#OUT# x x 1               187200         623
+#OUT# x x 1               187500         624
+#OUT# x x 1               187800         625
+#OUT# x x 1               188100         626
+#OUT# x x 1               188400         627
+#OUT# x x 1               188700         628
+#OUT# x x 1               189000         629
+#OUT# x x 1               189300         630
+#OUT# x x 1               189600         631
+#OUT# x x 1               189900         632
+#OUT# x x 1               190200         633
+#OUT# x x 1               190500         634
+#OUT# x x 1               190800         635
+#OUT# x x 1               191100         636
+#OUT# x x 1               191400         637
+#OUT# x x 1               191700         638
+#OUT# x x 1               192000         639
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               192300         640
+#OUT# x x 1               192600         641
+#OUT# x x 1               192900         642
+#OUT# x x 1               193200         643
+#OUT# x x 1               193500         644
+#OUT# x x 1               193800         645
+#OUT# x x 1               194100         646
+#OUT# x x 1               194400         647
+#OUT# x x 1               194700         648
+#OUT# x x 1               195000         649
+#OUT# x x 1               195300         650
+#OUT# x x 1               195600         651
+#OUT# x x 1               195900         652
+#OUT# x x 1               196200         653
+#OUT# x x 1               196500         654
+#OUT# x x 1               196800         655
+#OUT# x x 1               197100         656
+#OUT# x x 1               197400         657
+#OUT# x x 1               197700         658
+#OUT# x x 1               198000         659
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               198300         660
+#OUT# x x 1               198600         661
+#OUT# x x 1               198900         662
+#OUT# x x 1               199200         663
+#OUT# x x 1               199500         664
+#OUT# x x 1               199800         665
+#OUT# x x 1               200100         666
+#OUT# x x 1               200400         667
+#OUT# x x 1               200700         668
+#OUT# x x 1               201000         669
+#OUT# x x 1               201300         670
+#OUT# x x 1               201600         671
+#OUT# x x 1               201900         672
+#OUT# x x 1               202200         673
+#OUT# x x 1               202500         674
+#OUT# x x 1               202800         675
+#OUT# x x 1               203100         676
+#OUT# x x 1               203400         677
+#OUT# x x 1               203700         678
+#OUT# x x 1               204000         679
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               204300         680
+#OUT# x x 1               204600         681
+#OUT# x x 1               204900         682
+#OUT# x x 1               205200         683
+#OUT# x x 1               205500         684
+#OUT# x x 1               205800         685
+#OUT# x x 1               206100         686
+#OUT# x x 1               206400         687
+#OUT# x x 1               206700         688
+#OUT# x x 1               207000         689
+#OUT# x x 1               207300         690
+#OUT# x x 1               207600         691
+#OUT# x x 1               207900         692
+#OUT# x x 1               208200         693
+#OUT# x x 1               208500         694
+#OUT# x x 1               208800         695
+#OUT# x x 1               209100         696
+#OUT# x x 1               209400         697
+#OUT# x x 1               209700         698
+#OUT# x x 1               210000         699
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               210300         700
+#OUT# x x 1               210600         701
+#OUT# x x 1               210900         702
+#OUT# x x 1               211200         703
+#OUT# x x 1               211500         704
+#OUT# x x 1               211800         705
+#OUT# x x 1               212100         706
+#OUT# x x 1               212400         707
+#OUT# x x 1               212700         708
+#OUT# x x 1               213000         709
+#OUT# x x 1               213300         710
+#OUT# x x 1               213600         711
+#OUT# x x 1               213900         712
+#OUT# x x 1               214200         713
+#OUT# x x 1               214500         714
+#OUT# x x 1               214800         715
+#OUT# x x 1               215100         716
+#OUT# x x 1               215400         717
+#OUT# x x 1               215700         718
+#OUT# x x 1               216000         719
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               216300         720
+#OUT# x x 1               216600         721
+#OUT# x x 1               216900         722
+#OUT# x x 1               217200         723
+#OUT# x x 1               217500         724
+#OUT# x x 1               217800         725
+#OUT# x x 1               218100         726
+#OUT# x x 1               218400         727
+#OUT# x x 1               218700         728
+#OUT# x x 1               219000         729
+#OUT# x x 1               219300         730
+#OUT# x x 1               219600         731
+#OUT# x x 1               219900         732
+#OUT# x x 1               220200         733
+#OUT# x x 1               220500         734
+#OUT# x x 1               220800         735
+#OUT# x x 1               221100         736
+#OUT# x x 1               221400         737
+#OUT# x x 1               221700         738
+#OUT# x x 1               222000         739
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               222300         740
+#OUT# x x 1               222600         741
+#OUT# x x 1               222900         742
+#OUT# x x 1               223200         743
+#OUT# x x 1               223500         744
+#OUT# x x 1               223800         745
+#OUT# x x 1               224100         746
+#OUT# x x 1               224400         747
+#OUT# x x 1               224700         748
+#OUT# x x 1               225000         749
+#OUT# x x 1               225300         750
+#OUT# x x 1               225600         751
+#OUT# x x 1               225900         752
+#OUT# x x 1               226200         753
+#OUT# x x 1               226500         754
+#OUT# x x 1               226800         755
+#OUT# x x 1               227100         756
+#OUT# x x 1               227400         757
+#OUT# x x 1               227700         758
+#OUT# x x 1               228000         759
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               228300         760
+#OUT# x x 1               228600         761
+#OUT# x x 1               228900         762
+#OUT# x x 1               229200         763
+#OUT# x x 1               229500         764
+#OUT# x x 1               229800         765
+#OUT# x x 1               230100         766
+#OUT# x x 1               230400         767
+#OUT# x x 1               230700         768
+#OUT# x x 1               231000         769
+#OUT# x x 1               231300         770
+#OUT# x x 1               231600         771
+#OUT# x x 1               231900         772
+#OUT# x x 1               232200         773
+#OUT# x x 1               232500         774
+#OUT# x x 1               232800         775
+#OUT# x x 1               233100         776
+#OUT# x x 1               233400         777
+#OUT# x x 1               233700         778
+#OUT# x x 1               234000         779
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               234300         780
+#OUT# x x 1               234600         781
+#OUT# x x 1               234900         782
+#OUT# x x 1               235200         783
+#OUT# x x 1               235500         784
+#OUT# x x 1               235800         785
+#OUT# x x 1               236100         786
+#OUT# x x 1               236400         787
+#OUT# x x 1               236700         788
+#OUT# x x 1               237000         789
+#OUT# x x 1               237300         790
+#OUT# x x 1               237600         791
+#OUT# x x 1               237900         792
+#OUT# x x 1               238200         793
+#OUT# x x 1               238500         794
+#OUT# x x 1               238800         795
+#OUT# x x 1               239100         796
+#OUT# x x 1               239400         797
+#OUT# x x 1               239700         798
+#OUT# x x 1               240000         799
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               240300         800
+#OUT# x x 1               240600         801
+#OUT# x x 1               240900         802
+#OUT# x x 1               241200         803
+#OUT# x x 1               241500         804
+#OUT# x x 1               241800         805
+#OUT# x x 1               242100         806
+#OUT# x x 1               242400         807
+#OUT# x x 1               242700         808
+#OUT# x x 1               243000         809
+#OUT# x x 1               243300         810
+#OUT# x x 1               243600         811
+#OUT# x x 1               243900         812
+#OUT# x x 1               244200         813
+#OUT# x x 1               244500         814
+#OUT# x x 1               244800         815
+#OUT# x x 1               245100         816
+#OUT# x x 1               245400         817
+#OUT# x x 1               245700         818
+#OUT# x x 1               246000         819
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               246300         820
+#OUT# x x 1               246600         821
+#OUT# x x 1               246900         822
+#OUT# x x 1               247200         823
+#OUT# x x 1               247500         824
+#OUT# x x 1               247800         825
+#OUT# x x 1               248100         826
+#OUT# x x 1               248400         827
+#OUT# x x 1               248700         828
+#OUT# x x 1               249000         829
+#OUT# x x 1               249300         830
+#OUT# x x 1               249600         831
+#OUT# x x 1               249900         832
+#OUT# x x 1               250200         833
+#OUT# x x 1               250500         834
+#OUT# x x 1               250800         835
+#OUT# x x 1               251100         836
+#OUT# x x 1               251400         837
+#OUT# x x 1               251700         838
+#OUT# x x 1               252000         839
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               252300         840
+#OUT# x x 1               252600         841
+#OUT# x x 1               252900         842
+#OUT# x x 1               253200         843
+#OUT# x x 1               253500         844
+#OUT# x x 1               253800         845
+#OUT# x x 1               254100         846
+#OUT# x x 1               254400         847
+#OUT# x x 1               254700         848
+#OUT# x x 1               255000         849
+#OUT# x x 1               255300         850
+#OUT# x x 1               255600         851
+#OUT# x x 1               255900         852
+#OUT# x x 1               256200         853
+#OUT# x x 1               256500         854
+#OUT# x x 1               256800         855
+#OUT# x x 1               257100         856
+#OUT# x x 1               257400         857
+#OUT# x x 1               257700         858
+#OUT# x x 1               258000         859
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               258300         860
+#OUT# x x 1               258600         861
+#OUT# x x 1               258900         862
+#OUT# x x 1               259200         863
+#OUT# x x 1               259500         864
+#OUT# x x 1               259800         865
+#OUT# x x 1               260100         866
+#OUT# x x 1               260400         867
+#OUT# x x 1               260700         868
+#OUT# x x 1               261000         869
+#OUT# x x 1               261300         870
+#OUT# x x 1               261600         871
+#OUT# x x 1               261900         872
+#OUT# x x 1               262200         873
+#OUT# x x 1               262500         874
+#OUT# x x 1               262800         875
+#OUT# x x 1               263100         876
+#OUT# x x 1               263400         877
+#OUT# x x 1               263700         878
+#OUT# x x 1               264000         879
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               264300         880
+#OUT# x x 1               264600         881
+#OUT# x x 1               264900         882
+#OUT# x x 1               265200         883
+#OUT# x x 1               265500         884
+#OUT# x x 1               265800         885
+#OUT# x x 1               266100         886
+#OUT# x x 1               266400         887
+#OUT# x x 1               266700         888
+#OUT# x x 1               267000         889
+#OUT# x x 1               267300         890
+#OUT# x x 1               267600         891
+#OUT# x x 1               267900         892
+#OUT# x x 1               268200         893
+#OUT# x x 1               268500         894
+#OUT# x x 1               268800         895
+#OUT# x x 1               269100         896
+#OUT# x x 1               269400         897
+#OUT# x x 1               269700         898
+#OUT# x x 1               270000         899
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               270300         900
+#OUT# x x 1               270600         901
+#OUT# x x 1               270900         902
+#OUT# x x 1               271200         903
+#OUT# x x 1               271500         904
+#OUT# x x 1               271800         905
+#OUT# x x 1               272100         906
+#OUT# x x 1               272400         907
+#OUT# x x 1               272700         908
+#OUT# x x 1               273000         909
+#OUT# x x 1               273300         910
+#OUT# x x 1               273600         911
+#OUT# x x 1               273900         912
+#OUT# x x 1               274200         913
+#OUT# x x 1               274500         914
+#OUT# x x 1               274800         915
+#OUT# x x 1               275100         916
+#OUT# x x 1               275400         917
+#OUT# x x 1               275700         918
+#OUT# x x 1               276000         919
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               276300         920
+#OUT# x x 1               276600         921
+#OUT# x x 1               276900         922
+#OUT# x x 1               277200         923
+#OUT# x x 1               277500         924
+#OUT# x x 1               277800         925
+#OUT# x x 1               278100         926
+#OUT# x x 1               278400         927
+#OUT# x x 1               278700         928
+#OUT# x x 1               279000         929
+#OUT# x x 1               279300         930
+#OUT# x x 1               279600         931
+#OUT# x x 1               279900         932
+#OUT# x x 1               280200         933
+#OUT# x x 1               280500         934
+#OUT# x x 1               280800         935
+#OUT# x x 1               281100         936
+#OUT# x x 1               281400         937
+#OUT# x x 1               281700         938
+#OUT# x x 1               282000         939
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               282300         940
+#OUT# x x 1               282600         941
+#OUT# x x 1               282900         942
+#OUT# x x 1               283200         943
+#OUT# x x 1               283500         944
+#OUT# x x 1               283800         945
+#OUT# x x 1               284100         946
+#OUT# x x 1               284400         947
+#OUT# x x 1               284700         948
+#OUT# x x 1               285000         949
+#OUT# x x 1               285300         950
+#OUT# x x 1               285600         951
+#OUT# x x 1               285900         952
+#OUT# x x 1               286200         953
+#OUT# x x 1               286500         954
+#OUT# x x 1               286800         955
+#OUT# x x 1               287100         956
+#OUT# x x 1               287400         957
+#OUT# x x 1               287700         958
+#OUT# x x 1               288000         959
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               288300         960
+#OUT# x x 1               288600         961
+#OUT# x x 1               288900         962
+#OUT# x x 1               289200         963
+#OUT# x x 1               289500         964
+#OUT# x x 1               289800         965
+#OUT# x x 1               290100         966
+#OUT# x x 1               290400         967
+#OUT# x x 1               290700         968
+#OUT# x x 1               291000         969
+#OUT# x x 1               291300         970
+#OUT# x x 1               291600         971
+#OUT# x x 1               291900         972
+#OUT# x x 1               292200         973
+#OUT# x x 1               292500         974
+#OUT# x x 1               292800         975
+#OUT# x x 1               293100         976
+#OUT# x x 1               293400         977
+#OUT# x x 1               293700         978
+#OUT# x x 1               294000         979
+#OUT#
+#OUT#   A   sig_../true.aig_n0_inv 
+#OUT#
+#OUT# # # A
+#OUT# x x 1               294300         980
+#OUT# x x 1               294600         981
+#OUT# x x 1               294900         982
+#OUT# x x 1               295200         983
+#OUT# x x 1               295500         984
+#OUT# x x 1               295800         985
+#OUT# x x 1               296100         986
+#OUT# x x 1               296400         987
+#OUT# x x 1               296700         988
+#OUT# x x 1               297000         989
+#OUT# x x 1               297300         990
+#OUT# x x 1               297600         991
+#OUT# x x 1               297900         992
+#OUT# x x 1               298200         993
+#OUT# x x 1               298500         994
+#OUT# x x 1               298800         995
+#OUT# x x 1               299100         996
+#OUT# x x 1               299400         997
+#OUT# x x 1               299700         998
+#OUT# x x 1               300000         999
